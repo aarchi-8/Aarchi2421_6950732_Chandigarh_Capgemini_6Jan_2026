@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <h2 id="question">Question will appear here</h2>
+
+    <div id="options">
+        <button class="optionBtn" onclick="checkAnswer(0)"></button>
+        <button class="optionBtn" onclick="checkAnswer(1)"></button>
+        <button class="optionBtn" onclick="checkAnswer(2)"></button>
+        <button class="optionBtn" onclick="checkAnswer(3)"></button>
+    </div>
+
+    <p id="timer">Time Left: 10</p>
+
+    <button onclick="nextQuestion()">Next</button>
+
+    <h3 id="result"></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

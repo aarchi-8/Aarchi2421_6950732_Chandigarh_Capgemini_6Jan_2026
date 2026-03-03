@@ -1,0 +1,34 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    margin: 5px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.link {
+    color: blue;
+    cursor: pointer;
+}
+
+#loginBox {
+    display: none;
+}

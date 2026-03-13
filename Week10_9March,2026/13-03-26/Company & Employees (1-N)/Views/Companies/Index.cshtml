@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Company>
+
+<h2>Companies and Employees</h2>
+
+@if (!Model.Any())
+{
+    <p>No data available</p>
+}
+else
+{
+    <ul>
+        @foreach (var company in Model)
+        {
+            <li>
+                <strong>@company.Name</strong> - @company.Location
+
+                <ul>
+                    @foreach (var emp in company.Employees)
+                    {
+                        <li>@emp.Name - @emp.Position</li>
+                    }
+                </ul>
+            </li>
+        }
+    </ul>
+}

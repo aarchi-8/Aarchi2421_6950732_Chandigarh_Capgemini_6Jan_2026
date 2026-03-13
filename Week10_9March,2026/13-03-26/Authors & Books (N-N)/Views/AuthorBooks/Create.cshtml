@@ -1,0 +1,19 @@
+﻿@model AuthorBook
+
+<h2>Assign Author to Book</h2>
+
+<form asp-action="Create" method="post">
+
+    <label>Author</label>
+    <select asp-for="AuthorId" asp-items="ViewBag.Authors"></select>
+
+    <br /><br />
+
+    <label>Book</label>
+    <select asp-for="BookId" asp-items="ViewBag.Books"></select>
+
+    <br /><br />
+
+    <button type="submit">Save</button>
+
+</form>

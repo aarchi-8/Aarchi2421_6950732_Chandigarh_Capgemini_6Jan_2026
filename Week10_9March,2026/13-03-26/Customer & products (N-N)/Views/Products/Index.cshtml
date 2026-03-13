@@ -1,0 +1,36 @@
+﻿@if (TempData["SuccessMessage"] != null)
+{
+    <div style="color:green; font-weight:bold;">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@model IEnumerable<Product>
+
+<h2>Products</h2>
+
+<a asp-action="Create">Add Product</a>
+
+<table border="1">
+
+    <tr>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var product in Model)
+    {
+        <tr>
+
+            <td>@product.Name</td>
+            <td>@product.Price</td>
+
+            <td>
+                <a asp-action="Edit" asp-route-id="@product.Id">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@product.Id">Delete</a>
+            </td>
+
+        </tr>
+    }
+
+</table>

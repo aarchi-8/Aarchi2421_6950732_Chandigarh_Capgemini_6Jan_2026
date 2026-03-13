@@ -1,0 +1,24 @@
+﻿@model IEnumerable<AuthorBook>
+
+<h2>Author Book Mapping</h2>
+
+<a asp-action="Create">Add Mapping</a>
+
+<table border="1">
+
+    <tr>
+        <th>Author</th>
+        <th>Book</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+
+            <td>@item.Author.Name</td>
+            <td>@item.Book.Title</td>
+
+        </tr>
+    }
+
+</table>

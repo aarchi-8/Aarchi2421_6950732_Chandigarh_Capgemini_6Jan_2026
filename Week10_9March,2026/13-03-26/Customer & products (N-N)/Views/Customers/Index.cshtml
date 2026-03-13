@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Customer>
+
+<h2>Customers</h2>
+
+<a asp-action="Create">Add Customer</a>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Phone</th>
+        <th>Purchased Products</th>
+    </tr>
+
+    @foreach (var c in Model)
+    {
+        <tr>
+            <td>@c.Name</td>
+            <td>@c.Phone</td>
+            <td>
+                <ul>
+                    @foreach (var o in c.Orders)
+                    {
+                        <li>@o.Product.Name</li>
+                    }
+                </ul>
+            </td>
+        </tr>
+    }
+
+</table>

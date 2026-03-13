@@ -1,0 +1,17 @@
+﻿@model Customer___products.Models.Customer
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div>
+        <label>Phone</label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+
+    <button type="submit">Save</button>
+
+</form>

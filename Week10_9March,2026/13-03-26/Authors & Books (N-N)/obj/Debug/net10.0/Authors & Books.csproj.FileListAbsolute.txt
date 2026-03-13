@@ -1,0 +1,226 @@
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\appsettings.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Authors & Books.staticwebassets.runtime.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Authors & Books.staticwebassets.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Authors & Books.exe
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Authors & Books.deps.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Authors & Books.runtimeconfig.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Authors & Books.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Authors & Books.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Azure.Identity.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Humanizer.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.Build.Framework.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.CodeAnalysis.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.Data.SqlClient.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.Identity.Client.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.SqlServer.Server.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Microsoft.VisualStudio.SolutionPersistence.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Mono.TextTemplating.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.CodeDom.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.Composition.AttributedModel.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.Composition.Convention.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.Composition.Hosting.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.Composition.Runtime.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.Composition.TypedParts.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\cs\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pl\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\tr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\runtimes\unix\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\runtimes\win\lib\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.csproj.AssemblyReference.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.AssemblyInfoInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.AssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.csproj.CoreCompileInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.RazorAssemblyInfo.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.RazorAssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.sourcelink.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\scopedcss\bundle\Authors & Books.styles.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\scopedcss\projectbundle\Authors & Books.bundle.scp.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\bwhixofwig-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\u71dbmji02-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\1kfdqm1aav-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\glxylmuf4m-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\zzee9x45dg-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\c2vkp8br63-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\nd1aam96bn-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\mfo51ssa60-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\or63xmd8qm-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\otmbpfafym-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\tnt2pvc7fl-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\nra84tgozc-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\5ud6lz3mpt-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\qq798k6ypd-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\xysw6sw5iw-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\9vjrzi8kyu-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\44f9orjcuy-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\cay0bouvvd-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\zapgdexyzv-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\ejzzs3bt14-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\6ylx4ah3vq-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\1r7vzhhyrz-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\878doeqz14-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\zsxmxnvjgb-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\di9aci24bl-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\3hi4fnywfz-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\sz7jyut1w2-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\hd9idng0mm-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\bamcismt5i-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\1y6y2g5tjs-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\bcann86c3a-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\0on31yhevj-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\k7b41ph9n0-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\if7l6cv4b7-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\fmc19zlw6t-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\44s3danx5a-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\9yarh9rol5-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\umzuour5th-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\ju2aiq610r-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\jirjrfs5u1-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\d55xhfsfin-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\ttbgn8coce-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\7zjyhdzc23-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\l7yd1dmlrq-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\toxv2wxb34-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\1ikz35biua-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\371zsmc0f1-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\j1oz2me2ae-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\1pmqvlxyvb-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\3mx37y1vm5-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\0h1appsdqv-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\h2ah81vgux-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\rjeruteq3c-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\7w1imiftig-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\f08hvm1rjs-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\2mr3oly2ku-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\2fxngtra5k-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\9jwcavnglk-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\fylbt92c3t-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\elp12htm1d-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\zbgqmc03xn-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\oj99f1a3k7-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\tfjcl49km1-{0}-d78ug8o0xz-d78ug8o0xz.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\compressed\1ufixr0ma0-{0}-d78ug8o0xz-d78ug8o0xz.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors .C455440A.Up2Date
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\refint\Authors & Books.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\Authors & Books.genruntimeconfig.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week10_9March,2026\13-03-26\Authors & Books\obj\Debug\net10.0\ref\Authors & Books.dll

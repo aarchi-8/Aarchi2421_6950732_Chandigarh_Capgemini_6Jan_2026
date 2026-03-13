@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Book>
+
+<h2>Books and Authors</h2>
+
+<a asp-action="Create">Add Book</a>
+
+<table border="1">
+
+    <tr>
+        <th>Book</th>
+        <th>Authors</th>
+    </tr>
+
+    @foreach (var book in Model)
+    {
+        <tr>
+
+            <td>@book.Title</td>
+
+            <td>
+
+                <ul>
+
+                    @foreach (var ab in book.AuthorBooks)
+                    {
+                        <li>@ab.Author.Name</li>
+                    }
+
+                </ul>
+
+            </td>
+
+        </tr>
+    }
+
+</table>

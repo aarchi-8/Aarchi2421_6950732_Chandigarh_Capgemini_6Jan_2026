@@ -1,0 +1,29 @@
+﻿@model Company___Employees.Models.Employee
+
+<h2>Add Employee</h2>
+
+<form asp-action="Create">
+
+    <div class="form-group">
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Position</label>
+        <input asp-for="Position" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Company</label>
+        <select asp-for="Id"
+                asp-items="ViewBag.Companies"
+                class="form-control">
+        </select>
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">Save</button>
+
+</form>

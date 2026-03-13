@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Order>
+
+<h2>Orders</h2>
+
+<a asp-action="Create">Place Order</a>
+
+<table border="1">
+
+<tr>
+<th>Customer</th>
+<th>Product</th>
+<th>Action</th>
+</tr>
+
+@foreach (var order in Model)
+{
+<tr>
+
+<td>@order.Customer.Name</td>
+<td>@order.Product.Name</td>
+
+<td>
+<a asp-action="Delete" asp-route-id="@order.Id">Delete</a>
+</td>
+
+</tr>
+}
+
+</table>

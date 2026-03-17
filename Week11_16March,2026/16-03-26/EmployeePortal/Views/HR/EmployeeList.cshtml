@@ -1,0 +1,8 @@
+﻿@model List<EmployeePortal.Models.Employee>
+
+<h2>Employee List</h2>
+
+@foreach (var e in Model)
+{
+    <p>@e.Name - @e.Department</p>
+}

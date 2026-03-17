@@ -1,0 +1,11 @@
+﻿@model EmployeePortal.Models.Employee
+
+@if (TempData["msg"] != null)
+{
+    <p>@TempData["msg"]</p>
+}
+
+<p>Name: @Model.Name</p>
+<p>Age: @Model.Age</p>
+<p>Email: @Model.Email</p>
+<p>Department: @Model.Department</p>

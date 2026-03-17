@@ -1,0 +1,18 @@
+﻿@model IEnumerable<Department>
+
+<h2>Departments</h2>
+
+<a asp-action="Create">Add Department</a>
+
+<table border="1">
+    <tr>
+        <th>Department Name</th>
+    </tr>
+
+    @foreach (var d in Model)
+    {
+        <tr>
+            <td>@d.Name</td>
+        </tr>
+    }
+</table>

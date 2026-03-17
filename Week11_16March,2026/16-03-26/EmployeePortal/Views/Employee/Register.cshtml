@@ -1,0 +1,21 @@
+﻿@model EmployeePortal.Models.Employee
+
+<h2>Register Employee</h2>
+
+<form method="post">
+
+    <input asp-for="Name" placeholder="Name" />
+    <span asp-validation-for="Name"></span><br>
+
+    <input asp-for="Age" placeholder="Age" />
+    <span asp-validation-for="Age"></span><br>
+
+    <input asp-for="Email" placeholder="Email" />
+    <span asp-validation-for="Email"></span><br>
+
+    <input asp-for="Department" placeholder="Department" />
+    <span asp-validation-for="Department"></span><br>
+
+    <button type="submit">Register</button>
+
+</form>

@@ -1,0 +1,28 @@
+﻿@model List<StudentManagementSystem.Models.Product>
+
+<h2>Product List</h2>
+
+<a asp-action="Create">Add Product</a>
+
+<table border="1">
+
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Price</th>
+        <th>Details</th>
+    </tr>
+
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td>@p.Id</td>
+            <td>@p.Name</td>
+            <td>@p.Price</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@p.Id">View</a>
+            </td>
+        </tr>
+    }
+
+</table>

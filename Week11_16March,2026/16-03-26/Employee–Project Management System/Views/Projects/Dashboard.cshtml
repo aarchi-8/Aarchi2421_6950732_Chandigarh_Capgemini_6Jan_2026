@@ -1,0 +1,16 @@
+﻿@model List<Employee_Project_Management_System.Models.Project>
+<h2>Project Dashboard</h2>
+
+@foreach (var project in Model)
+{
+    <h4>@project.Title</h4>
+
+    <ul>
+        @foreach (var ep in project.EmployeeProjects)
+        {
+            <li>
+                @ep.Employee.Name - @ep.Employee.Department.Name
+            </li>
+        }
+    </ul>
+}

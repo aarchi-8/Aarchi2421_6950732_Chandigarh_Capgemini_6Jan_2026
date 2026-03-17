@@ -1,0 +1,21 @@
+﻿@model StudentManagementSystem.Models.Product
+
+<h2>Create Product</h2>
+
+<form asp-action="Create" method="post">
+
+    <label>Id</label>
+    <input asp-for="Id" />
+    <br><br>
+
+    <label>Name</label>
+    <input asp-for="Name" />
+    <br><br>
+
+    <label>Price</label>
+    <input asp-for="Price" />
+    <br><br>
+
+    <button type="submit">Save</button>
+
+</form>

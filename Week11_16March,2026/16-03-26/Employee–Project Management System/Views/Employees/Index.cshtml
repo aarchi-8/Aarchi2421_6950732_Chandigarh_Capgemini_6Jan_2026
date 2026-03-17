@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Employee>
+
+<h2>Employees</h2>
+
+<a asp-action="Create">Add Employee</a>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Projects</th>
+    </tr>
+
+    @foreach (var e in Model)
+    {
+        <tr>
+            <td>@e.Name</td>
+            <td>@e.Department?.Name</td>
+            <td>
+                <a asp-action="EmployeeProjects" asp-route-id="@e.EmployeeId">
+                    View Projects
+                </a>
+            </td>
+        </tr>
+    }
+</table>

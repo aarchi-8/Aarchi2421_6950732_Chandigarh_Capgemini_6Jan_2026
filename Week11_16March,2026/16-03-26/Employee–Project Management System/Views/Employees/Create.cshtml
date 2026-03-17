@@ -1,0 +1,43 @@
+﻿@model Employee_Project_Management_System.Models.Employee
+
+<h2>Create Employee</h2>
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label>Name</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <br>
+
+    <div>
+        <label>Department</label>
+        <select asp-for="DepartmentId" class="form-control">
+
+            <option value="">-- Select Department --</option>
+
+            @foreach (var d in ViewBag.Departments)
+            {
+                <option value="@d.DepartmentId">@d.Name</option>
+            }
+
+        </select>
+    </div>
+
+    <br>
+
+    <h4>Assign Projects</h4>
+
+    @foreach (var p in ViewBag.Projects)
+    {
+        <input type="checkbox" name="projectIds" value="@p.ProjectId" />
+        <label>@p.Title</label>
+        <br />
+    }
+
+    <br>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+
+</form>

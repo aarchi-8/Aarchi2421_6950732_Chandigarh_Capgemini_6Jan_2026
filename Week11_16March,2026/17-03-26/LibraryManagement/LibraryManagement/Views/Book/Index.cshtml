@@ -1,0 +1,32 @@
+﻿@model List<LibraryApp.ViewModels.BookViewModel>
+
+<h2>@ViewBag.Message</h2>
+<p>Total Books: @ViewData["TotalBooks"]</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+            <th>Genre</th>
+            <th>Available</th>
+            <th>Borrower</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Book.Title</td>
+                <td>@item.Book.Author</td>
+                <td>@item.Book.PublishedYear</td>
+                <td>@item.Book.Genre</td>
+                <td>@item.IsAvailable</td>
+                <td>@item.BorrowerName</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Add New Book</a>

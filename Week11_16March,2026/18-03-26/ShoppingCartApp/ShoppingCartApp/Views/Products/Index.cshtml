@@ -1,0 +1,23 @@
+﻿@model List<ShoppingCartApp.Models.Product>
+
+<h2>Products</h2>
+
+<div class="row">
+    @foreach (var p in Model)
+    {
+        <div class="col-md-4">
+            <div class="card shadow mb-4">
+                <img src="@p.ImageUrl" class="card-img-top" />
+
+                <div class="card-body">
+                    <h5>@p.Name</h5>
+                    <p>₹@p.Price</p>
+
+                    <a href="/Cart/Add/@p.Id" class="btn btn-success w-100">
+                        Add to Cart
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

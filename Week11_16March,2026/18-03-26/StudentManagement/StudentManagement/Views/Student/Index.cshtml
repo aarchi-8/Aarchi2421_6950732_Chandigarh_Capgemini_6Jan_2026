@@ -1,0 +1,88 @@
+﻿@model IEnumerable<StudentManagement.Models.Student>
+
+<div class="container mt-4">
+    <h2 class="text-center">Student List</h2>
+
+    <a href="/Student/Create" class="btn btn-primary mb-3">Add Student</a>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Course</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.Name</td>
+                    <td>@student.Age</td>
+                    <td>@student.Course</td>
+                    <td>
+                        <button class="btn btn-warning btn-sm"
+                                onclick="openEditModal(@student.Id)">
+                            Edit
+                        </button>
+
+                        <button class="btn btn-danger btn-sm"
+                                onclick="openDeleteModal(@student.Id)">
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- Edit Modal Container -->
+<div id="editModalContainer"></div>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="deleteModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Confirm Delete</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                Are you sure you want to delete this student?
+            </div>
+
+            <div class="modal-footer">
+                <form id="deleteForm" method="post">
+                    <button type="submit" class="btn btn-danger">Yes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script>
+    function openEditModal(id) {
+        fetch('/Student/Edit/' + id)
+            .then(res => res.text())
+            .then(html => {
+                document.getElementById("editModalContainer").innerHTML = html;
+
+                var modal = new bootstrap.Modal(document.getElementById('editModal'));
+                modal.show();
+            });
+    }
+
+    function openDeleteModal(id) {
+        document.getElementById("deleteForm").action = '/Student/Delete/' + id;
+
+        var modal = new bootstrap.Modal(document.getElementById('deleteModal'));
+        modal.show();
+    }
+</script>

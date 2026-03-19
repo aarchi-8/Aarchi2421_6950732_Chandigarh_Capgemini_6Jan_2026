@@ -1,0 +1,15 @@
+﻿@model OnlineProduct.Models.Product
+
+<div class="row">
+    <div class="col-md-6">
+        <img src="@Model.ImageUrl" class="img-fluid rounded shadow" />
+    </div>
+
+    <div class="col-md-6">
+        <h2>@Model.Name</h2>
+        <h4 class="text-success">₹@Model.Price</h4>
+        <p>@Model.Description</p>
+
+        <a href="/Product" class="btn btn-secondary">Back</a>
+    </div>
+</div>

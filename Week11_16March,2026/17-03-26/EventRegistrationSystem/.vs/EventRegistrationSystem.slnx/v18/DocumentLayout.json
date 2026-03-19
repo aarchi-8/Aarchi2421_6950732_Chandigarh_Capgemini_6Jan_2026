@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\17-03-26\\EventRegistrationSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\pages\\events\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|solutionrelative:pages\\events\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\pages\\events\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|solutionrelative:pages\\events\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\pages\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|solutionrelative:pages\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\pages\\events\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|solutionrelative:pages\\events\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\pages\\events\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|solutionrelative:pages\\events\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\pages\\events\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|solutionrelative:pages\\events\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\pages\\events\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|solutionrelative:pages\\events\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\pages\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|solutionrelative:pages\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\eventregistrationsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|solutionrelative:eventregistrationsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\data\\eventdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|solutionrelative:data\\eventdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\data\\eventdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|solutionrelative:data\\eventdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\eventregistrationsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|solutionrelative:eventregistrationsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\models\\eventregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C395343-6194-4432-A1F3-A2B78AD89BC2}|EventRegistrationSystem.csproj|solutionrelative:models\\eventregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\17-03-26\\eventregistrationsystem\\models\\eventregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{583876C0-BC2E-B10B-2B74-7130130B3BA2}|EventRegistrationSystem.csproj|solutionrelative:models\\eventregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +50,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\17-03-26\\EventRegistrationSystem\\Pages\\Events\\Register.cshtml",
               "RelativeDocumentMoniker": "Pages\\Events\\Register.cshtml",
@@ -58,12 +58,11 @@
               "RelativeToolTip": "Pages\\Events\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T08:53:53.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T08:53:53.166Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\17-03-26\\EventRegistrationSystem\\Pages\\Events\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "Pages\\Events\\Register.cshtml.cs",
@@ -71,12 +70,11 @@
               "RelativeToolTip": "Pages\\Events\\Register.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T08:53:35.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T08:53:35.736Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\17-03-26\\EventRegistrationSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T08:47:52.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T08:47:52.886Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T08:46:08.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T08:46:08.087Z"
             },
             {
               "$type": "Document",
@@ -110,12 +106,11 @@
               "RelativeToolTip": "Pages\\Events\\Index.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T08:45:47.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T08:45:47.645Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\17-03-26\\EventRegistrationSystem\\Pages\\Events\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Events\\Index.cshtml",
@@ -123,12 +118,11 @@
               "RelativeToolTip": "Pages\\Events\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-17T08:45:34.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T08:45:34.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "EventData.cs",
               "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\17-03-26\\EventRegistrationSystem\\Data\\EventData.cs",
               "RelativeDocumentMoniker": "Data\\EventData.cs",
@@ -136,21 +130,19 @@
               "RelativeToolTip": "Data\\EventData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T08:39:03.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T08:39:03.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EventRegistrationSystem",
+              "DocumentIndex": 7,
+              "Title": "EventRegistrationSystem.csproj",
               "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\17-03-26\\EventRegistrationSystem\\EventRegistrationSystem.csproj",
               "RelativeDocumentMoniker": "EventRegistrationSystem.csproj",
               "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\17-03-26\\EventRegistrationSystem\\EventRegistrationSystem.csproj",
               "RelativeToolTip": "EventRegistrationSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-03-17T08:38:46.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T08:38:46.571Z"
             },
             {
               "$type": "Document",
@@ -162,8 +154,7 @@
               "RelativeToolTip": "Models\\EventRegistration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-17T08:37:34.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-17T08:37:34.784Z"
             },
             {
               "$type": "Bookmark",

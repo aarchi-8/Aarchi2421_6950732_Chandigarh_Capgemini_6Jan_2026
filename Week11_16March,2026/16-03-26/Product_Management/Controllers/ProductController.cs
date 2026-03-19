@@ -11,7 +11,7 @@ namespace ProductManagementApp.Controllers
         public IActionResult Index()
         {
             // Simulating an error to test exception filter
-            throw new System.Exception("Test exception from Index action");
+            //throw new System.Exception("Test exception from Index action");
 
             var products = new List<Product>
             {

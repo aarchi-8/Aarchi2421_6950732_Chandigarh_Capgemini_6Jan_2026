@@ -1,0 +1,26 @@
+﻿@model ShoppingCartApp.Models.Order
+
+<h2>Checkout</h2>
+
+<!-- Progress Bar -->
+<div class="progress mb-4">
+    <div class="progress-bar" style="width:75%">Step 3: Payment</div>
+</div>
+
+<form method="post">
+
+    <div class="mb-3">
+        <label>Address</label>
+        <input asp-for="Address" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Payment Method</label>
+        <select asp-for="PaymentMethod" class="form-control">
+            <option>COD</option>
+            <option>Card</option>
+        </select>
+    </div>
+
+    <button class="btn btn-success">Place Order</button>
+</form>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rL0ZD8yAKaM=",
+  "dgSpecHash": "AjI9LA40XnY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week10_9March,2026\\13-03-26\\StudentManagementSystem\\StudentManagementSystem.csproj",
+  "projectFilePath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\16-03-26\\StudentManagementSystem\\StudentManagementSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aarchi\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Aarchi\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

@@ -5,9 +5,11 @@ namespace SessionBasedLogin
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-
+            
+            
             builder.Services.AddControllersWithViews();
+
+            builder.Services.AddDistributedMemoryCache(); // Add in-memory cache for session storage    
 
             // Add Session service
             builder.Services.AddSession();

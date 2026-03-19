@@ -1,0 +1,39 @@
+﻿@{
+    var roomId = ViewBag.RoomId;
+}
+
+<h2>Book Room</h2>
+
+@if (TempData["success"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["success"]
+    </div>
+}
+
+<form method="post">
+
+    <input type="hidden" name="RoomId" value="@roomId" />
+
+    <div class="mb-3">
+        <label>Name</label>
+        <input name="customerName" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Email</label>
+        <input name="email" class="form-control" type="email" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Check In</label>
+        <input name="CheckIn" type="date" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Check Out</label>
+        <input name="CheckOut" type="date" class="form-control" required />
+    </div>
+
+    <button class="btn btn-success">Confirm Booking</button>
+</form>

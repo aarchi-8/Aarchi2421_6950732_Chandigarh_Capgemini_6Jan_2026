@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Order>
+
+<div class="container mt-4">
+    <h2>Order History</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning">
+            No orders found for this customer.
+        </div>
+    }
+
+    @foreach (var order in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5>Order Date: @order.OrderDate</h5>
+                <p>Status: @order.ShippingDetail?.Status</p>
+
+                <ul>
+                    @foreach (var item in order.OrderItems)
+                    {
+                        <li>@item.Product.Name - Qty: @item.Quantity</li>
+                    }
+                </ul>
+            </div>
+        </div>
+    }
+</div>

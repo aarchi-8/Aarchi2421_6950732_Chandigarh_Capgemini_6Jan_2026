@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "dfR0g6S+C/w=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\ProductApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aarchi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\microsoft.openapi\\2.3.0\\microsoft.openapi.2.3.0.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.0.1\\swashbuckle.aspnetcore.swagger.10.0.1.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.0.1\\swashbuckle.aspnetcore.swaggergen.10.0.1.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.0.1\\swashbuckle.aspnetcore.swaggerui.10.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

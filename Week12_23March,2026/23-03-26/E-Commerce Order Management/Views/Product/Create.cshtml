@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Product>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2>Products</h2>
+
+    <a href="/Product/Create" class="btn btn-primary mb-3">Add Product</a>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>₹@item.Price</td>
+                <td>@item.Category?.Name</td>
+            </tr>
+        }
+    </table>
+</div>

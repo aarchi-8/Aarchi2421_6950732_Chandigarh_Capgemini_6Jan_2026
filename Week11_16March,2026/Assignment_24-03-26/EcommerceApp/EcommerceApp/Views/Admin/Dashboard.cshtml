@@ -1,0 +1,59 @@
+<div class="container py-5">
+    <h2 class="fw-bold mb-4 text-center">Admin Dashboard</h2>
+
+    <div class="row g-4">
+
+        <!-- Top Products -->
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 h-100">
+                <div class="card-header bg-primary text-white">
+                    <h5 class="mb-0">Top Products</h5>
+                </div>
+
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        @foreach (var item in ViewBag.TopProducts)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <span>
+                                    <strong>ID:</strong> @item.ProductId
+                                </span>
+                                <span class="badge bg-success rounded-pill">
+                                    Sold: @item.TotalSold
+                                </span>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pending Shipments -->
+        <div class="col-md-6">
+            <div class="card shadow-lg border-0 h-100">
+                <div class="card-header bg-warning text-dark">
+                    <h5 class="mb-0">Pending Shipments</h5>
+                </div>
+
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        @foreach (var item in ViewBag.PendingOrders)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <span>
+                                    <strong>Order ID:</strong> @item.OrderId
+                                </span>
+
+                                <a href="/Admin/UpdateShipping/@item.Id"
+                                   class="btn btn-success btn-sm">
+                                    Mark Shipped
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

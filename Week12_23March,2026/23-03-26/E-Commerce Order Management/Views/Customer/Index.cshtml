@@ -1,0 +1,71 @@
+﻿@model IEnumerable<Customer>
+
+<div class="container mt-4">
+    <h2 class="mb-3">Customers</h2>
+
+    <a href="/Customer/Create" class="btn btn-primary mb-3">
+        + Add Customer
+    </a>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+
+            <table class="table table-hover align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Total Orders</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @if (!Model.Any())
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center text-muted">
+                                No customers found
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        int i = 1;
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@i</td>
+
+                                <td>
+                                    <strong>@item.Name</strong>
+                                </td>
+
+                                <td>
+                                    <span class="text-muted">@item.Email</span>
+                                </td>
+
+                                <td>
+                                    <span class="badge bg-info text-dark">
+                                        @(item.Orders?.Count ?? 0)
+                                    </span>
+                                </td>
+
+                                <td>
+                                    <a href="/Customer/Orders/@item.Id"
+                                       class="btn btn-sm btn-dark">
+                                        View Orders
+                                    </a>
+                                </td>
+                            </tr>
+                            i++;
+                        }
+                    }
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+</div>

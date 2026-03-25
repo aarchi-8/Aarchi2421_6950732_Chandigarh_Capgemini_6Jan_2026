@@ -1,0 +1,85 @@
+﻿@model IEnumerable<Order>
+
+<div class="container mt-5">
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">📦 Orders</h2>
+
+        <a href="/Order/Create" class="btn btn-primary shadow-sm">
+            + Place Order
+        </a>
+    </div>
+
+    <!-- Card -->
+    <div class="card shadow-lg border-0">
+        <div class="card-body">
+
+            <table class="table table-hover align-middle">
+
+                <!-- Table Head -->
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>#</th>
+                        <th>Customer</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <!-- Table Body -->
+                <tbody class="text-center">
+
+                    @if (!Model.Any())
+                    {
+                        <tr>
+                            <td colspan="4" class="text-muted py-4">
+                                🚫 No orders found
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        int i = 1;
+
+                        foreach (var order in Model)
+                        {
+                            <tr>
+                                <td><strong>@i</strong></td>
+
+                                <td>
+                                    <span class="fw-semibold">
+                                        @order.Customer?.Name
+                                    </span>
+                                </td>
+
+                                <td>
+                                    <span class="text-muted">
+                                        @order.OrderDate.ToString("dd MMM yyyy")
+                                    </span>
+                                </td>
+
+                                <td>
+                                    <span class="badge px-3 py-2 rounded-pill
+                                                @(order.ShippingDetail?.Status == "Pending" ? "bg-warning text-dark" :
+                                                                                    order.ShippingDetail?.Status == "Shipped" ? "bg-info text-dark" :
+                                                                                    order.ShippingDetail?.Status == "Delivered" ? "bg-success" :
+                                                                                    "bg-secondary")">
+
+                                        @order.ShippingDetail?.Status
+                                    </span>
+                                </td>
+                            </tr>
+
+                            i++;
+                        }
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+</div>

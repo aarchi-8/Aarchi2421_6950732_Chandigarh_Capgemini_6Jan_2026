@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA03D3A-BEF6-4BA4-86C7-E75D934069B1}|ProductApi.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\productapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA03D3A-BEF6-4BA4-86C7-E75D934069B1}|ProductApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA03D3A-BEF6-4BA4-86C7-E75D934069B1}|ProductApi.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\productapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA03D3A-BEF6-4BA4-86C7-E75D934069B1}|ProductApi.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA03D3A-BEF6-4BA4-86C7-E75D934069B1}|ProductApi.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\productapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2CA03D3A-BEF6-4BA4-86C7-E75D934069B1}|ProductApi.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CA03D3A-BEF6-4BA4-86C7-E75D934069B1}|ProductApi.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\productapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CA03D3A-BEF6-4BA4-86C7-E75D934069B1}|ProductApi.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAmwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T08:43:24.334Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-25T09:27:29.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T08:40:40.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\ProductApi\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T08:40:02.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

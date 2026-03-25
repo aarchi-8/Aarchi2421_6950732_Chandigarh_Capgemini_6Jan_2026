@@ -1,0 +1,23 @@
+﻿<div class="container mt-4">
+    <h2>Admin Dashboard</h2>
+
+    <h4 class="mt-4">Top Products</h4>
+    <ul class="list-group">
+        @foreach (var item in ViewBag.TopProducts)
+        {
+            <li class="list-group-item">
+                Product ID: @item.ProductId | Sold: @item.Count
+            </li>
+        }
+    </ul>
+
+    <h4 class="mt-4">Pending Shipments</h4>
+    <ul class="list-group">
+        @foreach (var item in ViewBag.PendingOrders)
+        {
+            <li class="list-group-item">
+                Order ID: @item.OrderId | Status: @item.Status
+            </li>
+        }
+    </ul>
+</div>

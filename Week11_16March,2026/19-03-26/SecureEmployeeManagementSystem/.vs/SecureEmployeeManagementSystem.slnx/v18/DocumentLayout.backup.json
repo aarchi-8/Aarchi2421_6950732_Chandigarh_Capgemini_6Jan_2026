@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Data\\Migrations\\20260319085406_AddEmployeeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Migrations\\20260319085406_AddEmployeeTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\secureemployeemanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:secureemployeemanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week11_16march,2026\\19-03-26\\secureemployeemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C91A376-FFA3-4D69-A9D4-63DE0C866B88}|SecureEmployeeManagementSystem.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAUwCQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T09:10:47.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T09:07:15.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T09:07:00.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-19T09:06:48.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SecureEmployeeManagementSystem",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\SecureEmployeeManagementSystem.csproj",
+              "RelativeDocumentMoniker": "SecureEmployeeManagementSystem.csproj",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\SecureEmployeeManagementSystem.csproj",
+              "RelativeToolTip": "SecureEmployeeManagementSystem.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-19T08:48:57.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:57:15.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260319085406_AddEmployeeTable.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Data\\Migrations\\20260319085406_AddEmployeeTable.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20260319085406_AddEmployeeTable.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Data\\Migrations\\20260319085406_AddEmployeeTable.cs",
+              "RelativeToolTip": "Data\\Migrations\\20260319085406_AddEmployeeTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:54:06.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:50:30.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:46:56.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAQwGAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T08:42:39.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\SecureEmployeeManagementSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-19T08:41:55.2Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

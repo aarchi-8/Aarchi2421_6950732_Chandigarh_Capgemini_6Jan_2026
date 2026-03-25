@@ -1,0 +1,29 @@
+<div class="container mt-4">
+    <h2>Create Order</h2>
+
+    <form asp-controller="Order" asp-action="Create" method="post">
+
+        <select name="customerId" class="form-control mb-3">
+            @foreach (var c in ViewBag.Customers)
+            {
+                <option value="@c.Id">@c.Name</option>
+            }
+        </select>
+
+        <h5>Select Products</h5>
+
+        @foreach (var p in ViewBag.Products)
+        {
+            <div class="mb-2">
+                <input type="checkbox" name="productIds" value="@p.Id" />
+                @p.Name
+
+                <input type="number" name="quantities" value="1" class="form-control w-25 d-inline" />
+            </div>
+        }
+
+        <input type="text" name="address" class="form-control mb-3" placeholder="Address" />
+
+        <button type="submit" class="btn btn-success">Place Order</button>
+    </form>
+</div>

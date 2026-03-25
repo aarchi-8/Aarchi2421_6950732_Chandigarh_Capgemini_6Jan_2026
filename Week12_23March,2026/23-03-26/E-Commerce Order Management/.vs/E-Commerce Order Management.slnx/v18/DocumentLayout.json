@@ -1,0 +1,381 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:views\\admin\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\views\\customer\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:views\\customer\\orders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:views\\customer\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\models\\shippingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:models\\shippingdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:models\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\23-03-26\\e-commerce order management\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5299B19D-79EE-4E5D-B32D-1D2FE4F98FD3}|E-Commerce Order Management.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Admin\\Dashboard.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T07:11:54.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T07:09:23.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T07:08:26.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "Views\\Order\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T06:29:51.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Customer\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Customer\\Create.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Create.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowBwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T06:23:27.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T06:17:43.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAwwFYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:48:14.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T05:48:11.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAwwBsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T05:48:09.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ShippingDetail.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\ShippingDetail.cs",
+              "RelativeDocumentMoniker": "Models\\ShippingDetail.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\ShippingDetail.cs",
+              "RelativeToolTip": "Models\\ShippingDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:42:25.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwBAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:42:20.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Models\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:42:18.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "Models\\Order.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\Order.cs",
+              "RelativeToolTip": "Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:42:12.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:42:11.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\Customer.cs",
+              "RelativeDocumentMoniker": "Models\\Customer.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\Customer.cs",
+              "RelativeToolTip": "Models\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:42:06.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:41:47.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T05:40:08.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Customer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Customer\\Index.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Index.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAowEYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T05:36:34.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Orders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Customer\\Orders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\Orders.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Views\\Customer\\Orders.cshtml",
+              "RelativeToolTip": "Views\\Customer\\Orders.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-24T05:36:02.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T05:34:53.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\23-03-26\\E-Commerce Order Management\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAFxtj9QkwB8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T04:54:43.689Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

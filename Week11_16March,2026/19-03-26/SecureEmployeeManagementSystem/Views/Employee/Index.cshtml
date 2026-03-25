@@ -1,0 +1,54 @@
+﻿@model IEnumerable<SecureEmployeeManagementSystem.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<div class="container mt-4">
+
+    <h2 class="mb-3">Employee List</h2>
+
+    <!-- 🔍 Search -->
+    <form method="get" class="d-flex mb-3">
+        <input type="text" name="search" class="form-control me-2" placeholder="Search by Name or Department" />
+        <button type="submit" class="btn btn-outline-primary">Search</button>
+    </form>
+
+    <!-- ➕ Add Button (Admin Only) -->
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Create" class="btn btn-primary mb-3">Add Employee</a>
+    }
+
+    <!-- 📋 Table -->
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Department</td>
+                    <td>@item.Salary</td>
+                    <td>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm"
+                               onclick="return confirm('Are you sure?');">Delete</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

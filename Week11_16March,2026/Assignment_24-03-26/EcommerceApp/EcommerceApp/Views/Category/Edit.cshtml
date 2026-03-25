@@ -1,0 +1,23 @@
+@model Category
+
+<div class="container mt-5">
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Edit Category</h3>
+        </div>
+        <div class="card-body">
+            <form asp-action="Edit" method="post">
+                @Html.AntiForgeryToken()
+                <input type="hidden" asp-for="Id" />
+
+                <div class="mb-3">
+                    <input asp-for="Name" class="form-control" placeholder="Category Name" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+
+                <button class="btn btn-primary me-2">Update</button>
+                <a href="/Category" class="btn btn-secondary">Back</a>
+            </form>
+        </div>
+    </div>
+</div>

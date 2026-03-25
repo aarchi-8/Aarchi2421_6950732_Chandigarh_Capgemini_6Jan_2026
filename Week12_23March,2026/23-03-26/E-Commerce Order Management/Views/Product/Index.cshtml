@@ -1,0 +1,95 @@
+﻿@model IEnumerable<Product>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+
+    <!-- Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold">📦 Products</h2>
+
+        <a href="/Product/Create" class="btn btn-primary shadow-sm">
+            + Add Product
+        </a>
+    </div>
+
+    <!-- Card -->
+    <div class="card shadow-lg border-0">
+        <div class="card-body">
+
+            <table class="table table-hover align-middle">
+
+                <!-- Head -->
+                <thead class="table-dark text-center">
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Action</th> <!-- ✅ FIXED -->
+                    </tr>
+                </thead>
+
+                <!-- Body -->
+                <tbody class="text-center">
+
+                    @if (!Model.Any())
+                    {
+                        <tr>
+                            <td colspan="5" class="text-muted py-4">
+                                🚫 No products found
+                            </td>
+                        </tr>
+                    }
+                    else
+                    {
+                        int i = 1;
+
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td><strong>@i</strong></td>
+
+                                <td>
+                                    <span class="fw-semibold">
+                                        @item.Name
+                                    </span>
+                                </td>
+
+                                <td>
+                                    <span class="badge bg-success px-3 py-2">
+                                        ₹@item.Price
+                                    </span>
+                                </td>
+
+                                <td>
+                                    <span class="badge bg-info text-dark px-3 py-2">
+                                        @item.Category?.Name
+                                    </span>
+                                </td>
+
+                                <td>
+                                    <form asp-controller="Order" asp-action="BuyNow" method="post" class="d-inline">
+                                        <input type="hidden" name="productId" value="@item.Id" />
+
+                                        <button type="submit" class="btn btn-success btn-sm shadow-sm">
+                                            🛒 Buy Now
+                                        </button>
+                                    </form>
+                                </td>
+                            </tr>
+
+                            i++;
+                        }
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h3W/H0MB7SE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week11_16March,2026\\19-03-26\\E-Commerce Order Management API\\E-Commerce Order Management API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aarchi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

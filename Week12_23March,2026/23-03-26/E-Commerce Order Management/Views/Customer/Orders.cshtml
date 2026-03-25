@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Order>
+
+<div class="container mt-4">
+    <h2 class="mb-3">Order History</h2>
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-warning text-center">
+            No orders found for this customer.
+        </div>
+    }
+    else
+    {
+        @foreach (var order in Model)
+        {
+            <!-- 🔥 CALCULATE TOTAL -->
+            var total = order.OrderItems.Sum(i => i.Product.Price * i.Quantity);
+
+            <div class="card shadow-sm mb-3">
+                <div class="card-body">
+
+                    <!-- Header -->
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h5>
+                            📅 @order.OrderDate.ToString("dd MMM yyyy")
+                        </h5>
+
+                        <span class="badge px-3 py-2
+                                    @(order.ShippingDetail?.Status == "Pending" ? "bg-warning text-dark" :
+                                                            order.ShippingDetail?.Status == "Shipped" ? "bg-info text-dark" :
+                                                            order.ShippingDetail?.Status == "Delivered" ? "bg-success" :
+                                                            "bg-secondary")">
+                            @order.ShippingDetail?.Status
+                        </span>
+                    </div>
+
+                    <hr />
+
+                    <!-- Products -->
+                    <ul class="list-group list-group-flush mb-3">
+                        @foreach (var item in order.OrderItems)
+                        {
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+
+                                <div>
+                                    <strong>@item.Product.Name</strong><br />
+                                    <small class="text-muted">
+                                        ₹@item.Product.Price × @item.Quantity
+                                    </small>
+                                </div>
+
+                                <!-- 🔥 ITEM TOTAL -->
+                                <span class="badge bg-primary">
+                                    ₹@(item.Product.Price* item.Quantity)
+                                </span>
+
+                            </li>
+                        }
+                    </ul>
+
+                    <!-- 🔥 FINAL TOTAL -->
+                    <div class="text-end">
+                        <h5 class="fw-bold">
+                            Total Amount:
+                            <span class="text-success">₹@total</span>
+                        </h5>
+                    </div>
+
+                </div>
+            </div>
+        }
+    }
+</div>

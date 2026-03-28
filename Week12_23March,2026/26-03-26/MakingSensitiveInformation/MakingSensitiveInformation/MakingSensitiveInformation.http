@@ -1,0 +1,6 @@
+@MakingSensitiveInformation_HostAddress = http://localhost:5094
+
+GET {{MakingSensitiveInformation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

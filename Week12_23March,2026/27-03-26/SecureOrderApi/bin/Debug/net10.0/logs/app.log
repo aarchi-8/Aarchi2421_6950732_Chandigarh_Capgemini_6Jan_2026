@@ -1,0 +1,90 @@
+2026-03-27 13:05:54,013 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 13:05:54,399 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: string
+2026-03-27 13:05:54,402 WARN  SecureOrderApi.Controllers.AuthController - Failed login attempt
+2026-03-27 13:05:54,501 WARN  SecureOrderApi.AuthLoggingMiddleware - Unauthorized access to /api/auth/login
+2026-03-27 13:06:39,915 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 13:06:39,967 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: admin
+2026-03-27 13:06:39,967 WARN  SecureOrderApi.Controllers.AuthController - Failed login attempt
+2026-03-27 13:06:39,968 WARN  SecureOrderApi.AuthLoggingMiddleware - Unauthorized access to /api/auth/login
+2026-03-27 13:06:42,917 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 13:06:42,918 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: admin
+2026-03-27 13:06:42,918 WARN  SecureOrderApi.Controllers.AuthController - Failed login attempt
+2026-03-27 13:06:42,918 WARN  SecureOrderApi.AuthLoggingMiddleware - Unauthorized access to /api/auth/login
+2026-03-27 13:07:52,603 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 13:07:52,604 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: admin
+2026-03-27 13:07:52,987 ERROR SecureOrderApi.Controllers.AuthController - Login exception
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '128' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at SecureOrderApi.Controllers.AuthController.Login(LoginDto dto) in K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day5 27march\SecureOrderApi\Controllers\AuthController.cs:line 43
+2026-03-27 13:12:21,771 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 13:12:21,936 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: admin
+2026-03-27 13:12:22,071 ERROR SecureOrderApi.Controllers.AuthController - Login exception
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '128' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at SecureOrderApi.Controllers.AuthController.Login(LoginDto dto) in K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day5 27march\SecureOrderApi\Controllers\AuthController.cs:line 43
+2026-03-27 13:14:42,578 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 13:14:42,719 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: admin
+2026-03-27 13:14:42,862 ERROR SecureOrderApi.Controllers.AuthController - Login exception
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '128' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at SecureOrderApi.Controllers.AuthController.Login(LoginDto dto) in K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day5 27march\SecureOrderApi\Controllers\AuthController.cs:line 43
+2026-03-27 13:14:46,608 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 13:14:46,613 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: admin
+2026-03-27 13:14:46,667 ERROR SecureOrderApi.Controllers.AuthController - Login exception
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '128' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at SecureOrderApi.Controllers.AuthController.Login(LoginDto dto) in K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day5 27march\SecureOrderApi\Controllers\AuthController.cs:line 43
+2026-03-27 13:17:43,819 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 13:17:43,957 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: admin
+2026-03-27 13:17:44,096 ERROR SecureOrderApi.Controllers.AuthController - Login exception
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '248' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at SecureOrderApi.Controllers.AuthController.Login(LoginDto dto) in K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week12\day5 27march\SecureOrderApi\Controllers\AuthController.cs:line 43
+2026-03-27 13:20:33,067 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 13:20:33,234 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: admin
+2026-03-27 13:20:33,347 INFO  SecureOrderApi.Controllers.AuthController - Token generated for user: admin
+2026-03-27 15:43:27,610 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: OPTIONS /api/auth/login
+2026-03-27 15:45:11,870 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: OPTIONS /api/auth/login
+2026-03-27 15:47:04,532 INFO  SecureOrderApi.Middleware.RequestLoggingMiddleware - Request: POST /api/auth/login
+2026-03-27 15:47:04,714 INFO  SecureOrderApi.Controllers.AuthController - Login attempt: admin@gmail.com
+2026-03-27 15:47:04,786 INFO  SecureOrderApi.Controllers.AuthController - Token generated for user: admin@gmail.com

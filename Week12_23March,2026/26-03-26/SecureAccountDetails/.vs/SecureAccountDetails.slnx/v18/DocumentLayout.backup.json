@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\26-03-26\\secureaccountdetails\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\26-03-26\\secureaccountdetails\\secureaccountdetails.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|solutionrelative:secureaccountdetails.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\26-03-26\\secureaccountdetails\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\26-03-26\\secureaccountdetails\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\26-03-26\\secureaccountdetails\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\26-03-26\\secureaccountdetails\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\26-03-26\\secureaccountdetails\\dtos\\accountdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|solutionrelative:dtos\\accountdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\26-03-26\\secureaccountdetails\\dtos\\createaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|solutionrelative:dtos\\createaccountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\26-03-26\\secureaccountdetails\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43729715-FE7C-472C-87F5-455455D0D4B3}|SecureAccountDetails.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SecureAccountDetails",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\SecureAccountDetails.csproj",
+              "RelativeDocumentMoniker": "SecureAccountDetails.csproj",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\SecureAccountDetails.csproj",
+              "RelativeToolTip": "SecureAccountDetails.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-26T10:29:10.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-26T10:22:40.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:19:39.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:19:03.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:17:10.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:15:57.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateAccountDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\DTOs\\CreateAccountDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CreateAccountDTO.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\DTOs\\CreateAccountDTO.cs",
+              "RelativeToolTip": "DTOs\\CreateAccountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:13:44.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountDetailsDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\DTOs\\AccountDetailsDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\AccountDetailsDTO.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\DTOs\\AccountDetailsDTO.cs",
+              "RelativeToolTip": "DTOs\\AccountDetailsDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:12:57.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\26-03-26\\SecureAccountDetails\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:09:43.766Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

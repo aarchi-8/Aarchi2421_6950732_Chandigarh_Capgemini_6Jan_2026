@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day3_26march\\makingsensitiveinformation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day3_26march\\makingsensitiveinformation\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day3_26march\\makingsensitiveinformation\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|solutionrelative:mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day3_26march\\makingsensitiveinformation\\dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|solutionrelative:dtos\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|d:\\users\\hp\\source\\repos\\capgemi_cu_sec3_..netwithazure_diksha\\week12_23marchto28march\\day3_26march\\makingsensitiveinformation\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E06BA55-546E-420C-BCD1-B0EF7C2ADD77}|MakingSensitiveInformation.csproj|solutionrelative:models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:14:30.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:13:35.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Mapping\\MappingProfile.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:12:53.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountDTO.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\DTOs\\AccountDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\AccountDTO.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\DTOs\\AccountDTO.cs",
+              "RelativeToolTip": "DTOs\\AccountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:12:27.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "D:\\Users\\HP\\source\\repos\\Capgemi_CU_sec3_..NetWithAzure_DIKSHA\\Week12_23MarchTo28March\\Day3_26March\\MakingSensitiveInformation\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T10:11:54.823Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

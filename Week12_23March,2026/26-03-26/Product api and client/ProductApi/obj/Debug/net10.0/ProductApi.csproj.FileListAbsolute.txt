@@ -1,0 +1,76 @@
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\appsettings.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\ProductApi.staticwebassets.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\ProductApi.exe
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\ProductApi.deps.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\ProductApi.runtimeconfig.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\ProductApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\ProductApi.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.csproj.AssemblyReference.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.AssemblyInfoInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.AssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.csproj.CoreCompileInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.sourcelink.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\scopedcss\bundle\ProductApi.styles.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.csproj.Up2Date
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\refint\ProductApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ProductApi.genruntimeconfig.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\23-03-26\ProductApi\obj\Debug\net10.0\ref\ProductApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\appsettings.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\ProductApi.staticwebassets.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\ProductApi.exe
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\ProductApi.deps.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\ProductApi.runtimeconfig.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\ProductApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\ProductApi.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.csproj.AssemblyReference.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.AssemblyInfoInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.AssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.csproj.CoreCompileInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.sourcelink.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\scopedcss\bundle\ProductApi.styles.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.csproj.Up2Date
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\refint\ProductApi.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ProductApi.genruntimeconfig.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\26-03-26\Product api and client\ProductApi\obj\Debug\net10.0\ref\ProductApi.dll

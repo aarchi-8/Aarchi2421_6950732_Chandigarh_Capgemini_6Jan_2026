@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "GzEmtB/lT5Y=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\day5 27march\\PerformanceApi\\PerformanceApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aarchi\\.nuget\\packages\\log4net\\3.3.0\\log4net.3.3.0.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.2\\microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\swashbuckle.aspnetcore\\10.1.7\\swashbuckle.aspnetcore.10.1.7.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.7\\swashbuckle.aspnetcore.swagger.10.1.7.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.7\\swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.7\\swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\Aarchi\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

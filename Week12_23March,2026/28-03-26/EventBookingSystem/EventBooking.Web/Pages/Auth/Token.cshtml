@@ -1,0 +1,54 @@
+@page
+@model EventBooking.Web.Pages.Auth.TokenModel
+@{
+    ViewData["Title"] = "Get Token";
+}
+
+<div class="row justify-content-center">
+  <div class="col-lg-6">
+
+    <div class="form-panel">
+      <h3 class="fw-bold mb-1"><i class="bi bi-key text-primary me-2"></i>Get JWT Token</h3>
+      <p class="text-muted small mb-4">
+        This page calls <code>POST /api/token</code> and stores the JWT in
+        <code>sessionStorage</code> so other pages can use it automatically.
+      </p>
+
+      <div id="alertBox"></div>
+
+      <div class="mb-3">
+        <label for="userId" class="form-label fw-semibold">User ID <span class="text-danger">*</span></label>
+        <input type="text" id="userId" class="form-control" placeholder="e.g. user-001" value="user-001" />
+        <div class="invalid-feedback" id="userIdErr">User ID is required.</div>
+      </div>
+
+      <div class="mb-4">
+        <label for="userName" class="form-label fw-semibold">Display Name <span class="text-danger">*</span></label>
+        <input type="text" id="userName" class="form-control" placeholder="e.g. Alice" value="Alice" />
+        <div class="invalid-feedback" id="userNameErr">Display name is required.</div>
+      </div>
+
+      <button id="getTokenBtn" class="btn btn-primary w-100">
+        <i class="bi bi-key me-1"></i>Generate &amp; Save Token
+      </button>
+
+      <div id="tokenSection" class="mt-4 d-none">
+        <label class="form-label fw-semibold text-success">
+          <i class="bi bi-check-circle me-1"></i>Token saved to session
+        </label>
+        <div id="tokenOutput"></div>
+        <button class="btn btn-sm btn-outline-secondary mt-2" id="copyBtn">
+          <i class="bi bi-clipboard me-1"></i>Copy Token
+        </button>
+        <a asp-page="/Events/Index" class="btn btn-sm btn-success mt-2 ms-2">
+          <i class="bi bi-arrow-right me-1"></i>Go Book Events
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+@section Scripts {
+<script src="~/js/token.js" asp-append-version="true"></script>
+}

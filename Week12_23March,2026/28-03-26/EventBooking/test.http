@@ -1,0 +1,19 @@
+### LOGIN
+POST http://localhost:5003/api/auth/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "1234"
+}
+
+### BOOKING
+POST http://localhost:5003/api/bookings
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW4iLCJleHAiOjE3NzQ2NzgzMTF9.v1dXWqJye84_2VsQZwZ9GOLyZeRxFlOokZSPD1dGA3c
+
+{
+  "eventId": 1,
+  "userId": "user1",
+  "seatsBooked": 2
+}

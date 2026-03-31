@@ -1,0 +1,206 @@
+@page
+@model IndexModel
+
+<style>
+    body {
+        background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+        color: #fff;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .header h2 {
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .event-card {
+        background: rgba(255, 255, 255, 0.08);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 20px;
+        transition: 0.3s;
+        border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .event-card:hover {
+        transform: translateY(-8px) scale(1.02);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    .btn-book {
+        background: linear-gradient(45deg, #ff7a18, #ffb347);
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 25px;
+    }
+
+    .btn-book:hover {
+        opacity: 0.85;
+    }
+
+    .booking-card {
+        background: rgba(255,255,255,0.05);
+        border-left: 5px solid #ffb347;
+        border-radius: 10px;
+        padding: 15px;
+    }
+
+    .btn-cancel {
+        background: #ff4d4d;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .btn-cancel:hover {
+        opacity: 0.8;
+    }
+
+    hr {
+        border-color: rgba(255,255,255,0.2);
+    }
+</style>
+
+<script>
+if(!localStorage.getItem("token")){
+    window.location.href = "/Login";
+}
+</script>
+
+<div class="container mt-4">
+
+    <!-- 🔷 HEADER -->
+    <div class="header">
+        <h2>✨ Discover Events</h2>
+        <p class="text-light">Book amazing experiences around you</p>
+    </div>
+
+    <!-- 🔷 EVENTS -->
+    <div class="row g-4" id="eventsList"></div>
+
+    <hr class="my-5"/>
+
+    <!-- 🔷 BOOKINGS -->
+    <h4 class="mb-3">📌 My Bookings</h4>
+    <div id="bookingList"></div>
+
+</div>
+
+<script>
+function getToken(){
+    return localStorage.getItem("token");
+}
+
+function loadEvents() {
+    fetch("http://localhost:5003/api/events")
+    .then(res => res.json())
+    .then(data => {
+        let html = "";
+
+        data.forEach(e => {
+            html += `
+            <div class="col-md-4">
+                <div class="event-card">
+                    <h5>${e.title}</h5>
+                    <p>📍 ${e.location}</p>
+                    <p>📅 ${new Date(e.date).toLocaleDateString()}</p>
+                    <p>🎟 ${e.availableSeats} Seats Left</p>
+
+                    <button class="btn btn-book w-100 mt-2" onclick="book(${e.id})">
+                        🚀 Reserve Spot
+                    </button>
+                </div>
+            </div>`;
+        });
+
+        document.getElementById("eventsList").innerHTML = html;
+    });
+}
+
+function book(eventId){
+    let name = prompt("Enter your name:");
+    let seats = prompt("Enter number of seats:");
+
+    fetch("http://localhost:5003/api/bookings", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer " + getToken()
+        },
+        body: JSON.stringify({
+            eventId: eventId,
+            userId: name,
+            seatsBooked: parseInt(seats)
+        })
+    })
+    .then(res => res.text())
+    .then(msg => {
+        alert(msg);
+        loadBookings();
+        loadEvents();
+    });
+}
+
+function loadBookings(){
+    let token = getToken();
+
+    if(!token){
+        document.getElementById("bookingList").innerHTML =
+            `<p class="text-light">Login to see your bookings</p>`;
+        return;
+    }
+
+    fetch("http://localhost:5003/api/bookings", {
+        headers: {
+            "Authorization": "Bearer " + token
+        }
+    })
+    .then(res => res.json())
+    .then(data => {
+        let html = "";
+
+        if(data.length === 0){
+            html = `<p class="text-light">No bookings yet</p>`;
+        }
+
+        data.forEach(b => {
+            html += `
+            <div class="booking-card mb-3 d-flex justify-content-between align-items-center">
+                <div>
+                    <p><b>👤</b> ${b.userId}</p>
+                    <p><b>🎫 Event:</b> ${b.eventId}</p>
+                    <p><b>💺 Seats:</b> ${b.seatsBooked}</p>
+                </div>
+                <button onclick="cancelBooking(${b.id})" class="btn btn-cancel">
+                    ❌ Cancel
+                </button>
+            </div>`;
+        });
+
+        document.getElementById("bookingList").innerHTML = html;
+    });
+}
+
+function cancelBooking(id){
+    fetch(`http://localhost:5003/api/bookings/cancel/${id}`, {
+        method: "DELETE",
+        headers: {
+            "Authorization": "Bearer " + getToken()
+        }
+    })
+    .then(res => res.text())
+    .then(msg => {
+        alert(msg);
+        loadBookings();
+        loadEvents();
+    });
+}
+
+loadEvents();
+loadBookings();
+</script>

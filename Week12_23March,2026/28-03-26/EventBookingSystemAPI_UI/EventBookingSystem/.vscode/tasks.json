@@ -1,0 +1,58 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-api",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder:EventBooking.API}/EventBooking.API.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-web",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder:EventBooking.Web}/EventBooking.Web.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "restore-all",
+      "command": "dotnet",
+      "type": "process",
+      "args": [ "restore", "${workspaceFolder:EventBooking.API}/EventBooking.API.csproj" ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "ef-migrate",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "ef", "migrations", "add", "InitialCreate",
+        "--project", "${workspaceFolder:EventBooking.API}/EventBooking.API.csproj"
+      ],
+      "options": { "cwd": "${workspaceFolder:EventBooking.API}" },
+      "problemMatcher": []
+    },
+    {
+      "label": "ef-update",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "ef", "database", "update",
+        "--project", "${workspaceFolder:EventBooking.API}/EventBooking.API.csproj"
+      ],
+      "options": { "cwd": "${workspaceFolder:EventBooking.API}" },
+      "problemMatcher": []
+    }
+  ]
+}

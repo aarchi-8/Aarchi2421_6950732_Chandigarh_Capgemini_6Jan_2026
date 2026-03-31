@@ -1,0 +1,9 @@
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\31-03-26\LearningPlatform.API\obj\Debug\net10.0\LearningPlatform.API.csproj.AssemblyReference.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\31-03-26\LearningPlatform.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\31-03-26\LearningPlatform.API\obj\Debug\net10.0\LearningPlatform.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\31-03-26\LearningPlatform.API\obj\Debug\net10.0\LearningPlatform.API.AssemblyInfoInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\31-03-26\LearningPlatform.API\obj\Debug\net10.0\LearningPlatform.API.AssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\31-03-26\LearningPlatform.API\obj\Debug\net10.0\LearningPlatform.API.csproj.CoreCompileInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\31-03-26\LearningPlatform.API\obj\Debug\net10.0\LearningPlatform.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\31-03-26\LearningPlatform.API\obj\Debug\net10.0\LearningPlatform.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\31-03-26\LearningPlatform.API\obj\Debug\net10.0\LearningPlatform.API.sourcelink.json

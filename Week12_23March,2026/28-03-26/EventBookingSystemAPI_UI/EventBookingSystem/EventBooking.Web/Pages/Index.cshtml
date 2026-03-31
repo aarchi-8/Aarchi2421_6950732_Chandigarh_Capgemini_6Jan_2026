@@ -1,0 +1,101 @@
+@page
+@model EventBooking.Web.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- HERO SECTION -->
+<div class="hero-banner mb-5 text-center position-relative overflow-hidden">
+
+    <div class="position-relative">
+        <h1 class="display-4 fw-bold mb-3">
+            <i class="bi bi-stars text-warning me-2"></i>EventHub
+        </h1>
+
+        <p class="lead mb-4">
+            Discover 🎉 Book 🎟️ Enjoy — your all-in-one event experience
+        </p>
+
+        <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a asp-page="/Events/Index" class="btn btn-light btn-lg px-4 shadow-sm">
+                <i class="bi bi-search me-1"></i>Explore Events
+            </a>
+
+            <a asp-page="/Bookings/MyBookings" class="btn btn-outline-light btn-lg px-4">
+                <i class="bi bi-ticket-perforated me-1"></i>My Bookings
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<!-- FEATURES -->
+<div class="text-center mb-5">
+    <h3 class="fw-bold mb-2">Why Choose EventHub?</h3>
+    <p class="text-muted">Simple. Fast. Secure.</p>
+</div>
+
+<div class="row g-4 mb-5">
+
+    <!-- CARD 1 -->
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100 text-center p-4 rounded-4 hover-card">
+            <div class="fs-1 text-primary mb-3">
+                <i class="bi bi-calendar-check-fill"></i>
+            </div>
+            <h5 class="fw-semibold">Discover Events</h5>
+            <p class="text-muted small">
+                From tech talks 💻 to concerts 🎶 — explore events curated for you.
+            </p>
+        </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100 text-center p-4 rounded-4 hover-card">
+            <div class="fs-1 text-success mb-3">
+                <i class="bi bi-lightning-charge-fill"></i>
+            </div>
+            <h5 class="fw-semibold">Instant Booking</h5>
+            <p class="text-muted small">
+                Book your seats in seconds ⚡ — smooth, fast, and hassle-free.
+            </p>
+        </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100 text-center p-4 rounded-4 hover-card">
+            <div class="fs-1 text-warning mb-3">
+                <i class="bi bi-shield-lock-fill"></i>
+            </div>
+            <h5 class="fw-semibold">Secure & Reliable</h5>
+            <p class="text-muted small">
+                Your data is protected 🔐 with JWT-based secure authentication.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+<!-- CTA SECTION -->
+<div class="bg-white p-5 rounded-4 shadow-sm text-center mb-4">
+    <h4 class="fw-bold mb-2">Ready to explore?</h4>
+    <p class="text-muted mb-3">Find your next event and make memories 🎊</p>
+
+    <a asp-page="/Events/Index" class="btn btn-primary px-4 py-2">
+        Browse Events Now
+    </a>
+</div>
+
+<!-- EXTRA STYLE -->
+<style>
+    .hover-card {
+        transition: all 0.25s ease;
+    }
+
+        .hover-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+        }
+</style>

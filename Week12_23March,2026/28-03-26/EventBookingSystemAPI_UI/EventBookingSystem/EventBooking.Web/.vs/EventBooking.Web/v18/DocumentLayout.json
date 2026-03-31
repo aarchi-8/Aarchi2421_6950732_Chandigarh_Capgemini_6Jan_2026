@@ -1,0 +1,275 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\wwwroot\\js\\events.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:wwwroot\\js\\events.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\wwwroot\\js\\bookings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:wwwroot\\js\\bookings.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\wwwroot\\js\\token.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:wwwroot\\js\\token.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\pages\\auth\\token.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:pages\\auth\\token.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\pages\\bookings\\mybookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:pages\\bookings\\mybookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\pages\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:pages\\events\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystem_vscode\\eventbookingsystem\\eventbooking.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9DFDC534-684B-6945-C37F-3984018DAE5F}|EventBooking.Web.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:49:48.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:49:12.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI8AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-31T15:46:05.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyBookings.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Bookings\\MyBookings.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Bookings\\MyBookings.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Bookings\\MyBookings.cshtml",
+              "RelativeToolTip": "Pages\\Bookings\\MyBookings.cshtml",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAgwG8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:44:42.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAwwI8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:42:40.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-31T15:35:52.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "token.js",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\js\\token.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\token.js",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\js\\token.js",
+              "RelativeToolTip": "wwwroot\\js\\token.js",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAswHAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-31T15:22:55.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "events.js",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\js\\events.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\events.js",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\js\\events.js",
+              "RelativeToolTip": "wwwroot\\js\\events.js",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-31T15:22:51.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bookings.js",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\js\\bookings.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\bookings.js",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\wwwroot\\js\\bookings.js",
+              "RelativeToolTip": "wwwroot\\js\\bookings.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-03-31T15:22:46.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T15:22:37.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Events\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Events\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Events\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Events\\Index.cshtml",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAgwGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:22:26.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Token.cshtml",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Auth\\Token.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Auth\\Token.cshtml",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Pages\\Auth\\Token.cshtml",
+              "RelativeToolTip": "Pages\\Auth\\Token.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAmwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:22:16.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T15:21:05.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-31T15:20:49.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystem_VSCode\\EventBookingSystem\\EventBooking.Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T15:20:41.896Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week11_16March,2026\16-03-26\StudentManagementSystem\obj\Release\net10.0\StudentManagementSystem.csproj.AssemblyReference.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week11_16March,2026\16-03-26\StudentManagementSystem\obj\Release\net10.0\rpswa.dswa.cache.json

@@ -1,0 +1,6 @@
+@IISDemo_HostAddress = http://localhost:5059
+
+GET {{IISDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,9 @@
+C:\Publish\MyApp\IISDemo.exe
+C:\Publish\MyApp\appsettings.Development.json
+C:\Publish\MyApp\appsettings.json
+C:\Publish\MyApp\IISDemo.dll
+C:\Publish\MyApp\IISDemo.deps.json
+C:\Publish\MyApp\IISDemo.runtimeconfig.json
+C:\Publish\MyApp\IISDemo.pdb
+C:\Publish\MyApp\Microsoft.AspNetCore.OpenApi.dll
+C:\Publish\MyApp\Microsoft.OpenApi.dll

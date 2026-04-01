@@ -1,0 +1,58 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\appsettings.Development.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\appsettings.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.staticwebassets.endpoints.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.MvcApplicationPartsAssemblyInfo.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.sourcelink.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\scopedcss\bundle\ProductInventory.API.styles.css
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\staticwebassets.build.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\staticwebassets.build.json.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\staticwebassets.development.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\swae.build.ex.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\refint\ProductInventory.API.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day3 1-04-26\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ref\ProductInventory.API.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\appsettings.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.staticwebassets.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.exe
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.deps.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.runtimeconfig.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\bin\Debug\net10.0\ProductInventory.API.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.AssemblyInfoInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.AssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.csproj.CoreCompileInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.sourcelink.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\scopedcss\bundle\ProductInventory.API.styles.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\refint\ProductInventory.API.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ProductInventory.API.genruntimeconfig.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week13_30March,2026\1-04-26\ProductInventoryAPI\ProductInventoryAPI\ProductInventory.API\obj\Debug\net10.0\ref\ProductInventory.API.dll

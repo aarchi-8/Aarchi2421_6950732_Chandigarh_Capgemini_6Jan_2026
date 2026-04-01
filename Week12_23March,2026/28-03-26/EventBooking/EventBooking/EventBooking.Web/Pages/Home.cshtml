@@ -1,0 +1,281 @@
+@page
+@model IndexModel
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: #ffffff;
+}
+
+/* LAYOUT */
+.wrapper {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 240px;
+    height: 100vh;
+    background: #020617;
+    padding: 25px;
+    position: fixed;
+    border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+.sidebar h2 {
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.sidebar button {
+    width: 100%;
+    margin-bottom: 12px;
+    background: transparent;
+    border: none;
+    color: #94a3b8;
+    padding: 12px;
+    text-align: left;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+.sidebar button:hover {
+    background: #1e293b;
+    color: #ffffff;
+}
+
+/* MAIN */
+.main {
+    margin-left: 240px;
+    padding: 30px;
+    width: 100%;
+}
+
+/* TOPBAR */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logout-btn {
+    background: #ef4444;
+    border: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    color: white;
+}
+
+/* HEADINGS */
+h2, h3 {
+    color: #ffffff;
+}
+
+/* EVENTS GRID */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+/* EVENT CARD */
+.event-card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 16px;
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* TEXT FIX */
+.event-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.event-meta {
+    font-size: 14px;
+    margin-top: 6px;
+    color: #cbd5f5;
+}
+
+/* BUTTON */
+.btn-book {
+    margin-top: 12px;
+    background: linear-gradient(45deg,#6366f1,#4f46e5);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+
+/* BOOKINGS */
+.booking-card {
+    background: #1e293b;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: #e2e8f0;
+}
+</style>
+
+<script>
+if(!localStorage.getItem("token")){
+    window.location.href="/Login";
+}
+
+function logout(){
+    localStorage.clear();
+    window.location.href="/Login";
+}
+
+function getToken(){return localStorage.getItem("token");}
+function getRole(){return localStorage.getItem("role");}
+function getUsername(){return localStorage.getItem("username");}
+</script>
+
+<div class="wrapper">
+
+<!-- SIDEBAR -->
+
+<div class="sidebar">
+    <h2>🎟 EventBooking</h2>
+
+
+<button onclick="loadEvents()">📅 Events</button>
+
+<button onclick="loadUsers()" id="userBtn" style="display:none;">
+    👥 Users
+</button>
+
+
+</div>
+
+<!-- MAIN -->
+
+<div class="main">
+
+<div class="topbar">
+    <h2>Dashboard</h2>
+    <div>
+        <span id="userDisplay"></span>
+        <button onclick="logout()" class="logout-btn">Logout</button>
+    </div>
+</div>
+
+<h3>🔥 Available Events</h3>
+<div class="events-grid" id="eventsList"></div>
+
+<hr/>
+
+<h3>📄 Your Bookings</h3>
+<div id="bookingList"></div>
+
+<div id="usersSection" style="display:none;">
+    <h3>👥 Users</h3>
+    <div id="usersList"></div>
+</div>
+
+</div>
+</div>
+
+<script>
+
+userDisplay.innerText = getUsername() + " (" + getRole() + ")";
+
+if(getRole() === "admin"){
+    document.getElementById("userBtn").style.display = "block";
+}
+
+/* EVENTS */
+function loadEvents(){
+fetch("http://localhost:5003/api/events")
+.then(r=>r.json())
+.then(data=>{
+let html="";
+data.forEach(e=>{
+html+=`
+<div class="event-card">
+<div class="event-title">${e.title}</div>
+<div class="event-meta">📍 ${e.location}</div>
+<div class="event-meta">📅 ${new Date(e.date).toLocaleDateString()}</div>
+<div class="event-meta">🎟 Seats: ${e.availableSeats}</div>
+<button onclick="book(${e.id})" class="btn-book">Book</button>
+</div>`;
+});
+eventsList.innerHTML = html;
+});
+}
+
+/* BOOK */
+function book(id){
+let seats = prompt("Seats:");
+fetch("http://localhost:5003/api/bookings",{
+method:"POST",
+headers:{
+"Content-Type":"application/json",
+"Authorization":"Bearer "+getToken()},
+body:JSON.stringify({
+eventId:id,
+userId:getUsername(),
+seatsBooked:parseInt(seats)})
+}).then(()=>{
+loadEvents();
+loadBookings();
+});
+}
+
+/* BOOKINGS */
+function loadBookings(){
+fetch("http://localhost:5003/api/bookings",{
+headers:{"Authorization":"Bearer "+getToken()}
+})
+.then(r=>r.json())
+.then(data=>{
+let html="";
+data.forEach(b=>{
+html+=`
+<div class="booking-card">
+📌 Event: ${b.eventTitle || "N/A"} <br/>
+👤 User: ${b.userId} <br/>
+🎟 Seats: ${b.seatsBooked}
+</div>`;
+});
+bookingList.innerHTML = html;
+});
+}
+
+/* USERS */
+async function loadUsers(){
+const res = await fetch("http://localhost:5003/api/auth/users",{
+headers:{"Authorization":"Bearer "+getToken()}
+});
+
+const users = await res.json();
+
+let html="";
+users.forEach(u=>{
+html+=`<div class="booking-card">${u.username} (${u.role})</div>`;
+});
+
+usersList.innerHTML = html;
+usersSection.style.display = "block";
+}
+
+/* INIT */
+loadEvents();
+setTimeout(loadBookings,300);
+
+</script>

@@ -1,0 +1,5 @@
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\28-03-26\EventBookingSystem_VSCode\EventBookingSystem\EventBooking.Web\wwwroot\css\site.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\28-03-26\EventBookingSystem_VSCode\EventBookingSystem\EventBooking.Web\wwwroot\js\bookings.js
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\28-03-26\EventBookingSystem_VSCode\EventBookingSystem\EventBooking.Web\wwwroot\js\site.js
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\28-03-26\EventBookingSystem_VSCode\EventBookingSystem\EventBooking.Web\wwwroot\js\token.js
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week12_23March,2026\28-03-26\EventBookingSystem_VSCode\EventBookingSystem\EventBooking.Web\wwwroot\js\events.js

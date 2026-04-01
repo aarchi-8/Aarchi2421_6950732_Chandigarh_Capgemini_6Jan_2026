@@ -1,0 +1,187 @@
+@page
+
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f8fafc;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* 🔥 Glow background effect */
+body::before {
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: #6366f1;
+    filter: blur(120px);
+    opacity: 0.2;
+    top: -100px;
+    left: -100px;
+}
+
+/* 🔥 TEXT VISIBILITY FIX */
+h1, h2, h3, h4, h5, p, span, div {
+    color: #f8fafc !important;
+}
+
+.login-card {
+    width: 400px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Razor fix */
+@@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+    color: #cbd5f5;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    background: #6366f1;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Inputs */
+input {
+    background: rgba(255,255,255,0.08) !important;
+    color: #f8fafc !important;
+    border: 1px solid rgba(255,255,255,0.15) !important;
+    border-radius: 10px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #6366f1 !important;
+    box-shadow: 0 0 10px rgba(99,102,241,0.5);
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #cbd5f5 !important;
+}
+
+/* Buttons */
+.btn-login {
+    background: linear-gradient(45deg, #6366f1, #4f46e5);
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(99,102,241,0.4);
+}
+
+.btn-outline-light {
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.btn-outline-light:hover {
+    background: rgba(255,255,255,0.1);
+}
+
+/* Title */
+h4 {
+    letter-spacing: 1px;
+}
+</style>
+
+<div class="login-card">
+
+<!-- Tabs -->
+
+<ul class="nav nav-tabs mb-3 justify-content-center">
+    <li class="nav-item">
+        <button id="userTab" class="nav-link active" onclick="switchTab('user')">
+            👤 User
+        </button>
+    </li>
+    <li class="nav-item">
+        <button id="adminTab" class="nav-link" onclick="switchTab('admin')">
+            🛠 Admin
+        </button>
+    </li>
+</ul>
+
+<h4 id="title" class="text-center mb-4 fw-bold">User Login</h4>
+
+<input id="username" class="form-control mb-3" placeholder="Username" />
+<input id="password" type="password" class="form-control mb-4" placeholder="Password" />
+
+<button onclick="login()" class="btn btn-login w-100 py-2">
+    🚀 Login
+</button>
+
+<button onclick="goToRegister()" class="btn btn-outline-light w-100 py-2 mt-2">
+    🆕 New User? Register
+</button>
+
+</div>
+
+<script>
+let role = "user";
+
+function switchTab(type){
+    role = type;
+
+    document.getElementById("title").innerText =
+        type === "admin" ? "Admin Login" : "User Login";
+
+    userTab.classList.remove("active");
+    adminTab.classList.remove("active");
+
+    if(type === "admin"){
+        adminTab.classList.add("active");
+    } else {
+        userTab.classList.add("active");
+    }
+}
+
+function login(){
+    let username = document.getElementById("username").value;
+    let password = document.getElementById("password").value;
+
+    fetch("http://localhost:5003/api/auth/login", {
+        method: "POST",
+        headers: {"Content-Type":"application/json"},
+        body: JSON.stringify({ username, password, role })
+    })
+    .then(res => {
+        if(!res.ok){
+            alert("Invalid credentials ❌");
+            return;
+        }
+        return res.json();
+    })
+    .then(data => {
+        localStorage.setItem("token", data.token);
+        localStorage.setItem("username", username);
+        localStorage.setItem("role", role);
+
+        window.location.href = "/Home";
+    });
+}
+
+function goToRegister(){
+    window.location.href = "/Register";
+}
+</script>

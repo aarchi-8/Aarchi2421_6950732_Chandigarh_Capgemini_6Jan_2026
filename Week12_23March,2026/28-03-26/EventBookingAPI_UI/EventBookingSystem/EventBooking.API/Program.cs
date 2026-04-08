@@ -1,5 +1,4 @@
-    using EventBooking.API.Data;
-
+using EventBooking.API.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -8,66 +7,87 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ── Database ────────────────────────────────────────────────────────────────
+// ── Database ─────────────────────────────────────────────
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// ── AutoMapper ──────────────────────────────────────────────────────────────
-builder.Services.AddAutoMapper(System.Reflection.Assembly.GetExecutingAssembly());
 
-// ── JWT Authentication ──────────────────────────────────────────────────────
-var jwtSettings = builder.Configuration.GetSection("JwtSettings");
-var secretKey   = jwtSettings["SecretKey"]!;
+// ── AutoMapper ───────────────────────────────────────────
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
+
+// ── JWT Authentication ───────────────────────────────────
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme    = JwtBearerDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 })
 .AddJwtBearer(options =>
 {
     options.TokenValidationParameters = new TokenValidationParameters
     {
-        ValidateIssuer           = true,
-        ValidateAudience         = true,
-        ValidateLifetime         = true,
+        ValidateIssuer = false,
+        ValidateAudience = false,
+        ValidateLifetime = true,
         ValidateIssuerSigningKey = true,
-        ValidIssuer              = jwtSettings["Issuer"],
-        ValidAudience            = jwtSettings["Audience"],
-        IssuerSigningKey         = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretKey))
+        IssuerSigningKey = new SymmetricSecurityKey(
+            Encoding.UTF8.GetBytes("EventBooking_SuperSecret_Key_2025!@#"))
     };
 });
 
 builder.Services.AddAuthorization();
 
-// ── CORS (allow Razor Pages frontend) ──────────────────────────────────────
+
+// ── CORS ─────────────────────────────────────────────────
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
-        policy.WithOrigins("https://localhost:7200")
-              .AllowAnyHeader()
-              .AllowAnyMethod());
+        policy.WithOrigins(
+                "https://localhost:7011",
+                "http://localhost:5229"
+            )
+            .AllowAnyHeader()
+            .AllowAnyMethod());
 });
 
-// ── Controllers + Swagger ───────────────────────────────────────────────────
+
+// ── Controllers ──────────────────────────────────────────
 builder.Services.AddControllers();
+
+
+// ── Swagger ──────────────────────────────────────────────
 builder.Services.AddEndpointsApiExplorer();
+
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "Event Booking API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "Event Booking API",
+        Version = "v1"
+    });
+
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
-        Name         = "Authorization",
-        Type         = SecuritySchemeType.Http,
-        Scheme       = "Bearer",
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
         BearerFormat = "JWT",
-        In           = ParameterLocation.Header,
-        Description  = "Enter your JWT token (without 'Bearer ' prefix)."
+        In = ParameterLocation.Header,
+        Description = "Enter JWT token"
     });
+
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
         {
-            new OpenApiSecurityScheme { Reference = new OpenApiReference { Type = ReferenceType.SecurityScheme, Id = "Bearer" } },
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
             Array.Empty<string>()
         }
     });
@@ -75,22 +95,42 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-// ── Middleware ──────────────────────────────────────────────────────────────
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
 
-    // Auto-apply migrations in dev
-    using var scope = app.Services.CreateScope();
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-    db.Database.Migrate();
-}
+// ── Middleware ──────────────────────────────────────────
+app.UseDeveloperExceptionPage();
+
+app.UseSwagger();
+
+app.UseSwaggerUI(c =>
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "EventBooking API V1");
+    c.RoutePrefix = "swagger";
+});
 
 app.UseHttpsRedirection();
+
 app.UseCors("AllowFrontend");
+
 app.UseAuthentication();
+
 app.UseAuthorization();
+
 app.MapControllers();
+
+
+// ── Database Migration (Optional) ───────────────────────
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+
+    try
+    {
+        db.Database.Migrate();
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("Database Migration Error: " + ex.Message);
+    }
+}
 
 app.Run();

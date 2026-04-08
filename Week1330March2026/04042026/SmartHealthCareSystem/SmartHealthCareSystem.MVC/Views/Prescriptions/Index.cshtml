@@ -1,0 +1,51 @@
+@model List<SmartHealthCareSystem.Shared.DTOs.PrescriptionDto>
+
+@{
+    ViewData["Title"] = "Prescriptions";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2>Prescriptions</h2>
+        <p class="text-muted">Review patient prescriptions and treatment plans.</p>
+    </div>
+    <a asp-action="Create" class="btn btn-primary">New Prescription</a>
+</div>
+
+<table class="table table-hover table-bordered align-middle">
+    <thead class="table-light">
+        <tr>
+            <th>#</th>
+            <th>Appointment</th>
+            <th>Diagnosis</th>
+            <th>Medicines</th>
+            <th>Notes</th>
+            <th class="text-end">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="6" class="text-center text-muted">No prescriptions are available yet. Add a prescription or refresh after seeding sample data.</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var prescription in Model)
+            {
+                <tr>
+                    <td>@prescription.PrescriptionId</td>
+                    <td>@prescription.AppointmentId</td>
+                    <td>@prescription.Diagnosis</td>
+                    <td>@prescription.Medicines</td>
+                    <td>@prescription.Notes</td>
+                    <td class="text-end">
+                        <a asp-action="Edit" asp-route-id="@prescription.PrescriptionId" class="btn btn-sm btn-outline-secondary me-2">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@prescription.PrescriptionId" class="btn btn-sm btn-outline-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

@@ -1,0 +1,20 @@
+@model SmartHealthCareSystem.Shared.DTOs.DepartmentDto
+
+@{
+    ViewData["Title"] = "Delete Department";
+}
+
+<h2 class="text-danger">Delete Department</h2>
+<p class="text-muted">Confirm deletion for the selected department.</p>
+
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <h5 class="card-title">@Model.DepartmentName</h5>
+        <p class="card-text">@Model.Description</p>
+    </div>
+</div>
+
+<form asp-action="Delete" asp-route-id="@Model.DepartmentId" method="post">
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+</form>

@@ -3,7 +3,7 @@
  * Fetches from api/events (public) and posts to api/bookings (JWT required).
  */
 
-const API_BASE = 'https://localhost:7676';
+const API_BASE = 'https://localhost:7777';
 let allEvents  = [];
 let selectedEvent = null;
 

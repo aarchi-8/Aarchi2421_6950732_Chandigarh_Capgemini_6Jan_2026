@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <UseSharedCompilation>true</UseSharedCompilation>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+    <IntermediateOutputPath>obj\Debug\$(TargetFramework)\</IntermediateOutputPath>
+    <MSBuildIntermediateOutputPath>obj\Debug\$(TargetFramework)\</MSBuildIntermediateOutputPath>
+    <OutputPath>bin\Debug\$(TargetFramework)\</OutputPath>
+  </PropertyGroup>
+</Project>

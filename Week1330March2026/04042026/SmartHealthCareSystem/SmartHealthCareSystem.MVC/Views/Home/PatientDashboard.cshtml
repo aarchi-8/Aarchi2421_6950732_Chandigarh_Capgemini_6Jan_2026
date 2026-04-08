@@ -1,0 +1,251 @@
+@{
+    ViewData["Title"] = "Patient Dashboard";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>✅ @TempData["SuccessMessage"]</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>❌ @TempData["ErrorMessage"]</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+    </div>
+}
+
+<div class="container-fluid pt-4">
+    <!-- Header -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h2 class="text-primary-blue">
+                <i class="fas fa-user-heart"></i> Welcome, @ViewBag.PatientName
+            </h2>
+            <p style="color: #666;">Your Health Dashboard - Manage Your Care</p>
+        </div>
+        <div class="col-md-6 text-end">
+            <div style="background-color: #cff0fc; padding: 15px; border-radius: 8px;">
+                <small style="color: #666;">Your Health Status</small><br/>
+                <strong style="font-size: 1.2rem; color: #00569e;">✓ Normal</strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Health Metrics -->
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="card" style="border-left: 5px solid #28a745;">
+                <div class="card-body">
+                    <h6 class="card-title" style="color: #666;">Last Checkup</h6>
+                    <h4 style="color: #28a745; font-weight: 700;">5 days ago</h4>
+                    <small style="color: #999;">✓ All results normal</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="border-left: 5px solid #0096d1;">
+                <div class="card-body">
+                    <h6 class="card-title" style="color: #666;">Active Prescriptions</h6>
+                    <h3 style="color: #0096d1; font-weight: 700;">2</h3>
+                    <small style="color: #999;">💊 Continue taking</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="border-left: 5px solid #ffc107;">
+                <div class="card-body">
+                    <h6 class="card-title" style="color: #666;">Pending Bills</h6>
+                    <h3 style="color: #ff9800; font-weight: 700;">$490</h3>
+                    <small style="color: #999;">📋 2 invoices due</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card" style="border-left: 5px solid #00a8e8;">
+                <div class="card-body">
+                    <h6 class="card-title" style="color: #666;">Insurance Status</h6>
+                    <h4 style="color: #00a8e8; font-weight: 700;">Active</h4>
+                    <small style="color: #999;">✓ Coverage active</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="row">
+        <!-- Appointments & Prescriptions -->
+        <div class="col-lg-8">
+            <!-- Upcoming Appointments -->
+            <div class="card mb-4">
+                <div class="card-header" style="background-color: #f8f9fa; border-bottom: 2px solid #cff0fc;">
+                    <h5 class="mb-0">📅 Upcoming Appointments</h5>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead>
+                            <tr>
+                                <th>Date</th>
+                                <th>Doctor</th>
+                                <th>Diagnosis</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (ViewBag.UpcomingAppointments != null && ((List<SmartHealthCareSystem.Shared.DTOs.AppointmentDto>)ViewBag.UpcomingAppointments).Any())
+                            {
+                                foreach (var appointment in (List<SmartHealthCareSystem.Shared.DTOs.AppointmentDto>)ViewBag.UpcomingAppointments)
+                                {
+                                    <tr>
+                                        <td>@appointment.AppointmentDate.ToString("ddd, MMM d yyyy h:mm tt")</td>
+                                        <td>Dr. @appointment.DoctorName</td>
+                                        <td>@(!string.IsNullOrEmpty(appointment.Diagnosis) ? appointment.Diagnosis : "General consultation")</td>
+                                        <td>
+                                            <span class="badge" style="background-color: @(appointment.Status == "Completed" ? "#28a745" : appointment.Status == "Booked" ? "#00a8e8" : "#ffc107"); color: white; padding: 6px 12px;">
+                                                @appointment.Status
+                                            </span>
+                                        </td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="4" class="text-center text-muted py-4">
+                                        No upcoming appointments yet. Book one now and take control of your care.
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Active Prescriptions -->
+            <div class="card">
+                <div class="card-header" style="background-color: #f8f9fa; border-bottom: 2px solid #cff0fc;">
+                    <h5 class="mb-0">💊 Your Active Prescriptions</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <div class="p-3 rounded" style="background-color: #f0f8ff; border-left: 4px solid #1976d2;">
+                                <h6 class="fw-bold text-primary-blue">Hypertension (High Blood Pressure)</h6>
+                                <p class="mb-1"><strong>Prescribed by:</strong> Dr. Jane Carter</p>
+                                <p class="mb-1"><strong>Medicines:</strong> Amlodipine 5mg daily + Metoprolol 50mg twice daily</p>
+                                <p class="text-muted mb-0">Follow up in 2 weeks. Reduce salt intake and stay active.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="p-3 rounded" style="background-color: #fff8f0; border-left: 4px solid #ff9800;">
+                                <h6 class="fw-bold text-warning">Type 2 Diabetes Mellitus</h6>
+                                <p class="mb-1"><strong>Prescribed by:</strong> Dr. Sarah Johnson</p>
+                                <p class="mb-1"><strong>Medicines:</strong> Metformin 500mg twice daily + Lisinopril 10mg once daily</p>
+                                <p class="text-muted mb-0">Monitor glucose levels and follow dietary recommendations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <div class="col-lg-4">
+            <!-- Outstanding Bills -->
+            <div class="card mb-4">
+                <div class="card-header" style="background-color: #fff8f0; border-bottom: 2px solid #ffcccc;">
+                    <h5 class="mb-0">💰 Outstanding Bills</h5>
+                </div>
+                <form asp-action="PayBills" asp-controller="Home" method="post">
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0" style="font-size: 0.9rem;">
+                            <thead>
+                                <tr>
+                                    <th>Patient</th>
+                                    <th>Doctor</th>
+                                    <th>Diagnosis</th>
+                                    <th class="text-end">Amount</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (ViewBag.OutstandingBills != null && ((List<SmartHealthCareSystem.Shared.DTOs.BillDto>)ViewBag.OutstandingBills).Any())
+                                {
+                                    foreach (var bill in (List<SmartHealthCareSystem.Shared.DTOs.BillDto>)ViewBag.OutstandingBills)
+                                    {
+                                        <tr>
+                                            <td>@bill.PatientName</td>
+                                            <td>Dr. @bill.DoctorName</td>
+                                            <td>@(!string.IsNullOrEmpty(bill.Diagnosis) ? bill.Diagnosis : "General care")</td>
+                                            <td class="text-end">@bill.TotalAmount.ToString("C")</td>
+                                        </tr>
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="4" class="text-center text-muted py-4">
+                                            No unpaid bills found. Great job staying on top of your payments.
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer text-end">
+                        <button type="submit" class="btn btn-primary" style="background-color: #00a8e8; border: none; font-weight: 600;">
+                            💳 Pay All Due Bills
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="card mb-4">
+                <div class="card-header" style="background-color: #f8f9fa;">
+                    <h5 class="mb-0">⚡ Quick Actions</h5>
+                </div>
+                <div class="card-body">
+                    <a asp-action="BookAppointment" asp-controller="Home" class="btn btn-primary w-100 mb-2" style="background-color: #00a8e8; border: none; font-weight: 600; text-decoration: none; display: inline-block; text-align: center;">
+                        📅 Book New Appointment
+                    </a>
+                    <a asp-action="Statements" asp-controller="Bills" class="btn btn-outline-primary w-100 mb-2" style="color: #00a8e8; border: 2px solid #00a8e8; font-weight: 600; text-decoration: none; display: inline-block; text-align: center;">
+                        📊 Billing Statements
+                    </a>
+                    <button class="btn btn-outline-primary w-100 mb-2" style="color: #00a8e8; border: 2px solid #00a8e8; font-weight: 600;">
+                        📋 Medical History
+                    </button>
+                    <button class="btn btn-outline-primary w-100 mb-2" style="color: #00a8e8; border: 2px solid #00a8e8; font-weight: 600;">
+                        📞 Contact Doctor
+                    </button>
+                    <button class="btn btn-outline-primary w-100" style="color: #00a8e8; border: 2px solid #00a8e8; font-weight: 600;">
+                        ⚙️ Account Settings
+                    </button>
+                </div>
+            </div>
+
+            <!-- Health Tips -->
+            <div class="card">
+                <div class="card-header" style="background-color: #f0f8ff;">
+                    <h5 class="mb-0">💡 Health Tips</h5>
+                </div>
+                <div class="card-body" style="font-size: 0.9rem;">
+                    <div style="margin-bottom: 15px; padding: 10px; background-color: #e8f5e9; border-radius: 6px; border-left: 4px solid #4caf50;">
+                        <strong style="color: #2e7d32;">💧 Stay Hydrated</strong><br/>
+                        <small style="color: #666;">Drink at least 8 glasses of water daily</small>
+                    </div>
+                    <div style="margin-bottom: 15px; padding: 10px; background-color: #e3f2fd; border-radius: 6px; border-left: 4px solid #1976d2;">
+                        <strong style="color: #0d47a1;">🏃 Exercise Regularly</strong><br/>
+                        <small style="color: #666;">30 minutes of moderate activity daily</small>
+                    </div>
+                    <div style="padding: 10px; background-color: #fff3e0; border-radius: 6px; border-left: 4px solid #f57c00;">
+                        <strong style="color: #e65100;">🥗 Healthy Diet</strong><br/>
+                        <small style="color: #666;">Follow your doctor's dietary recommendations</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

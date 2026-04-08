@@ -1,0 +1,82 @@
+@using SmartHealthCareSystem.Shared.DTOs;
+@model List<AppointmentDto>
+
+@{
+    ViewData["Title"] = "Manage Appointments";
+}
+
+<div class="container-fluid mt-4">
+    <h2 class="text-primary-blue mb-4">Appointments Management</h2>
+
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">All Scheduled Appointments</h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Patient</th>
+                        <th>Doctor</th>
+                        <th>Date & Time</th>
+                        <th>Status</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        @foreach (var apt in Model)
+                        {
+                            var statusColor = apt.Status == "Completed" ? "success" : apt.Status == "Booked" ? "info" : "warning";
+                            <tr>
+                                <td><strong>@(Model.IndexOf(apt) + 1)</strong></td>
+                                <td>
+                                    <div style="font-weight: 700; color: #00569e;">
+                                        @apt.PatientName
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="font-weight: 700; color: #0096d1;">
+                                        @apt.DoctorName
+                                    </div>
+                                </td>
+                                <td>
+                                    <span style="background-color: #cff0fc; padding: 5px 10px; border-radius: 4px;">
+                                        @apt.AppointmentDate.ToString("dd MMM yyyy HH:mm")
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="badge badge-@statusColor" style="padding: 6px 12px; font-weight: 700;">
+                                        @apt.Status
+                                    </span>
+                                </td>
+                                <td>
+                                    <small style="color: #666;">30 minutes</small>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center text-muted py-4">
+                                No appointments found
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        @if (Model != null && Model.Count > 0)
+        {
+            <div class="card-footer text-muted">
+                <small>Total Appointments: <strong>@Model.Count</strong> | 
+                Completed: <strong>@Model.Count(a => a.Status == "Completed")</strong> | 
+                Scheduled: <strong>@Model.Count(a => a.Status == "Booked" || a.Status == "Scheduled")</strong>
+                </small>
+            </div>
+        }
+    </div>
+</div>

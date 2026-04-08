@@ -3,7 +3,7 @@
  * Loads bookings from api/bookings (JWT required) and handles cancellation.
  */
 
-const API_BASE = 'https://localhost:7676';
+const API_BASE = 'https://localhost:7777';
 let cancelTargetId = null;
 
 async function loadBookings() {
@@ -47,7 +47,7 @@ function renderBookings(bookings) {
     const tbody = document.getElementById('bookingsTableBody');
 
     tbody.innerHTML = bookings.map(b => {
-        const eventDate = new Date(b.eventDate).toLocaleDateString('en-IN', { dateStyle: 'medium' });
+        const eventDate  = new Date(b.eventDate).toLocaleDateString('en-IN', { dateStyle: 'medium' });
         const bookedDate = new Date(b.bookedAt).toLocaleDateString('en-IN', { dateStyle: 'short' });
         const statusClass = b.status === 'Confirmed' ? 'status-confirmed' : 'status-cancelled';
 
@@ -91,7 +91,7 @@ document.getElementById('confirmCancelBtn').addEventListener('click', async () =
 
     try {
         const res = await fetch(`${API_BASE}/api/bookings/${cancelTargetId}`, {
-            method: 'DELETE',
+            method:  'DELETE',
             headers: TokenStore.headers()
         });
 

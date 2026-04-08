@@ -4,7 +4,7 @@
 --  Target:     SQL Server / LocalDB
 -- ============================================================
 
-USE EventBookingDB;
+USE EventBookingDBAPI;
 GO
 
 -- Clear existing seed data (safe to re-run)

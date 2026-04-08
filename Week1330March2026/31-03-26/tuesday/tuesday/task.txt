@@ -1,0 +1,175 @@
+FULL HANDS-ON CASE STUDY QUESTION
+Project: Build an Online Learning Platform API + Frontend
+ 
+BUSINESS SCENARIO
+You are working for a company similar to Udemy.
+The company wants a mini learning platform where:
+• Students can enroll in courses
+• Instructors can create courses
+• Admin can manage the system
+ 
+OBJECTIVE
+Build a full-stack solution using:
+Frontend: HTML + CSS + JavaScript
+Backend: ASP.NET Core Web API (.NET 9)
+Database: SQL Server with EF Core
+Security: JWT Authentication
+Architecture: DTO + AutoMapper
+Performance: Caching
+Validation: Client + Server
+ 
+PART 1: DATABASE DESIGN (MANDATORY)
+Design database using EF Core with:
+Entities
+1. User
+2. Profile
+3. Course
+4. Lesson
+5. Enrollment
+ 
+Relationships (VERY IMPORTANT)
+One-to-One
+User ↔ Profile
+One-to-Many
+Course → Lessons
+Many-to-Many
+User ↔ Course (Enrollment)
+ 
+TASK 1
+Create models with proper relationships
+Configure using Fluent API
+ 
+PART 2: AUTHENTICATION (JWT)
+TASK 2
+Create Auth API:
+• Register User
+• Login User → Return JWT Token
+Token must include:
+• Username
+• Role (Student / Instructor / Admin)
+ 
+PART 3: ROUTING DESIGN
+TASK 3
+Design REST APIs using Attribute Routing
+Required APIs:
+Feature
+Method
+Route
+Register
+POST
+/api/auth/register
+Login
+POST
+/api/auth/login
+Get all courses
+GET
+/api/v1/courses
+Get course by id
+GET
+/api/v1/courses/{id}
+Get by category
+GET
+/api/v1/courses/category/{name}
+Create course
+POST
+/api/v1/courses
+Add lesson
+POST
+/api/v1/courses/{id}/lessons
+Enroll course
+POST
+/api/v1/enroll
+ 
+PART 4: AUTHORIZATION
+TASK 4
+Apply role-based security:
+Role
+Access
+Student
+View + Enroll
+Instructor
+Create Course
+Admin
+Full Access
+Use:
+[Authorize(Roles = "Instructor")]
+ 
+PART 5: DTO + AUTOMAPPER
+TASK 5
+Create DTOs:
+• CourseDto
+• LessonDto
+• UserDto
+Use AutoMapper:
+• Convert DTO ↔ Entity
+• Prevent over-posting
+ 
+PART 6: CACHING
+TASK 6
+Implement caching for:
+• Get all courses API
+Cache time:
+• 5 minutes
+Use:
+• IMemoryCache
+ 
+PART 7: SERVER-SIDE VALIDATION
+TASK 7
+Apply validation:
+Examples:
+• Course Title → Required
+• Email → Valid format
+• Password → Minimum 6 chars
+Return proper errors:
+{
+ "error": "Title is required"
+}
+ 
+PART 8: FRONTEND (HTML + JS)
+TASK 8
+Create simple UI:
+Pages:
+1. Login Page
+2. Course List Page
+3. Create Course Page
+ 
+Requirements
+Client-side validation:
+• Empty fields check
+• Email format
+API Integration:
+• Fetch API / Axios
+• Store JWT in localStorage
+ 
+PART 9: TESTING
+TASK 9
+Write Unit Tests using:
+• xUnit
+• InMemory Database
+Test cases:
+• Get Course by Id
+• Create Course
+• Invalid Model
+ 
+PART 10: ERROR HANDLING
+TASK 10
+Handle errors globally:
+• 404 Not Found
+• 400 Bad Request
+• 500 Server Error
+ 
+BONUS TASKS (ADVANCED)
+Add:
+• Pagination (GET /courses?page=1&pageSize=10)
+• Search (by course title)
+• Logging (Serilog)
+• Refresh Token
+ 
+EXPECTED OUTPUT
+Backend
+• Fully working Web API
+• Secure endpoints
+• Clean architecture
+Frontend
+• Functional UI
+• API integration working

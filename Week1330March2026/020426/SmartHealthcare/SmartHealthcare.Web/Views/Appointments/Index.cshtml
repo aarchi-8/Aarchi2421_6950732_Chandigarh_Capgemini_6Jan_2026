@@ -1,0 +1,118 @@
+@using SmartHealthcare.Models.DTOs
+@{
+    ViewData["Title"] = "My Appointments";
+}
+
+@model IEnumerable<AppointmentDTO>
+
+<div class="dashboard-header">
+    <h1>📅 My Appointments</h1>
+    <p>Your scheduled appointments with doctors</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        @if (Model != null && Model.Any())
+        {
+            <!-- Upcoming Appointments -->
+            <h2 style="color: #8b5fa3; margin-top: 2rem;">Upcoming Appointments</h2>
+            <div class="table-responsive">
+                <table class="table" style="border-collapse: collapse;">
+                    <thead style="background: linear-gradient(135deg, #c89cd4 0%, #8b5fa3 100%); color: white;">
+                        <tr>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Date & Time</th>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Doctor</th>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Reason</th>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Status</th>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var apt in Model.Where(a => a.Status?.ToLower() == "scheduled" || a.Status?.ToLower() == "pending" || (DateTime.TryParse(a.AppointmentDate.ToString(), out var date) && date > DateTime.Now)))
+                        {
+                            <tr style="border-bottom: 1px solid #e0c5d8; hover: background-color: #f5e6f0;">
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    <strong>@(apt?.AppointmentDate.ToString("dd MMM yyyy") ?? "N/A")</strong><br/>
+                                    <small style="color: #999;">@(apt?.AppointmentDate.ToString("hh:mm tt") ?? "N/A")</small>
+                                </td>
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    <strong>Dr. @(apt?.DoctorName ?? "Unknown")</strong>
+                                </td>
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    @(apt?.Reason ?? "N/A")
+                                </td>
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    <span class="badge" style="background-color: #28a745; color: white; padding: 5px 10px;">
+                                        @(apt?.Status ?? "Pending")
+                                    </span>
+                                </td>
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    <a href="/Appointments/Details/@apt?.AppointmentId" class="btn btn-sm btn-primary-custom" style="padding: 5px 10px; font-size: 0.85rem;">
+                                        View Details
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Completed/Cancelled Appointments -->
+            @if (Model.Any(a => a.Status?.ToLower() == "completed" || a.Status?.ToLower() == "cancelled"))
+            {
+                <h2 style="color: #8b5fa3; margin-top: 2rem;">Past Appointments</h2>
+                <div class="table-responsive">
+                    <table class="table" style="border-collapse: collapse;">
+                        <thead style="background: linear-gradient(135deg, #c89cd4 0%, #8b5fa3 100%); color: white;">
+                            <tr>
+                                <th style="padding: 12px; border: 1px solid #a8d5ba;">Date & Time</th>
+                                <th style="padding: 12px; border: 1px solid #a8d5ba;">Doctor</th>
+                                <th style="padding: 12px; border: 1px solid #a8d5ba;">Reason</th>
+                                <th style="padding: 12px; border: 1px solid #a8d5ba;">Status</th>
+                                <th style="padding: 12px; border: 1px solid #a8d5ba;">Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var apt in Model.Where(a => a.Status?.ToLower() == "completed" || a.Status?.ToLower() == "cancelled"))
+                            {
+                                <tr style="border-bottom: 1px solid #e0c5d8; opacity: 0.8;">
+                                    <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                        <strong>@(apt?.AppointmentDate.ToString("dd MMM yyyy") ?? "N/A")</strong><br/>
+                                        <small style="color: #999;">@(apt?.AppointmentDate.ToString("hh:mm tt") ?? "N/A")</small>
+                                    </td>
+                                    <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                        <strong>Dr. @(apt?.DoctorName ?? "Unknown")</strong>
+                                    </td>
+                                    <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                        @(apt?.Reason ?? "N/A")
+                                    </td>
+                                    <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                        <span class="badge" style="background-color: @(apt?.Status?.ToLower() == "completed" ? "#6c757d" : "#dc3545"); color: white; padding: 5px 10px;">
+                                            @(apt?.Status ?? "Unknown")
+                                        </span>
+                                    </td>
+                                    <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                        @(apt?.Notes ?? "-")
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="alert alert-info" style="background-color: #d4e9f2; border: 1px solid #a8d5ba; color: #0066cc; padding: 15px; margin-top: 2rem;">
+                <h5>No appointments yet</h5>
+                <p>You haven't booked any appointments. <a href="/Appointments/Book" class="alert-link">Book your first appointment now!</a></p>
+            </div>
+        }
+
+        <!-- Action Buttons -->
+        <div style="margin-top: 2rem;">
+            <a href="/Appointments/Book" class="btn btn-primary-custom" style="margin-right: 10px;">+ Book New Appointment</a>
+            <a href="/" class="btn btn-secondary" style="background-color: #c89cd4; border: none;">← Back to Dashboard</a>
+        </div>
+    </div>
+</div>

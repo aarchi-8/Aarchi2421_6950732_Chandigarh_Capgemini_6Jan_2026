@@ -1,0 +1,78 @@
+@using SmartHealthCareSystem.Shared.DTOs;
+@model List<DoctorDto>
+
+@{
+    ViewData["Title"] = "Manage Doctors";
+}
+
+<div class="container-fluid mt-4">
+    <div class="d-flex align-items-center justify-content-between mb-4">
+        <h2 class="text-primary-blue mb-0">⚕️ Doctors Management</h2>
+        <a asp-controller="Doctors" asp-action="Create" class="btn btn-primary">+ Add New Doctor</a>
+    </div>
+
+    <div class="card">
+        <div class="card-header d-flex align-items-center justify-content-between">
+            <h5 class="mb-0">All Doctors in Hospital</h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Department & Specialization</th>
+                        <th>Experience</th>
+                        <th>Availability</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        @foreach (var doctor in Model)
+                        {
+                            <tr>
+                                <td><strong>@(Model.IndexOf(doctor) + 1)</strong></td>
+                                <td><strong>@(string.IsNullOrEmpty(doctor.FullName) ? "Unknown Doctor" : doctor.FullName)</strong></td>
+                                <td><a href="mailto:@doctor.Email">@doctor.Email</a></td>
+                                <td>
+                                    <div>
+                                        <span class="badge bg-info text-white" style="font-weight: 600;">
+                                            @doctor.DepartmentName
+                                        </span>
+                                    </div>
+                                    <small class="text-muted">@doctor.Specialization</small>
+                                </td>
+                                <td>
+                                    <span style="background-color: #cff0fc; padding: 5px 10px; border-radius: 4px;">
+                                        @doctor.ExperienceYears years
+                                    </span>
+                                </td>
+                                <td>
+                                    <small style="color: #666;">
+                                        @(string.IsNullOrEmpty(doctor.Availability) ? "Not set" : doctor.Availability)
+                                    </small>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="7" class="text-center text-muted py-4">
+                                No doctors found
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        @if (Model != null && Model.Count > 0)
+        {
+            <div class="card-footer text-muted">
+                <small>Total Doctors: <strong>@Model.Count</strong></small>
+            </div>
+        }
+    </div>
+</div>

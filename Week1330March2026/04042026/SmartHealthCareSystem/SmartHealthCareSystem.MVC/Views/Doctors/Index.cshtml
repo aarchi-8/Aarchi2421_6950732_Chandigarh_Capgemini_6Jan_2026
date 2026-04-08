@@ -1,0 +1,53 @@
+@model List<SmartHealthCareSystem.Shared.DTOs.DoctorDto>
+
+@{
+    ViewData["Title"] = "Doctors";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2>Doctors</h2>
+        <p class="text-muted">Doctor profiles, specialties, and department assignments.</p>
+    </div>
+    <a asp-action="Create" class="btn btn-primary">Add Doctor</a>
+</div>
+
+<table class="table table-hover table-bordered align-middle">
+    <thead class="table-light">
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Department</th>
+            <th>Specialization</th>
+            <th>Availability</th>
+            <th class="text-end">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="7" class="text-center text-muted">No doctor records available yet. Please add a doctor or refresh after seeding.</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var doctor in Model)
+            {
+                <tr>
+                    <td>@doctor.DoctorId</td>
+                    <td>@doctor.FullName</td>
+                    <td>@doctor.Email</td>
+                    <td>@doctor.DepartmentName</td>
+                    <td>@doctor.Specialization</td>
+                    <td>@doctor.Availability</td>
+                    <td class="text-end">
+                        <a asp-action="Edit" asp-route-id="@doctor.DoctorId" class="btn btn-sm btn-outline-secondary me-2">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@doctor.DoctorId" class="btn btn-sm btn-outline-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

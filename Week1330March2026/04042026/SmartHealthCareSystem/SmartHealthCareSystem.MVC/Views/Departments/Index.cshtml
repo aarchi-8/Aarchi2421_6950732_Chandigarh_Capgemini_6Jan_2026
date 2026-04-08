@@ -1,0 +1,47 @@
+@model List<SmartHealthCareSystem.Shared.DTOs.DepartmentDto>
+
+@{
+    ViewData["Title"] = "Departments";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <div>
+        <h2>Departments</h2>
+        <p class="text-muted">Manage hospital departments and service areas.</p>
+    </div>
+    <a asp-action="Create" class="btn btn-primary">Create Department</a>
+</div>
+
+<table class="table table-hover table-bordered align-middle">
+    <thead class="table-light">
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th class="text-end">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (!Model.Any())
+        {
+            <tr>
+                <td colspan="4" class="text-center text-muted">No departments found. Please create a new department or refresh after seeding.</td>
+            </tr>
+        }
+        else
+        {
+            @foreach (var department in Model)
+            {
+                <tr>
+                    <td>@department.DepartmentId</td>
+                    <td>@department.DepartmentName</td>
+                    <td>@department.Description</td>
+                    <td class="text-end">
+                        <a asp-action="Edit" asp-route-id="@department.DepartmentId" class="btn btn-sm btn-outline-secondary me-2">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@department.DepartmentId" class="btn btn-sm btn-outline-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

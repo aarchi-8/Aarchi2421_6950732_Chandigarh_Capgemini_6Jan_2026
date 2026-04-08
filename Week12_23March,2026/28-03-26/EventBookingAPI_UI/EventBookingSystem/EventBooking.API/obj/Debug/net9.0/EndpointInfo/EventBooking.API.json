@@ -498,7 +498,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "http",
-        "description": "Enter your JWT token (without 'Bearer ' prefix).",
+        "description": "Enter JWT token",
         "scheme": "Bearer",
         "bearerFormat": "JWT"
       }

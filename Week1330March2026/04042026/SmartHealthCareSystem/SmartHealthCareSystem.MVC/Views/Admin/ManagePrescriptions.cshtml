@@ -1,0 +1,80 @@
+@using SmartHealthCareSystem.Shared.DTOs;
+@model List<PrescriptionDto>
+
+@{
+    ViewData["Title"] = "Manage Prescriptions";
+}
+
+<div class="container-fluid mt-4">
+    <h2 class="text-primary-blue mb-4">Prescriptions Management</h2>
+
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">All Patient Prescriptions</h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Diagnosis/Disease</th>
+                        <th>Medicines Prescribed</th>
+                        <th>Treatment Notes</th>
+                        <th>Follow-up</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        @foreach (var rx in Model)
+                        {
+                            <tr>
+                                <td><strong>@(Model.IndexOf(rx) + 1)</strong></td>
+                                <td>
+                                    <span style="background-color: #ffe6e6; padding: 8px 12px; border-radius: 6px; font-weight: 600; color: #d32f2f;">
+                                        🔴 @rx.Diagnosis
+                                    </span>
+                                </td>
+                                <td>
+                                    <div style="background-color: #e8f5e9; padding: 8px 12px; border-radius: 6px; border-left: 4px solid #4caf50;">
+                                        <strong>Medicines:</strong><br/>
+                                        <small>@rx.Medicines</small>
+                                    </div>
+                                </td>
+                                <td>
+                                    <small style="color: #666; font-style: italic;">
+                                        📝 @rx.Notes
+                                    </small>
+                                </td>
+                                <td>
+                                    @{
+                                        var followUpText = rx.Notes?.Contains("Follow up in") == true 
+                                            ? (rx.Notes.Contains("2 weeks") ? "2 Weeks" : rx.Notes.Contains("1 week") ? "1 Week" : "As Advised")
+                                            : "As Needed";
+                                    }
+                                    <span class="badge" style="background-color: #4fb3d9; padding: 6px 12px;">
+                                        Follow-up @followUpText
+                                    </span>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center text-muted py-4">
+                                No prescriptions found
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        @if (Model != null && Model.Count > 0)
+        {
+            <div class="card-footer text-muted">
+                <small>Total Prescriptions: <strong>@Model.Count</strong></small>
+            </div>
+        }
+    </div>
+</div>

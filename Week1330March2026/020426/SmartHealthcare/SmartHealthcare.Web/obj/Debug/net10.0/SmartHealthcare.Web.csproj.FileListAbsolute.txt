@@ -1,0 +1,228 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\appsettings.Development.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\appsettings.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.staticwebassets.runtime.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.staticwebassets.endpoints.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.exe
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.runtimeconfig.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Newtonsoft.Json.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Models.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Models.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.csproj.AssemblyReference.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\rpswa.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.MvcApplicationPartsAssemblyInfo.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.RazorAssemblyInfo.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.RazorAssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.sourcelink.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\rjimswa.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\scopedcss\bundle\SmartHealthcare.Web.styles.css
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\scopedcss\projectbundle\SmartHealthcare.Web.bundle.scp.css
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\2icoju12br-{0}-b9sayid5wm-b9sayid5wm.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\a17prqiwcd-{0}-61n19gt1b8-61n19gt1b8.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\062h6b1y6t-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\7mhnquvday-{0}-bqjiyaj88i-bqjiyaj88i.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\31hwkxrzgi-{0}-c2jlpeoesf-c2jlpeoesf.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\pcj9vwcs9r-{0}-erw9l3u2r3-erw9l3u2r3.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\0hhmvmoedf-{0}-aexeepp0ev-aexeepp0ev.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\20fnrdvkvv-{0}-d7shbmvgxk-d7shbmvgxk.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\4qc6ur91b2-{0}-ausgxo2sd3-ausgxo2sd3.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\7d0ztlt1tn-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\1x2r2wgs05-{0}-cosvhxvwiu-cosvhxvwiu.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\yq6i4031ri-{0}-ub07r2b239-ub07r2b239.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\dutilhyw36-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ydkse9ewlf-{0}-b7pk76d08c-b7pk76d08c.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ob9yjtxtdk-{0}-fsbi9cje9m-fsbi9cje9m.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\au2c5jmumw-{0}-rzd6atqjts-rzd6atqjts.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\whr0g7ct0x-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\7qlokqacj9-{0}-dxx9fxp4il-dxx9fxp4il.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\nzizrgnnek-{0}-jd9uben2k1-jd9uben2k1.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\k6gu7ezksa-{0}-khv3u5hwcm-khv3u5hwcm.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\sou9ilafki-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\0w9netve5i-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\cir4d8mqou-{0}-c2oey78nd0-c2oey78nd0.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\5ragrx4gjz-{0}-tdbxkamptv-tdbxkamptv.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\1hpngz17ds-{0}-j5mq2jizvt-j5mq2jizvt.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\istsh5300u-{0}-06098lyss8-06098lyss8.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\rsy93848ig-{0}-nvvlpmu67g-nvvlpmu67g.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\wgbv7wgbvt-{0}-s35ty4nyc5-s35ty4nyc5.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\87z6nwd3ty-{0}-pj5nd1wqec-pj5nd1wqec.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\5rvxqd0ix7-{0}-46ein0sx1k-46ein0sx1k.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\0vj3gs77m3-{0}-v0zj4ognzu-v0zj4ognzu.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\megys8c391-{0}-37tfw0ft22-37tfw0ft22.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ehwdpxu2v6-{0}-hrwsygsryq-hrwsygsryq.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ldl3euc6q4-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\rezo7nh7nb-{0}-ft3s53vfgj-ft3s53vfgj.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\whz7nrwy28-{0}-6cfz1n2cew-6cfz1n2cew.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\8pjczi5c0n-{0}-6pdc2jztkx-6pdc2jztkx.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\uh9w515jcd-{0}-493y06b0oq-493y06b0oq.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\d5xtinxehb-{0}-iovd86k7lj-iovd86k7lj.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\45pkolkxhp-{0}-vr1egmr9el-vr1egmr9el.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\287enwyz7a-{0}-kbrnm935zg-kbrnm935zg.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\swdvdc1t66-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\eijoapdohs-{0}-y7v9cxd14o-y7v9cxd14o.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\qq7rzzftcj-{0}-notf2xhcfb-notf2xhcfb.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\m0hk84ecuu-{0}-h1s4sie4z3-h1s4sie4z3.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\9q2m84btql-{0}-63fj8s7r0e-63fj8s7r0e.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\z9x6mcautc-{0}-0j3bgjxly4-0j3bgjxly4.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\sgp151wtom-{0}-47otxtyo56-47otxtyo56.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\opa14iq1rn-{0}-4v8eqarkd7-4v8eqarkd7.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\6eahsgk6d3-{0}-356vix0kms-356vix0kms.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\fpgwzpk56q-{0}-83jwlth58m-83jwlth58m.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\m83k87fqmt-{0}-mrlpezrjn3-mrlpezrjn3.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\pcjh6xoemh-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\2jbop2pu3r-{0}-ag7o75518u-ag7o75518u.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ps7upx5xs1-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\54m1r3yldw-{0}-0i3buxo5is-0i3buxo5is.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\oofmrq7l2c-{0}-o1o13a6vjx-o1o13a6vjx.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\lbrbi5eoke-{0}-ttgo8qnofa-ttgo8qnofa.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\668l7zlzym-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\83h9h1kf0g-{0}-muycvpuwrr-muycvpuwrr.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\vndlcax4j7-{0}-87fc7y1x7t-87fc7y1x7t.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\li4zinxtpu-{0}-mlv21k5csn-mlv21k5csn.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\d4l6xg77oa-{0}-fwov7xz7ma-fwov7xz7ma.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\jgajamoogv-{0}-fwov7xz7ma-fwov7xz7ma.gz
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\staticwebassets.build.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\staticwebassets.build.json.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\staticwebassets.development.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\swae.build.ex.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHea.3FD70B28.Up2Date
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\refint\SmartHealthcare.Web.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.genruntimeconfig.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\ref\SmartHealthcare.Web.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\qkzrklln5j-{0}-0vwg4jo023-0vwg4jo023.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\appsettings.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.staticwebassets.runtime.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.staticwebassets.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.exe
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.deps.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.runtimeconfig.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Web.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Models.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\bin\Debug\net10.0\SmartHealthcare.Models.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.csproj.AssemblyReference.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.AssemblyInfoInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.AssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.csproj.CoreCompileInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.RazorAssemblyInfo.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.RazorAssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.sourcelink.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\scopedcss\bundle\SmartHealthcare.Web.styles.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\scopedcss\projectbundle\SmartHealthcare.Web.bundle.scp.css
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\2icoju12br-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\a17prqiwcd-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\062h6b1y6t-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\7mhnquvday-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\31hwkxrzgi-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\pcj9vwcs9r-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\0hhmvmoedf-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\20fnrdvkvv-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\4qc6ur91b2-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\7d0ztlt1tn-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\1x2r2wgs05-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\yq6i4031ri-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\dutilhyw36-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ydkse9ewlf-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ob9yjtxtdk-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\au2c5jmumw-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\whr0g7ct0x-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\7qlokqacj9-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\nzizrgnnek-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\k6gu7ezksa-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\sou9ilafki-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\0w9netve5i-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\cir4d8mqou-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\5ragrx4gjz-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\1hpngz17ds-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\istsh5300u-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\rsy93848ig-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\wgbv7wgbvt-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\87z6nwd3ty-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\5rvxqd0ix7-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\0vj3gs77m3-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\megys8c391-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ehwdpxu2v6-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ldl3euc6q4-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\rezo7nh7nb-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\whz7nrwy28-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\8pjczi5c0n-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\uh9w515jcd-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\d5xtinxehb-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\45pkolkxhp-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\287enwyz7a-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\swdvdc1t66-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\eijoapdohs-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\qq7rzzftcj-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\m0hk84ecuu-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\9q2m84btql-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\z9x6mcautc-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\sgp151wtom-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\opa14iq1rn-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\6eahsgk6d3-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\fpgwzpk56q-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\m83k87fqmt-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\pcjh6xoemh-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\2jbop2pu3r-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\ps7upx5xs1-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\54m1r3yldw-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\oofmrq7l2c-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\lbrbi5eoke-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\668l7zlzym-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\83h9h1kf0g-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\vndlcax4j7-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\li4zinxtpu-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\d4l6xg77oa-{0}-fwov7xz7ma-fwov7xz7ma.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\jgajamoogv-{0}-fwov7xz7ma-fwov7xz7ma.gz
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHea.3FD70B28.Up2Date
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\refint\SmartHealthcare.Web.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\SmartHealthcare.Web.genruntimeconfig.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\ref\SmartHealthcare.Web.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\020426\SmartHealthcare\SmartHealthcare.Web\obj\Debug\net10.0\compressed\qkzrklln5j-{0}-hhi69cpmla-hhi69cpmla.gz

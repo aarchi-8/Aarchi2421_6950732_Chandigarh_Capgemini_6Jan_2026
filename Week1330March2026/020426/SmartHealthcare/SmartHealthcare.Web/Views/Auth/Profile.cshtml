@@ -1,0 +1,186 @@
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<div class="dashboard-header">
+    <h1>👤 My Profile</h1>
+    <p>Your account information and details</p>
+</div>
+
+<div class="row">
+    <div class="col-md-8">
+        <div class="card" style="border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 10px;">
+            <div class="card-header" style="background: linear-gradient(135deg, #c89cd4 0%, #8b5fa3 100%); color: white; border-radius: 10px 10px 0 0; padding: 20px;">
+                <h3 style="margin: 0; color: white;">Account Details</h3>
+            </div>
+
+            <div class="card-body" style="padding: 30px;">
+                @{
+                    var email = User.FindFirst(System.Security.Claims.ClaimTypes.Email)?.Value ?? "N/A";
+                    var fullName = User.FindFirst(System.Security.Claims.ClaimTypes.Name)?.Value ?? "N/A";
+                    var role = User.FindFirst(System.Security.Claims.ClaimTypes.Role)?.Value ?? "User";
+                    var userId = User.FindFirst("userId")?.Value ?? "N/A";
+                }
+
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <h5 style="color: #8b5fa3; margin-bottom: 10px;">✉️ Email Address</h5>
+                        <p style="font-size: 1rem; margin: 0; word-break: break-all;">
+                            <strong>@email</strong>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 style="color: #8b5fa3; margin-bottom: 10px;">👤 Full Name</h5>
+                        <p style="font-size: 1rem; margin: 0;">
+                            <strong>@fullName</strong>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-md-6">
+                        <h5 style="color: #8b5fa3; margin-bottom: 10px;">🔐 Account Role</h5>
+                        <p style="font-size: 1rem; margin: 0;">
+                            <span class="badge" style="background-color: #8b5fa3; color: white; padding: 6px 12px; font-size: 0.95rem;">
+                                @role
+                            </span>
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 style="color: #8b5fa3; margin-bottom: 10px;">🆔 User ID</h5>
+                        <p style="font-size: 1rem; margin: 0; font-family: monospace; color: #666;">
+                            @userId
+                        </p>
+                    </div>
+                </div>
+
+                <hr style="border: none; border-top: 1px solid #e0c5d8; margin: 2rem 0;">
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 style="color: #8b5fa3; margin-bottom: 15px;">📋 Account Summary</h5>
+                        <div style="background-color: #f8f9fa; padding: 15px; border-radius: 5px; border-left: 4px solid #8b5fa3;">
+                            <ul style="margin: 0; padding-left: 20px;">
+                                <li>
+                                    <strong>Account Type:</strong> 
+                                    @{
+                                        var accountType = role?.ToLower() == "doctor" ? "Healthcare Provider" : role?.ToLower() == "admin" ? "Administrator" : "Patient";
+                                    }
+                                    @accountType
+                                </li>
+                                <li style="margin-top: 8px;">
+                                    <strong>Status:</strong> <span style="color: #28a745;">✓ Active</span>
+                                </li>
+                                <li style="margin-top: 8px;">
+                                    <strong>Logged In:</strong> Yes
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer" style="background-color: #f8f9fa; padding: 20px; border-radius: 0 0 10px 10px; border-top: 1px solid #e0c5d8;">
+                <div class="row">
+                    <div class="col-md-12">
+                        @if (role?.ToLower() == "patient")
+                        {
+                            <a href="/Appointments/Index" class="btn btn-primary-custom" style="padding: 8px 20px; margin-right: 10px;">
+                                📅 View My Appointments
+                            </a>
+                        }
+                        else if (role?.ToLower() == "doctor")
+                        {
+                            <a href="/Appointments/Index" class="btn btn-primary-custom" style="padding: 8px 20px; margin-right: 10px;">
+                                📅 View My Schedule
+                            </a>
+                        }
+                        
+                        <a href="/Auth/ChangePassword" class="btn btn-outline-secondary" style="padding: 8px 20px; border-color: #8b5fa3; color: #8b5fa3; margin-right: 10px;">
+                            🔑 Change Password
+                        </a>
+                        
+                        <form asp-action="Logout" method="post" style="display: inline;">
+                            <button type="submit" class="btn btn-danger" style="padding: 8px 20px;">
+                                🚪 Log Out
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="card" style="border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 10px;">
+            <div class="card-header" style="background: linear-gradient(135deg, #a8d5ba 0%, #70b082 100%); color: white; border-radius: 10px 10px 0 0; padding: 20px;">
+                <h5 style="margin: 0; color: white;">⚙️ Account Settings</h5>
+            </div>
+
+            <div class="card-body" style="padding: 20px;">
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li style="margin-bottom: 12px;">
+                        <a href="/Auth/ChangePassword" style="color: #8b5fa3; text-decoration: none; font-weight: 500;">
+                            → Change Password
+                        </a>
+                    </li>
+                    <li style="margin-bottom: 12px;">
+                        <a href="/Auth/Profile" style="color: #8b5fa3; text-decoration: none; font-weight: 500;">
+                            → Update Profile
+                        </a>
+                    </li>
+                    <li style="margin-bottom: 12px;">
+                        <a href="/" style="color: #8b5fa3; text-decoration: none; font-weight: 500;">
+                            → Dashboard
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card" style="border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 10px; margin-top: 20px;">
+            <div class="card-header" style="background: linear-gradient(135deg, #ffc6e7 0%, #ff8fa3 100%); color: white; border-radius: 10px 10px 0 0; padding: 20px;">
+                <h5 style="margin: 0; color: white;">ℹ️ Help</h5>
+            </div>
+
+            <div class="card-body" style="padding: 20px;">
+                <p style="margin: 0; color: #666; font-size: 0.95rem;">
+                    Need help? Contact our support team at <strong>support@smarthealthcare.com</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    }
+
+    .btn-primary-custom {
+        background-color: #8b5fa3;
+        color: white;
+        border: none;
+        transition: all 0.3s;
+    }
+
+    .btn-primary-custom:hover {
+        background-color: #6d4685;
+        color: white;
+    }
+
+    .btn-outline-secondary {
+        transition: all 0.3s;
+    }
+
+    .btn-outline-secondary:hover {
+        background-color: #8b5fa3;
+        color: white !important;
+        border-color: #8b5fa3;
+    }
+</style>

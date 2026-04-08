@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\",
+  "WorkspaceRootPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401044634_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260401044634_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingapi_ui\\eventbookingsystem\\eventbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystemapi_ui\\eventbookingsystem\\eventbooking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingapi_ui\\eventbookingsystem\\eventbooking.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401044453_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260401044453_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingapi_ui\\eventbookingsystem\\eventbooking.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401044212_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260401044212_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingapi_ui\\eventbookingsystem\\eventbooking.api\\eventbooking.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|solutionrelative:eventbooking.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingsystemapi_ui\\eventbookingsystem\\eventbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|c:\\users\\aarchi\\source\\capgemini_cu_sec3_dotnetwithazure_aarchi\\week12_23march,2026\\28-03-26\\eventbookingapi_ui\\eventbookingsystem\\eventbooking.api\\migrations\\20260401090747_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6270C559-BA4C-0428-C328-0DC3DF11A82F}|EventBooking.API.csproj|solutionrelative:migrations\\20260401090747_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,65 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20260401044634_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401044634_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260401044634_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401044634_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260401044634_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T04:46:34.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "20260401044453_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401044453_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260401044453_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401044453_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260401044453_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T04:44:53.751Z",
-              "EditorCaption": ""
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-01T09:39:37.81Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20260401044212_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401044212_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260401044212_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401044212_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260401044212_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "EventBooking.API",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\EventBooking.API.csproj",
+              "RelativeDocumentMoniker": "EventBooking.API.csproj",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\EventBooking.API.csproj",
+              "RelativeToolTip": "EventBooking.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-01T09:39:34.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260401090747_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401090747_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260401090747_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\Migrations\\20260401090747_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260401090747_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-01T04:42:12.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-01T09:07:48.028Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-01T04:41:43.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAIcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-01T04:17:08.272Z",
               "EditorCaption": ""

@@ -1,0 +1,88 @@
+@using SmartHealthCareSystem.Shared.DTOs;
+@model List<UserDto>
+
+@{
+    ViewData["Title"] = "Manage Users";
+}
+
+<div class="container-fluid mt-4">
+    <div class="row mb-4">
+        <div class="col-12">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h2 class="text-primary-blue">👥 Users Management</h2>
+                <a asp-action="CreateUser" asp-controller="Admin" class="btn btn-primary">+ Add New User</a>
+            </div>
+        </div>
+    </div>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["Success"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            @TempData["Error"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">System Users</h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Full Name</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Created Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        @foreach (var user in Model)
+                        {
+                            <tr>
+                                <td>@(Model.IndexOf(user) + 1)</td>
+                                <td>
+                                    <strong>@user.FullName</strong>
+                                </td>
+                                <td>@user.Email</td>
+                                <td>
+                                    <span class="badge @(user.Role == "Admin" ? "bg-danger" : user.Role == "Doctor" ? "bg-primary" : "bg-success") text-white" style="font-weight: 600;">
+                                        @user.Role
+                                    </span>
+                                </td>
+                                <td>@user.CreatedAt.ToString("dd MMM yyyy")</td>
+                                <td>
+                                    <form asp-action="DeleteUser" asp-controller="Admin" method="post" style="display: inline;">
+                                        <input type="hidden" name="id" value="@user.UserId" />
+                                        <button type="submit" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="6" class="text-center text-muted py-4">
+                                No users found
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

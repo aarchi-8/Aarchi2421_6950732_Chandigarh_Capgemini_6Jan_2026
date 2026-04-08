@@ -1,0 +1,83 @@
+@{
+    ViewData["Title"] = "My Prescriptions";
+}
+
+<div class="dashboard-header">
+    <h1>💊 My Prescriptions</h1>
+    <p>Your active and past prescriptions</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        @if (Model != null && Model.Count > 0)
+        {
+            <!-- Active Prescriptions -->
+            <h2 style="color: #8b5fa3; margin-top: 2rem;">Active Prescriptions</h2>
+            <div class="row">
+                @foreach (var prescription in Model)
+                {
+                    @if (prescription.status == "Active" || prescription.status == "active")
+                    {
+                        <div class="col-md-6 mb-4">
+                            <div class="card-custom">
+                                <div class="card-header-custom">
+                                    <h5 style="margin: 0; color: white;">@(prescription?.medicineName ?? "Unknown Medicine")</h5>
+                                </div>
+                                <div class="card-body-custom">
+                                    <p><strong>Doctor:</strong> @(prescription?.doctorName ?? "N/A")</p>
+                                    <p><strong>Dosage:</strong> @(prescription?.dosage ?? "N/A")</p>
+                                    <p><strong>Start Date:</strong> @(prescription?.startDate ?? "N/A")</p>
+                                    <p><strong>End Date:</strong> @(prescription?.endDate ?? "N/A")</p>
+                                    <span class="badge" style="background-color: #2d7659; color: white; padding: 5px 10px;">
+                                        ✓ Active
+                                    </span>
+                                    <br/><br/>
+                                    <a href="/Prescriptions/Details/@(prescription?.id ?? 0)" class="btn btn-primary-custom" style="font-size: 0.9rem;">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+
+            <!-- Past Prescriptions -->
+            <h2 style="color: #8b5fa3; margin-top: 2rem;">Past Prescriptions</h2>
+            <div class="row">
+                @foreach (var prescription in Model)
+                {
+                    @if (prescription.status == "Completed" || prescription.status == "completed")
+                    {
+                        <div class="col-md-6 mb-4">
+                            <div class="card-custom">
+                                <div class="card-header-custom">
+                                    <h5 style="margin: 0; color: white;">@(prescription?.medicineName ?? "Unknown Medicine")</h5>
+                                </div>
+                                <div class="card-body-custom">
+                                    <p><strong>Doctor:</strong> @(prescription?.doctorName ?? "N/A")</p>
+                                    <p><strong>Dosage:</strong> @(prescription?.dosage ?? "N/A")</p>
+                                    <p><strong>Duration:</strong> @(prescription?.startDate ?? "N/A") to @(prescription?.endDate ?? "N/A")</p>
+                                    <span class="badge" style="background-color: #999; color: white; padding: 5px 10px;">
+                                        ○ Completed
+                                    </span>
+                                    <br/><br/>
+                                    <a href="/Prescriptions/Details/@(prescription?.id ?? 0)" class="btn btn-primary-custom" style="font-size: 0.9rem;">View Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-info">
+                <p>No prescriptions found. Once you consult with a doctor, your prescriptions will appear here.</p>
+            </div>
+        }
+
+        <!-- Back Button -->
+        <div style="margin-top: 2rem;">
+            <a href="/" class="btn btn-primary-custom">← Back to Dashboard</a>
+        </div>
+    </div>
+</div>

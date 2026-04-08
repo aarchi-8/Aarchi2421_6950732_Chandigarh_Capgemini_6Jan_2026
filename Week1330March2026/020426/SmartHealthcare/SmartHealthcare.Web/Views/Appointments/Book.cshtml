@@ -1,0 +1,116 @@
+@{
+    ViewData["Title"] = "Book Appointment";
+}
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        @if (!string.IsNullOrEmpty(ViewBag.Message))
+        {
+            <div class="alert alert-success" style="background-color: #d4edda; border: 1px solid #c3e6cb; color: #155724; padding: 15px; margin-bottom: 20px;">
+                <strong>✓ Success!</strong> @ViewBag.Message
+            </div>
+        }
+
+        @if (!string.IsNullOrEmpty(ViewBag.Error))
+        {
+            <div class="alert alert-danger" style="background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; padding: 15px; margin-bottom: 20px;">
+                <strong>✗ Error!</strong> @ViewBag.Error
+            </div>
+        }
+
+        <div class="card-custom">
+            <div class="card-header-custom">
+                📅 Book an Appointment
+            </div>
+            <div class="card-body-custom">
+                <form asp-action="Create" method="post">
+                    <div class="form-group">
+                        <label for="doctorId" class="form-label">Select Doctor</label>
+                        <select id="doctorId" name="doctorId" class="form-control" required>
+                            <option value="">-- Choose a Doctor --</option>
+                            @{
+                                var doctors = ViewBag.Doctors;
+                                if (doctors != null)
+                                {
+                                    var doctorList = doctors as System.Collections.IEnumerable;
+                                    if (doctorList != null)
+                                    {
+                                        foreach (var doctor in doctorList)
+                                        {
+                                            dynamic dynamicDoctor = doctor;
+                                            try
+                                            {
+                                                var doctorId = dynamicDoctor.doctorId ?? dynamicDoctor.id ?? 0;
+                                                var name = dynamicDoctor.fullName ?? dynamicDoctor.name ?? "Unknown Doctor";
+                                                var specs = dynamicDoctor.specializations ?? new List<string>();
+                                                var specialization = (specs != null && specs.Count > 0) ? specs[0] : "General";
+                                                <option value="@doctorId">Dr. @name - @specialization</option>
+                                            }
+                                            catch
+                                            {
+                                                <!-- Error rendering doctor -->
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="appointmentDate" class="form-label">Appointment Date & Time</label>
+                        <input id="appointmentDate" name="appointmentDate" type="datetime-local" class="form-control" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="reason" class="form-label">Reason for Visit</label>
+                        <textarea id="reason" name="reason" class="form-control" rows="4" placeholder="Describe your symptoms or reason for appointment..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary-custom btn-block-custom">
+                        ✓ Book Appointment
+                    </button>
+                    <a href="/Home/Dashboard" class="btn btn-secondary btn-block-custom" style="background: #7dd9b8; color: white; margin-top: 0.5rem;">
+                        Cancel
+                    </a>
+                </form>
+            </div>
+        </div>
+
+        <!-- Available Doctors -->
+        <div class="card-custom" style="margin-top: 2rem;">
+            <div class="card-header-custom">
+                👨‍⚕️ Available Doctors
+            </div>
+            <div class="card-body-custom">
+                <div class="doctor-card">
+                    <div class="doctor-name">Dr. Sarah Johnson</div>
+                    <div class="doctor-specialization">Cardiology</div>
+                    <div class="doctor-experience">⭐ 8 years of experience</div>
+                    <div style="margin-top: 1rem; color: #2d7659; font-weight: bold;">₹500 / consultation</div>
+                </div>
+
+                <div class="doctor-card">
+                    <div class="doctor-name">Dr. James Wilson</div>
+                    <div class="doctor-specialization">General Medicine</div>
+                    <div class="doctor-experience">⭐ 12 years of experience</div>
+                    <div style="margin-top: 1rem; color: #2d7659; font-weight: bold;">₹400 / consultation</div>
+                </div>
+
+                <div class="doctor-card">
+                    <div class="doctor-name">Dr. Emily Brown</div>
+                    <div class="doctor-specialization">Pediatrics</div>
+                    <div class="doctor-experience">⭐ 6 years of experience</div>
+                    <div style="margin-top: 1rem; color: #2d7659; font-weight: bold;">₹350 / consultation</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Set minimum datetime to today
+        document.getElementById('appointmentDate').min = new Date().toISOString().slice(0, 16);
+    </script>
+}

@@ -1,0 +1,62 @@
+@model SmartHealthCareSystem.Shared.DTOs.CreateDoctorDto
+
+@{
+    ViewData["Title"] = "Create Doctor Profile";
+}
+
+<div class="container-fluid mt-4">
+    <div class="mb-4">
+        <h2 class="text-primary-blue">📝 Complete Doctor Profile</h2>
+        <p class="text-muted">Add the department, specialization and availability for your doctor account.</p>
+    </div>
+
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form asp-action="CreateDoctorProfile" method="post" class="row g-3">
+                <input asp-for="UserId" type="hidden" />
+
+                <div class="col-12 col-md-6">
+                    <label class="form-label">Full Name</label>
+                    <input value="@ViewBag.FullName" class="form-control" readonly />
+                </div>
+                <div class="col-12 col-md-6">
+                    <label class="form-label">Email</label>
+                    <input value="@ViewBag.Email" class="form-control" readonly />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="DepartmentId" class="form-label">Department</label>
+                    <select asp-for="DepartmentId" asp-items="ViewBag.Departments" class="form-select"></select>
+                    <span asp-validation-for="DepartmentId" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Specialization" class="form-label">Specialization</label>
+                    <input asp-for="Specialization" class="form-control" />
+                    <span asp-validation-for="Specialization" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="ExperienceYears" class="form-label">Years of Experience</label>
+                    <input asp-for="ExperienceYears" class="form-control" />
+                    <span asp-validation-for="ExperienceYears" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Availability" class="form-label">Availability</label>
+                    <input asp-for="Availability" class="form-control" />
+                    <span asp-validation-for="Availability" class="text-danger"></span>
+                </div>
+
+                <div class="col-12 d-flex gap-2">
+                    <button type="submit" class="btn btn-primary">Create Profile</button>
+                    <a asp-controller="Home" asp-action="DoctorDashboard" class="btn btn-outline-secondary">Cancel</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

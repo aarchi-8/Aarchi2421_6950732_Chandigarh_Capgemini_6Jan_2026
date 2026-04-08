@@ -1,0 +1,16 @@
+@model SmartHealthCareSystem.Shared.DTOs.PatientDto
+@{
+    ViewData["Title"] = "Patient Details";
+}
+<h2>Patient Details</h2>
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">@Model.FullName</h5>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Date of Birth:</strong> @Model.DateOfBirth.ToShortDateString()</p>
+        <p><strong>Gender:</strong> @Model.Gender</p>
+        <p><strong>Address:</strong> @Model.Address</p>
+    </div>
+</div>
+<!-- Optionally, show medical history here -->
+<a asp-action="Index" class="btn btn-outline-secondary">Back to List</a>

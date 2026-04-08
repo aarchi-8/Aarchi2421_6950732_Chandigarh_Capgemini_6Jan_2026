@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.Web\\EventBooking.Web.csproj": {}
+    "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.Web\\EventBooking.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.Web\\EventBooking.Web.csproj": {
+    "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.Web\\EventBooking.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.Web\\EventBooking.Web.csproj",
+        "projectUniqueName": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.Web\\EventBooking.Web.csproj",
         "projectName": "EventBooking.Web",
-        "projectPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.Web\\EventBooking.Web.csproj",
+        "projectPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.Web\\EventBooking.Web.csproj",
         "packagesPath": "C:\\Users\\Aarchi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.Web\\obj\\",
+        "outputPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

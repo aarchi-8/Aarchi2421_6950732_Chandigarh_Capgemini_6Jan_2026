@@ -1,0 +1,162 @@
+@{
+    ViewData["Title"] = "Doctor Dashboard";
+}
+
+<div class="container-fluid pt-4">
+    <!-- Header -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h2 class="text-primary-blue">
+                <strong>Welcome, @ViewBag.DoctorName</strong>
+            </h2>
+            <p class="text-muted">Doctor dashboard with live patient list, upcoming bookings, and prescription tools.</p>
+        </div>
+        <div class="col-md-6 text-end">
+            <div class="p-3 rounded" style="background-color: #eef7fe;">
+                <small class="text-muted">Today</small><br />
+                <strong class="text-primary">@DateTime.Now.ToString("dddd, MMMM dd, yyyy")</strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-4">
+        @{ 
+            var appointments = ViewBag.Appointments as List<SmartHealthCareSystem.Shared.DTOs.AppointmentDto> ?? new List<SmartHealthCareSystem.Shared.DTOs.AppointmentDto>();
+            var total = appointments.Count;
+            var completed = appointments.Count(a => a.Status == "Completed");
+            var upcoming = appointments.Count(a => a.AppointmentDate >= DateTime.Now);
+            var patients = appointments.Select(a => a.PatientName).Distinct().Count();
+        }
+
+        <div class="col-md-3">
+            <div class="card border-start border-primary border-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Total Appointments</h6>
+                    <h3 class="text-primary">@total</h3>
+                    <small class="text-muted">Scheduled and completed</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-start border-info border-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Active Patients</h6>
+                    <h3 class="text-info">@patients</h3>
+                    <small class="text-muted">Patients with appointments</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-start border-success border-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Completed</h6>
+                    <h3 class="text-success">@completed</h3>
+                    <small class="text-muted">Appointments finished</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card border-start border-warning border-4">
+                <div class="card-body">
+                    <h6 class="text-muted">Upcoming</h6>
+                    <h3 class="text-warning">@upcoming</h3>
+                    <small class="text-muted">Appointments ahead</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card mb-4">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Today's Booking List</h5>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Time</th>
+                                <th>Patient</th>
+                                <th>Diagnosis</th>
+                                <th>Status</th>
+                                <th>Notes</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @if (appointments.Any())
+                            {
+                                foreach (var appointment in appointments.OrderBy(a => a.AppointmentDate).Take(10))
+                                {
+                                    <tr>
+                                        <td><strong>@appointment.AppointmentDate.ToString("hh:mm tt")</strong></td>
+                                        <td>@appointment.PatientName</td>
+                                        <td>@(!string.IsNullOrEmpty(appointment.Diagnosis) ? appointment.Diagnosis : "General Checkup")</td>
+                                        <td>
+                                            <strong style="color: @(appointment.Status == "Completed" ? "#28a745" : appointment.Status == "Booked" ? "#0d6efd" : "#fd7e14");">@appointment.Status</strong>
+                                        </td>
+                                        <td><small class="text-muted">@(!string.IsNullOrEmpty(appointment.Diagnosis) ? appointment.Diagnosis : "No notes")</small></td>
+                                    </tr>
+                                }
+                            }
+                            else
+                            {
+                                <tr>
+                                    <td colspan="5" class="text-center text-muted py-4">No upcoming appointments yet. Your patients will appear here once bookings are made.</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+            <div class="card mb-4">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Quick Actions</h5>
+                </div>
+                <div class="card-body">
+                    <a asp-controller="Prescriptions" asp-action="Create" class="btn btn-primary w-100 mb-2" style="font-weight: 700;">
+                        Write New Prescription
+                    </a>
+                    <a asp-action="DoctorProfile" asp-controller="Home" class="btn btn-outline-primary w-100 mb-2" style="font-weight: 700;">
+                        View Profile
+                    </a>
+                    <a asp-action="EditDoctorProfile" asp-controller="Home" class="btn btn-outline-info w-100 mb-2" style="font-weight: 700;">
+                        Edit Profile
+                    </a>
+                    <a asp-action="MyPatients" asp-controller="Home" class="btn btn-outline-primary w-100 mb-2" style="font-weight: 700;">
+                        View My Patients
+                    </a>
+                    <a asp-action="ManageSchedule" asp-controller="Home" class="btn btn-outline-secondary w-100" style="font-weight: 700;">
+                        Manage Schedule
+                    </a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header bg-light">
+                    <h5 class="mb-0">Upcoming Appointments</h5>
+                </div>
+                <div class="card-body">
+                    @if (appointments.Any(a => a.AppointmentDate >= DateTime.Now))
+                    {
+                        foreach (var upcomingAppointment in appointments.Where(a => a.AppointmentDate >= DateTime.Now).OrderBy(a => a.AppointmentDate).Take(5))
+                        {
+                            <div class="mb-3 p-3 rounded" style="background-color: #f8fbff; border-left: 4px solid #0d6efd;">
+                                <strong>@upcomingAppointment.AppointmentDate.ToString("ddd, MMM d - hh:mm tt")</strong><br />
+                                <span>@upcomingAppointment.PatientName</span><br />
+                                <small class="text-muted">Status: @upcomingAppointment.Status</small>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <div class="text-center text-muted">No upcoming appointments scheduled.</div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

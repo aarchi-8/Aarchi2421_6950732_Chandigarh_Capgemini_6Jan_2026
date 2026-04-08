@@ -1,0 +1,122 @@
+﻿@{
+    ViewData["Title"] = "Smart Health Care System";
+}
+
+@if (Context.Session.GetString("JWTToken") != null)
+{
+    <!-- Logged In Dashboard -->
+    <div style="padding: 40px 0; border-bottom: 1px solid #e9ecef;">
+        <div class="container">
+            <h1 style="margin-bottom: 10px;">Welcome, @Context.Session.GetString("UserName")</h1>
+            <p class="text-muted" style="margin: 0;">@(Context.Session.GetString("UserRole") == "Admin" ? "Administration Portal" : "Your Health Portal")</p>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3">
+                <div style="border: 1px solid #e9ecef; padding: 25px; border-radius: 4px; text-align: center;">
+                    <div style="font-size: 2rem; color: #0066cc; margin-bottom: 10px; font-weight: bold;">APT</div>
+                    <div style="color: #666; margin-bottom: 15px; font-size: 0.9rem;">Appointments</div>
+                    <p style="font-size: 1.8rem; margin: 0; font-weight: 500; color: #0066cc;">5</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div style="border: 1px solid #e9ecef; padding: 25px; border-radius: 4px; text-align: center;">
+                    <div style="font-size: 2rem; color: #28a745; margin-bottom: 10px; font-weight: bold;">RX</div>
+                    <div style="color: #666; margin-bottom: 15px; font-size: 0.9rem;">Prescriptions</div>
+                    <p style="font-size: 1.8rem; margin: 0; font-weight: 500; color: #28a745;">3</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div style="border: 1px solid #e9ecef; padding: 25px; border-radius: 4px; text-align: center;">
+                    <div style="font-size: 2rem; color: #ffc107; margin-bottom: 10px; font-weight: bold;">BILL</div>
+                    <div style="color: #666; margin-bottom: 15px; font-size: 0.9rem;">Pending Bills</div>
+                    <p style="font-size: 1.8rem; margin: 0; font-weight: 500; color: #ffc107;">2</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div style="border: 1px solid #e9ecef; padding: 25px; border-radius: 4px; text-align: center;">
+                    <div style="font-size: 2rem; color: #17a2b8; margin-bottom: 10px; font-weight: bold;">REC</div>
+                    <div style="color: #666; margin-bottom: 15px; font-size: 0.9rem;">Medical Records</div>
+                    <p style="font-size: 1.8rem; margin: 0; font-weight: 500; color: #17a2b8;">12</p>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <!-- Landing Page -->
+    <div style="background: #f8f9fa; padding: 60px 0;">
+        <div class="container" style="text-align: center;">
+            <h1 style="font-size: 2.5rem; font-weight: 300; margin-bottom: 15px;">Smart Healthcare System</h1>
+            <p style="font-size: 1.1rem; color: #666; margin-bottom: 50px; max-width: 600px; margin-left: auto; margin-right: auto;">Your trusted partner for comprehensive hospital management and patient care</p>
+
+            <div class="row" style="margin-bottom: 50px;">
+                <div class="col-md-4">
+                    <div style="border: 1px solid #e9ecef; padding: 30px; border-radius: 4px; background: white;">
+                        <div style="font-size: 2rem; margin-bottom: 20px; color: #0066cc; font-weight: bold;">MD</div>
+                        <h5 style="margin-bottom: 10px; font-weight: 500;">Doctor Portal</h5>
+                        <p style="color: #666; margin-bottom: 20px; font-size: 0.95rem;">Manage appointments and patient records.</p>
+                        <a asp-action="Login" asp-controller="Auth" class="btn btn-primary" style="width: 100%;">Log In</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="border: 1px solid #e9ecef; padding: 30px; border-radius: 4px; background: white;">
+                        <div style="font-size: 2rem; margin-bottom: 20px; color: #0066cc; font-weight: bold;">PT</div>
+                        <h5 style="margin-bottom: 10px; font-weight: 500;">Patient Portal</h5>
+                        <p style="color: #666; margin-bottom: 20px; font-size: 0.95rem;">Book appointments and view your health.</p>
+                        <a asp-action="Login" asp-controller="Auth" class="btn btn-primary" style="width: 100%;">Log In</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div style="border: 1px solid #e9ecef; padding: 30px; border-radius: 4px; background: white;">
+                        <div style="font-size: 2rem; margin-bottom: 20px; color: #0066cc; font-weight: bold;">ADM</div>
+                        <h5 style="margin-bottom: 10px; font-weight: 500;">Admin Console</h5>
+                        <p style="color: #666; margin-bottom: 20px; font-size: 0.95rem;">System administration and analytics.</p>
+                        <a asp-action="Login" asp-controller="Auth" class="btn btn-primary" style="width: 100%;">Log In</a>
+                    </div>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 30px;">
+                <p style="margin-bottom: 15px; color: #666;">New to our system?</p>
+                <a asp-action="Register" asp-controller="Auth" class="btn btn-outline-primary" style="padding: 10px 30px;">Create Account</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div style="padding: 60px 0; background: white;">
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 40px; font-weight: 300; font-size: 1.8rem;">Platform Features</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div style="border-left: 3px solid #0066cc; padding: 20px; background: #f8f9fa; border-radius: 4px;">
+                        <h6 style="margin-bottom: 10px; font-weight: 500;">Appointment Booking</h6>
+                        <p style="color: #666; font-size: 0.9rem; margin: 0;">Easy scheduling with real-time availability</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div style="border-left: 3px solid #0066cc; padding: 20px; background: #f8f9fa; border-radius: 4px;">
+                        <h6 style="margin-bottom: 10px; font-weight: 500;">Prescription Management</h6>
+                        <p style="color: #666; font-size: 0.9rem; margin: 0;">Digital prescriptions and medication tracking</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div style="border-left: 3px solid #0066cc; padding: 20px; background: #f8f9fa; border-radius: 4px;">
+                        <h6 style="margin-bottom: 10px; font-weight: 500;">Medical Records</h6>
+                        <p style="color: #666; font-size: 0.9rem; margin: 0;">Secure storage of patient information</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div style="border-left: 3px solid #0066cc; padding: 20px; background: #f8f9fa; border-radius: 4px;">
+                        <h6 style="margin-bottom: 10px; font-weight: 500;">Billing System</h6>
+                        <p style="color: #666; font-size: 0.9rem; margin: 0;">Transparent and integrated payment processing</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

@@ -1,0 +1,19 @@
+@model SmartHealthCareSystem.Shared.DTOs.PatientDto
+@{
+    ViewData["Title"] = "Delete Patient";
+}
+<h2 class="text-danger">Delete Patient</h2>
+<p class="text-muted">Confirm deletion for the selected patient record.</p>
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <h5 class="card-title">@Model.FullName</h5>
+        <p class="mb-1"><strong>Email:</strong> @Model.Email</p>
+        <p class="mb-1"><strong>Date of Birth:</strong> @Model.DateOfBirth.ToShortDateString()</p>
+        <p class="mb-1"><strong>Gender:</strong> @Model.Gender</p>
+        <p class="mb-1"><strong>Address:</strong> @Model.Address</p>
+    </div>
+</div>
+<form asp-action="Delete" asp-route-id="@Model.PatientId" method="post">
+    <button type="submit" class="btn btn-danger">Delete Patient</button>
+    <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+</form>

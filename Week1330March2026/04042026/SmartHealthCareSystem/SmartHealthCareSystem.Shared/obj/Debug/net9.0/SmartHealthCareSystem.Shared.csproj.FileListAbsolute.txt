@@ -1,0 +1,15 @@
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\bin\Release\net9.0\SmartHealthCareSystem.Shared.deps.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\bin\Release\net9.0\SmartHealthCareSystem.Shared.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\bin\Debug\net9.0\SmartHealthCareSystem.Shared.deps.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\bin\Debug\net9.0\SmartHealthCareSystem.Shared.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\bin\Debug\net9.0\SmartHealthCareSystem.Shared.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\SmartHealthCareSystem.Shared.csproj.AssemblyReference.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\SmartHealthCareSystem.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\SmartHealthCareSystem.Shared.AssemblyInfoInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\SmartHealthCareSystem.Shared.AssemblyInfo.cs
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\SmartHealthCareSystem.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\SmartHealthCareSystem.Shared.sourcelink.json
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\SmartHealthCareSystem.Shared.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\refint\SmartHealthCareSystem.Shared.dll
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\SmartHealthCareSystem.Shared.pdb
+C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1330March2026\04042026\SmartHealthCareSystem\SmartHealthCareSystem.Shared\obj\Debug\net9.0\ref\SmartHealthCareSystem.Shared.dll

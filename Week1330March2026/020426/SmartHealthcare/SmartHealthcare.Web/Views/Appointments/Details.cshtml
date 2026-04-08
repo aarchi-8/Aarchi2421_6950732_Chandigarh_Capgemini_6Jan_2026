@@ -1,0 +1,156 @@
+@using SmartHealthcare.Models.DTOs
+@{
+    ViewData["Title"] = "Appointment Details";
+}
+
+@model AppointmentDTO
+
+<div class="dashboard-header">
+    <h1>📋 Appointment Details</h1>
+    <p>View your complete appointment information</p>
+</div>
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @ViewBag.Error
+            </div>
+        }
+
+        @if (Model != null)
+        {
+            <div class="card" style="border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 10px;">
+                <div class="card-header" style="background: linear-gradient(135deg, #c89cd4 0%, #8b5fa3 100%); color: white; border-radius: 10px 10px 0 0; padding: 20px;">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h3 style="margin: 0; color: white;">Dr. @(Model.DoctorName ?? "Unknown")</h3>
+                            <small style="opacity: 0.9;">Appointment ID: #@Model.AppointmentId</small>
+                        </div>
+                        <div class="col-md-4 text-right">
+                            <span class="badge" style="background-color: @(Model.Status?.ToLower() == "completed" ? "#6c757d" : Model.Status?.ToLower() == "cancelled" ? "#dc3545" : "#28a745"); color: white; padding: 8px 15px; font-size: 1rem;">
+                                @(Model.Status ?? "Pending")
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-body" style="padding: 30px;">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">📅 Date & Time</h5>
+                            <p style="font-size: 1.1rem; margin: 0;">
+                                <strong>@Model.AppointmentDate.ToString("dddd, dd MMMM yyyy")</strong><br/>
+                                <span style="color: #666;">@Model.AppointmentDate.ToString("hh:mm tt")</span>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">👤 Patient Name</h5>
+                            <p style="font-size: 1.1rem; margin: 0;">
+                                <strong>@(Model.PatientName ?? "N/A")</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">👨‍⚕️ Doctor</h5>
+                            <p style="font-size: 1.1rem; margin: 0;">
+                                <strong>Dr. @(Model.DoctorName ?? "Unknown")</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">📝 Reason for Visit</h5>
+                            <p style="font-size: 1.1rem; margin: 0;">
+                                @(Model.Reason ?? "Not specified")
+                            </p>
+                        </div>
+                    </div>
+
+                    @if (!string.IsNullOrEmpty(Model.Notes))
+                    {
+                        <div class="row mb-4">
+                            <div class="col-md-12">
+                                <h5 style="color: #8b5fa3; margin-bottom: 10px;">📌 Doctor's Notes</h5>
+                                <p style="font-size: 1rem; margin: 0; background-color: #f8f9fa; padding: 15px; border-radius: 5px; border-left: 4px solid #8b5fa3;">
+                                    @Model.Notes
+                                </p>
+                            </div>
+                        </div>
+                    }
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">⏰ Booked On</h5>
+                            <p style="font-size: 0.95rem; margin: 0; color: #666;">
+                                @Model.CreatedAt.ToString("dd MMM yyyy hh:mm tt")
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">📊 Current Status</h5>
+                            <p style="font-size: 0.95rem; margin: 0;">
+                                <span class="badge" style="background-color: @(Model.Status?.ToLower() == "completed" ? "#6c757d" : Model.Status?.ToLower() == "cancelled" ? "#dc3545" : "#28a745"); color: white; padding: 5px 12px;">
+                                    @(Model.Status ?? "Unknown")
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-footer" style="background-color: #f8f9fa; padding: 20px; border-radius: 0 0 10px 10px; border-top: 1px solid #e0c5d8;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="/Appointments/Index" class="btn btn-outline-primary" style="border-color: #8b5fa3; color: #8b5fa3; padding: 8px 20px;">
+                                ← Back to Appointments
+                            </a>
+                            @if (Model.Status?.ToLower() != "cancelled" && DateTime.Parse(Model.AppointmentDate.ToString()) > DateTime.Now)
+                            {
+                                <a href="#" class="btn btn-danger" style="padding: 8px 20px; float: right;">
+                                    Cancel Appointment
+                                </a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning" role="alert">
+                <strong>Appointment not found.</strong> The appointment you're looking for doesn't exist or has been deleted.
+                <br/>
+                <a href="/Appointments/Index" class="alert-link">Go back to Appointments</a>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    }
+
+    .btn-outline-primary {
+        transition: all 0.3s;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #8b5fa3;
+        color: white !important;
+        border-color: #8b5fa3;
+    }
+
+    .card-header h3 {
+        margin-bottom: 5px;
+    }
+
+    h5 {
+        font-weight: 600;
+    }
+</style>

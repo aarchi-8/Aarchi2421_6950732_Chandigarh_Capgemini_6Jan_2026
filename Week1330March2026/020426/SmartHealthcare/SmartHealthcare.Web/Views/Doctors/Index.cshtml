@@ -1,0 +1,105 @@
+@{
+    ViewData["Title"] = "Browse Doctors";
+}
+
+<div class="dashboard-header">
+    <h1>Find a Doctor</h1>
+    <p>Browse our expert healthcare professionals</p>
+</div>
+
+<div class="row mb-4">
+    <div class="col-md-12">
+        <div class="card-custom">
+            <div class="card-body-custom">
+                <form method="get" class="form-inline">
+                    <div class="form-group mr-3" style="margin-bottom: 0;">
+                        <input type="text" name="searchTerm" class="form-control" placeholder="Search doctors by name or specialization" value="@ViewBag.SearchTerm" style="min-width: 300px;">
+                    </div>
+                    <button type="submit" class="btn btn-primary-custom">🔍 Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    @{
+        var items = (Model as dynamic)?.items as System.Collections.IEnumerable;
+        var hasItems = items != null && items.Cast<object>().Count() > 0;
+    }
+    
+    @if (hasItems)
+    {
+        @foreach (dynamic doctor in items)
+        {
+            <div class="col-md-6 mb-4">
+                <div class="card-custom">
+                    <div class="card-header-custom">
+                        <h5 style="margin: 0; color: white;">Dr. @(((object)doctor?.fullName) ?? "Unknown")</h5>
+                    </div>
+                    <div class="card-body-custom">
+                        <p><strong>Phone:</strong> @(((object)doctor?.phone) ?? "N/A")</p>
+                        <p><strong>Qualification:</strong> @(((object)doctor?.qualification) ?? "N/A")</p>
+                        <p><strong>Experience:</strong> @(((object)doctor?.experienceYears) ?? 0) years</p>
+                        <p><strong>Consultation Fee:</strong> ₹@(((object)doctor?.consultationFee) ?? 0)</p>
+                        <p>
+                            @{
+                                bool isAvailable = false;
+                                if (doctor?.isAvailable != null)
+                                {
+                                    if (doctor.isAvailable is bool)
+                                        isAvailable = (bool)doctor.isAvailable;
+                                    else if (bool.TryParse(doctor.isAvailable.ToString(), out bool result))
+                                        isAvailable = result;
+                                }
+                            }
+                            <span class="badge" style="background-color: @(isAvailable ? "#2d7659" : "#999"); color: white; padding: 5px 10px;">
+                                @(isAvailable ? "✓ Available" : "✗ Not Available")
+                            </span>
+                        </p>
+                        <a href="/Appointments/Book" class="btn btn-primary-custom" style="font-size: 0.95rem;">Book Appointment</a>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-md-12">
+            <div class="alert alert-info">
+                <p>No doctors found. Try adjusting your search.</p>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- Pagination -->
+@{
+    var pageNumber = (Model as dynamic)?.pageNumber ?? 1;
+    var totalPages = (Model as dynamic)?.totalPages ?? 1;
+    var hasNextPage = (Model as dynamic)?.hasNextPage ?? false;
+    var hasPreviousPage = (Model as dynamic)?.hasPreviousPage ?? false;
+}
+
+@if (totalPages > 1)
+{
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            <li class="page-item @(pageNumber == 1 ? "disabled" : "")">
+                <a class="page-link" href="?pageNumber=1&searchTerm=@ViewBag.SearchTerm">First</a>
+            </li>
+            <li class="page-item @(!hasPreviousPage ? "disabled" : "")">
+                <a class="page-link" href="?pageNumber=@(pageNumber - 1)&searchTerm=@ViewBag.SearchTerm">Previous</a>
+            </li>
+            <li class="page-item active">
+                <a class="page-link" href="#">Page @pageNumber of @totalPages</a>
+            </li>
+            <li class="page-item @(!hasNextPage ? "disabled" : "")">
+                <a class="page-link" href="?pageNumber=@(pageNumber + 1)&searchTerm=@ViewBag.SearchTerm">Next</a>
+            </li>
+            <li class="page-item @(pageNumber == totalPages ? "disabled" : "")">
+                <a class="page-link" href="?pageNumber=@totalPages&searchTerm=@ViewBag.SearchTerm">Last</a>
+            </li>
+        </ul>
+    </nav>
+}

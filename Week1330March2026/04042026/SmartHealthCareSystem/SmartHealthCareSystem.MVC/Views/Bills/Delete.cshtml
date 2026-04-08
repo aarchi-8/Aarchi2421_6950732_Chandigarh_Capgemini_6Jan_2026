@@ -1,0 +1,22 @@
+@model SmartHealthCareSystem.Shared.DTOs.BillDto
+
+@{
+    ViewData["Title"] = "Delete Bill";
+}
+
+<h2 class="text-danger">Delete Bill</h2>
+<p class="text-muted">Confirm the invoice removal.</p>
+
+<div class="card shadow-sm mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Bill #@Model.BillId</h5>
+        <p class="mb-1"><strong>Appointment:</strong> @Model.AppointmentId</p>
+        <p class="mb-1"><strong>Total Amount:</strong> @Model.TotalAmount.ToString("C")</p>
+        <p class="mb-1"><strong>Payment Status:</strong> @Model.PaymentStatus</p>
+    </div>
+</div>
+
+<form asp-action="Delete" asp-route-id="@Model.BillId" method="post">
+    <button type="submit" class="btn btn-danger">Delete Bill</button>
+    <a asp-action="Index" class="btn btn-outline-secondary">Cancel</a>
+</form>

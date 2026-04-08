@@ -1,0 +1,59 @@
+@using SmartHealthCareSystem.Shared.DTOs;
+@model List<AppointmentDto>
+
+@{
+    ViewData["Title"] = "My Patients";
+}
+
+<div class="container-fluid mt-4">
+    <div class="card">
+        <div class="card-header bg-light">
+            <h4 class="mb-0">My Patient List</h4>
+            <small class="text-muted">Patients scheduled with you based on current bookings.</small>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>#</th>
+                        <th>Patient Name</th>
+                        <th>Last Appointment</th>
+                        <th>Upcoming Appointments</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Any())
+                    {
+                        var grouped = Model.GroupBy(a => a.PatientId).Select(g => new {
+                            PatientId = g.Key,
+                            PatientName = g.First().PatientName,
+                            LastAppointment = g.Max(a => a.AppointmentDate),
+                            UpcomingCount = g.Count(a => a.AppointmentDate >= DateTime.Now),
+                            LatestStatus = g.OrderByDescending(a => a.AppointmentDate).First().Status
+                        }).OrderBy(g => g.PatientName).ToList();
+
+                        var index = 1;
+                        foreach (var patient in grouped)
+                        {
+                            <tr>
+                                <td><strong>@index</strong></td>
+                                <td><strong>@patient.PatientName</strong></td>
+                                <td>@patient.LastAppointment.ToString("dd MMM yyyy HH:mm")</td>
+                                <td>@patient.UpcomingCount</td>
+                                <td><strong>@patient.LatestStatus</strong></td>
+                            </tr>
+                            index++;
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="5" class="text-center text-muted py-4">No patients found yet. Once a patient books a visit, they will appear here.</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

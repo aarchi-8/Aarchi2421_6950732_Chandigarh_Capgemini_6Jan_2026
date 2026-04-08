@@ -1,0 +1,48 @@
+@using SmartHealthCareSystem.Shared.DTOs;
+@model List<DepartmentDto>
+
+@{
+    ViewData["Title"] = "Manage Departments";
+}
+
+<div class="container-fluid mt-4">
+    <h2 class="text-primary-blue mb-4">🏢 Departments</h2>
+
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">All Departments</h5>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Department Name</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @if (Model != null && Model.Count > 0)
+                    {
+                        @foreach (var dept in Model)
+                        {
+                            <tr>
+                                <td>@(Model.IndexOf(dept) + 1)</td>
+                                <td><strong>@dept.DepartmentName</strong></td>
+                                <td>@dept.Description</td>
+                            </tr>
+                        }
+                    }
+                    else
+                    {
+                        <tr>
+                            <td colspan="3" class="text-center text-muted py-4">
+                                No departments found
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

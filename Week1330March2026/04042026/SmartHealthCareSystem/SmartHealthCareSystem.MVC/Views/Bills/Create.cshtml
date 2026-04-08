@@ -1,0 +1,46 @@
+@model SmartHealthCareSystem.Shared.DTOs.CreateBillDto
+
+@{
+    ViewData["Title"] = "Create Bill";
+}
+
+<h2>Create Bill</h2>
+<p class="text-muted">Generate a new invoice for a completed appointment.</p>
+
+<form asp-action="Create" method="post" class="row g-3">
+    <div class="col-md-6">
+        <label asp-for="AppointmentId" class="form-label">Appointment</label>
+        <select asp-for="AppointmentId" asp-items="ViewBag.Appointments" class="form-select" required>
+            <option value="">Choose appointment...</option>
+        </select>
+        <span asp-validation-for="AppointmentId" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="PaymentStatus" class="form-label">Payment Status</label>
+        <select asp-for="PaymentStatus" asp-items="ViewBag.StatusOptions" class="form-select" required></select>
+        <span asp-validation-for="PaymentStatus" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="ConsultationFee" class="form-label">Consultation Fee</label>
+        <input asp-for="ConsultationFee" class="form-control" type="number" step="0.01" min="0" />
+        <span asp-validation-for="ConsultationFee" class="text-danger"></span>
+    </div>
+    <div class="col-md-6">
+        <label asp-for="MedicineCharges" class="form-label">Medicine Charges</label>
+        <input asp-for="MedicineCharges" class="form-control" type="number" step="0.01" min="0" />
+        <span asp-validation-for="MedicineCharges" class="text-danger"></span>
+    </div>
+    <div class="col-md-12">
+        <div class="alert alert-light border rounded mt-2">
+            <strong>Tip:</strong> Choose an appointment to see patient and diagnosis details above. The total will be automatically calculated on submit.
+        </div>
+    </div>
+    <div class="col-12 text-end">
+        <button type="submit" class="btn btn-primary">Save Bill</button>
+        <a asp-action="Index" class="btn btn-outline-secondary ms-2">Cancel</a>
+    </div>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

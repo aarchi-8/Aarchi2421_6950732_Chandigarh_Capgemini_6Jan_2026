@@ -1,0 +1,192 @@
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="dashboard-hero">
+    <h1>Admin Dashboard</h1>
+    <p>Complete Hospital Management System</p>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Users Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="stat-card">
+                <div class="stat-number">👥</div>
+                <div class="stat-label">Users Management</div>
+                <p style="margin-top: 10px;">Manage all system users and roles</p>
+                <a asp-action="ManageUsers" asp-controller="Admin" class="btn btn-primary btn-sm mt-2">Manage</a>
+            </div>
+        </div>
+
+        <!-- Doctors Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="stat-card">
+                <div class="stat-number">⚕️</div>
+                <div class="stat-label">Doctors Management</div>
+                <p style="margin-top: 10px;">View and manage all doctors</p>
+                <a asp-action="ManageDoctors" asp-controller="Admin" class="btn btn-primary btn-sm mt-2">Manage</a>
+            </div>
+        </div>
+
+        <!-- Appointments Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="stat-card">
+                <div class="stat-number" style="color: #00569e; font-weight: bold;">APT</div>
+                <div class="stat-label">Appointments</div>
+                <p style="margin-top: 10px;">View all scheduled appointments</p>
+                <a asp-action="ManageAppointments" asp-controller="Admin" class="btn btn-primary btn-sm mt-2">View</a>
+            </div>
+        </div>
+
+        <!-- Departments Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="stat-card">
+                <div class="stat-number">🏢</div>
+                <div class="stat-label">Departments</div>
+                <p style="margin-top: 10px;">Manage hospital departments</p>
+                <a asp-action="ManageDepartments" asp-controller="Admin" class="btn btn-primary btn-sm mt-2">Manage</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <!-- Prescriptions Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="stat-card">
+                <div class="stat-number" style="color: #28a745; font-weight: bold;">RX</div>
+                <div class="stat-label">Prescriptions</div>
+                <p style="margin-top: 10px;">View all prescriptions</p>
+                <a asp-action="ManagePrescriptions" asp-controller="Admin" class="btn btn-primary btn-sm mt-2">View</a>
+            </div>
+        </div>
+
+        <!-- Bills Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="stat-card">
+                <div class="stat-number" style="color: #ffc107; font-weight: bold;">$</div>
+                <div class="stat-label">Billing</div>
+                <p style="margin-top: 10px;">Manage all bills and payments</p>
+                <a asp-action="ManageBills" asp-controller="Admin" class="btn btn-primary btn-sm mt-2">View</a>
+            </div>
+        </div>
+
+        <!-- Statistics Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="stat-card">
+                <div class="stat-number" style="color: #17a2b8; font-weight: bold;">DATA</div>
+                <div class="stat-label">Reports</div>
+                <p style="margin-top: 10px;">View hospital statistics</p>
+                <button class="btn btn-primary btn-sm mt-2" data-bs-toggle="modal" data-bs-target="#statsModal">View Stats</button>
+            </div>
+        </div>
+
+        <!-- Settings Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="stat-card">
+                <div class="stat-number" style="color: #6c757d; font-weight: bold;">ADM</div>
+                <div class="stat-label">Settings</div>
+                <p style="margin-top: 10px;">System configuration</p>
+                <button class="btn btn-primary btn-sm mt-2" disabled>Coming Soon</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Stats -->
+    <div class="row mt-5">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">📈 Quick Statistics</h5>
+                </div>
+                <div class="card-body">
+                    <div class="row text-center">
+                        <div class="col-md-3">
+                            <h3 class="text-primary-blue">125</h3>
+                            <p class="text-muted">Total Users</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="text-primary-blue">34</h3>
+                            <p class="text-muted">Doctors</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="text-primary-blue">256</h3>
+                            <p class="text-muted">Appointments</p>
+                        </div>
+                        <div class="col-md-3">
+                            <h3 class="text-primary-blue">$45,230</h3>
+                            <p class="text-muted">Total Revenue</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Recent Activity -->
+    <div class="row mt-4 mb-4">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header">
+                    <h5 class="mb-0">📋 Recent Activity</h5>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" style="padding: 12px 0;">
+                            <span class="badge me-2" style="background-color: #00a8e8; padding: 6px 12px; font-weight: 600;">🆕 New</span>
+                            3 new appointments scheduled today
+                        </li>
+                        <li class="list-group-item" style="padding: 12px 0;">
+                            <span class="badge me-2" style="background-color: #28a745; padding: 6px 12px; font-weight: 600;">✓ Complete</span>
+                            5 prescriptions filled successfully
+                        </li>
+                        <li class="list-group-item" style="padding: 12px 0;">
+                            <span class="badge me-2" style="background-color: #ffc107; color: #333; padding: 6px 12px; font-weight: 600;">⏳ Pending</span>
+                            2 bills awaiting payment
+                        </li>
+                        <li class="list-group-item" style="padding: 12px 0;">
+                            <span class="badge me-2" style="background-color: #9c27b0; padding: 6px 12px; font-weight: 600;">🔄 Update</span>
+                            Dr. Sarah Miller moved to Cardiology Department
+                        </li>
+                        <li class="list-group-item" style="padding: 12px 0;">
+                            <span class="badge me-2" style="background-color: #00a8e8; padding: 6px 12px; font-weight: 600;">ℹ️ Info</span>
+                            System backup completed successfully
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Stats Modal -->
+<div class="modal fade" id="statsModal" tabindex="-1">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Hospital Statistics</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row text-center">
+                    <div class="col-6 mb-3">
+                        <h6 class="text-muted">Appointment Success Rate</h6>
+                        <div style="font-size: 2rem; color: #00a8e8; font-weight: bold;">92%</div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <h6 class="text-muted">Patient Satisfaction</h6>
+                        <div style="font-size: 2rem; color: #00a8e8; font-weight: bold;">4.8/5</div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <h6 class="text-muted">Available Beds</h6>
+                        <div style="font-size: 2rem; color: #00a8e8; font-weight: bold;">42</div>
+                    </div>
+                    <div class="col-6 mb-3">
+                        <h6 class="text-muted">Pending Treatments</h6>
+                        <div style="font-size: 2rem; color: #ffc107; font-weight: bold;">8</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

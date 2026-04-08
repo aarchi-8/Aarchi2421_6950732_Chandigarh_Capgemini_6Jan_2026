@@ -1,0 +1,20 @@
+@using Microsoft.AspNetCore.Mvc.ModelBinding
+@{
+    var errors = ViewData.ModelState.Values
+        .SelectMany(v => v.Errors)
+        .Select(e => e.ErrorMessage)
+        .Where(m => !string.IsNullOrWhiteSpace(m))
+        .ToList();
+}
+@if (errors.Any())
+{
+    <div class="alert alert-danger">
+        <h5>Validation errors</h5>
+        <ul>
+            @foreach (var error in errors)
+            {
+                <li>@error</li>
+            }
+        </ul>
+    </div>
+}

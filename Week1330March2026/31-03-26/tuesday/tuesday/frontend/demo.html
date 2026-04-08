@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Platform - Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+
+    .demo-section {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input,
+    select,
+    textarea {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+
+    button {
+      background: #007bff;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    .response {
+      margin-top: 15px;
+      padding: 10px;
+      background: #f8f9fa;
+      border-radius: 4px;
+      white-space: pre-wrap;
+    }
+
+    .error {
+      background: #f8d7da;
+      color: #721c24;
+    }
+
+    .success {
+      background: #d4edda;
+      color: #155724;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Learning Platform Frontend Demo</h1>
+
+  <div class="demo-section">
+    <h2>API Status Check</h2>
+    <p>Backend API should be running on http://localhost:5265</p>
+    <button onclick="checkAPIStatus()">Check API Status</button>
+    <div id="api-status" class="response"></div>
+  </div>
+
+  <div class="demo-section">
+    <h2>User Registration</h2>
+    <form id="register-form">
+      <div class="form-group">
+        <label>Username:</label>
+        <input type="text" id="reg-username" required>
+      </div>
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="email" id="reg-email" required>
+      </div>
+      <div class="form-group">
+        <label>Password:</label>
+        <input type="password" id="reg-password" required minlength="6">
+      </div>
+      <div class="form-group">
+        <label>Role:</label>
+        <select id="reg-role" required>
+          <option value="Student">Student</option>
+          <option value="Instructor">Instructor</option>
+        </select>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+    <div id="register-response" class="response"></div>
+  </div>
+
+  <div class="demo-section">
+    <h2>User Login</h2>
+    <form id="login-form">
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="email" id="login-email" required>
+      </div>
+      <div class="form-group">
+        <label>Password:</label>
+        <input type="password" id="login-password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <div id="login-response" class="response"></div>
+  </div>
+
+  <div class="demo-section">
+    <h2>View Courses</h2>
+    <button onclick="loadCourses()">Load Courses</button>
+    <div id="courses-response" class="response"></div>
+  </div>
+
+  <div class="demo-section">
+    <h2>Create Course (Instructor Only)</h2>
+    <form id="create-course-form">
+      <div class="form-group">
+        <label>Title:</label>
+        <input type="text" id="course-title" required>
+      </div>
+      <div class="form-group">
+        <label>Description:</label>
+        <textarea id="course-description" required rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <label>Category:</label>
+        <input type="text" id="course-category">
+      </div>
+      <button type="submit">Create Course</button>
+    </form>
+    <div id="create-course-response" class="response"></div>
+  </div>
+
+  <script>
+    const API_BASE = 'http://localhost:5265';
+    let currentToken = localStorage.getItem('token');
+
+    // Check API status
+    async function checkAPIStatus() {
+      const statusDiv = document.getElementById('api-status');
+      try {
+        const response = await fetch(`${API_BASE}/swagger`);
+        if (response.ok) {
+          statusDiv.className = 'response success';
+          statusDiv.textContent = '✅ API is running! Swagger UI available at /swagger';
+        } else {
+          throw new Error(`HTTP ${response.status}`);
+        }
+      } catch (error) {
+        statusDiv.className = 'response error';
+        statusDiv.textContent = `❌ API not accessible: ${error.message}\n\nMake sure to:\n1. Run 'dotnet run' in the API project directory\n2. API should be available at http://localhost:5265`;
+      }
+    }
+
+    // Handle registration
+    document.getElementById('register-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const responseDiv = document.getElementById('register-response');
+
+      const data = {
+        username: document.getElementById('reg-username').value,
+        email: document.getElementById('reg-email').value,
+        password: document.getElementById('reg-password').value,
+        role: document.getElementById('reg-role').value,
+        profile: {
+          firstName: 'Demo',
+          lastName: 'User'
+        }
+      };
+
+      try {
+        const response = await fetch(`${API_BASE}/api/auth/register`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+        responseDiv.className = `response ${response.ok ? 'success' : 'error'}`;
+        responseDiv.textContent = JSON.stringify(result, null, 2);
+      } catch (error) {
+        responseDiv.className = 'response error';
+        responseDiv.textContent = `Error: ${error.message}`;
+      }
+    });
+
+    // Handle login
+    document.getElementById('login-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const responseDiv = document.getElementById('login-response');
+
+      const data = {
+        email: document.getElementById('login-email').value,
+        password: document.getElementById('login-password').value
+      };
+
+      try {
+        const response = await fetch(`${API_BASE}/api/auth/login`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+        if (response.ok && result.token) {
+          currentToken = result.token;
+          localStorage.setItem('token', currentToken);
+          localStorage.setItem('user', JSON.stringify(result.user));
+        }
+
+        responseDiv.className = `response ${response.ok ? 'success' : 'error'}`;
+        responseDiv.textContent = JSON.stringify(result, null, 2);
+      } catch (error) {
+        responseDiv.className = 'response error';
+        responseDiv.textContent = `Error: ${error.message}`;
+      }
+    });
+
+    // Load courses
+    async function loadCourses() {
+      const responseDiv = document.getElementById('courses-response');
+
+      try {
+        const headers = { 'Content-Type': 'application/json' };
+        if (currentToken) {
+          headers['Authorization'] = `Bearer ${currentToken}`;
+        }
+
+        const response = await fetch(`${API_BASE}/api/v1/courses`, {
+          headers
+        });
+
+        const result = await response.json();
+        responseDiv.className = `response ${response.ok ? 'success' : 'error'}`;
+        responseDiv.textContent = JSON.stringify(result, null, 2);
+      } catch (error) {
+        responseDiv.className = 'response error';
+        responseDiv.textContent = `Error: ${error.message}`;
+      }
+    }
+
+    // Handle create course
+    document.getElementById('create-course-form').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const responseDiv = document.getElementById('create-course-response');
+
+      if (!currentToken) {
+        responseDiv.className = 'response error';
+        responseDiv.textContent = 'Please login first as an instructor';
+        return;
+      }
+
+      const data = {
+        title: document.getElementById('course-title').value,
+        description: document.getElementById('course-description').value,
+        category: document.getElementById('course-category').value
+      };
+
+      try {
+        const response = await fetch(`${API_BASE}/api/v1/courses`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+            'Authorization': `Bearer ${currentToken}`
+          },
+          body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+        responseDiv.className = `response ${response.ok ? 'success' : 'error'}`;
+        responseDiv.textContent = JSON.stringify(result, null, 2);
+      } catch (error) {
+        responseDiv.className = 'response error';
+        responseDiv.textContent = `Error: ${error.message}`;
+      }
+    });
+
+    // Auto-check API status on load
+    window.addEventListener('load', checkAPIStatus);
+  </script>
+</body>
+
+</html>

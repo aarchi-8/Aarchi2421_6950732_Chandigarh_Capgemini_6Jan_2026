@@ -1,0 +1,13 @@
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\bin\Development\net10.0\SmartHealthcare.Models.deps.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\bin\Development\net10.0\SmartHealthcare.Models.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\bin\Development\net10.0\SmartHealthcare.Models.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\SmartHealthcare.Models.csproj.AssemblyReference.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\SmartHealthcare.Models.GeneratedMSBuildEditorConfig.editorconfig
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\SmartHealthcare.Models.AssemblyInfoInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\SmartHealthcare.Models.AssemblyInfo.cs
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\SmartHealthcare.Models.csproj.CoreCompileInputs.cache
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\SmartHealthcare.Models.sourcelink.json
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\SmartHealthcare.Models.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\refint\SmartHealthcare.Models.dll
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\SmartHealthcare.Models.pdb
+K:\Capgemini_CU_Sec3_NetWebAzure_Khushi\week13\day4 2-04-26\SmartHealthcare\SmartHealthcare.Models\obj\Development\net10.0\ref\SmartHealthcare.Models.dll

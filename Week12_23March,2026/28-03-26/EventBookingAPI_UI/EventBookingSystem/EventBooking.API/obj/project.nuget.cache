@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3whT7A6xGF8=",
+  "dgSpecHash": "gOIvdfzEZ24=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\EventBooking.API.csproj",
+  "projectFilePath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\EventBooking.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aarchi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Aarchi\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -94,9 +94,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "Package 'AutoMapper' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
-      "projectPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\EventBooking.API.csproj",
+      "projectPath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\EventBooking.API.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingSystemAPI_UI\\EventBookingSystem\\EventBooking.API\\EventBooking.API.csproj",
+      "filePath": "C:\\Users\\Aarchi\\source\\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\\Week12_23March,2026\\28-03-26\\EventBookingAPI_UI\\EventBookingSystem\\EventBooking.API\\EventBooking.API.csproj",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net9.0"

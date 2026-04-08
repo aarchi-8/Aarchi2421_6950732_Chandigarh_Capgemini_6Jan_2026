@@ -1,0 +1,139 @@
+@{
+    ViewData["Title"] = "Patient Details";
+}
+
+<div class="dashboard-header">
+    <h1>👤 Patient Details</h1>
+    <p>Complete patient information</p>
+</div>
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        @if (ViewBag.Error != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @ViewBag.Error
+            </div>
+        }
+
+        @if (Model != null)
+        {
+            <div class="card" style="border: none; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border-radius: 10px;">
+                <div class="card-header" style="background: linear-gradient(135deg, #c89cd4 0%, #8b5fa3 100%); color: white; border-radius: 10px 10px 0 0; padding: 20px;">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h3 style="margin: 0; color: white;">@(((object)Model.fullName) ?? "Unknown Patient")</h3>
+                            <small style="opacity: 0.9;">Patient ID: #@(((object)Model.patientId) ?? "N/A")</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-body" style="padding: 30px;">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">✉️ Email Address</h5>
+                            <p style="font-size: 1rem; margin: 0; word-break: break-all;">
+                                <strong>@(((object)Model.email) ?? "N/A")</strong>
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">📱 Phone Number</h5>
+                            <p style="font-size: 1rem; margin: 0;">
+                                <strong>@(((object)Model.phone) ?? "N/A")</strong>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">📅 Date of Birth</h5>
+                            <p style="font-size: 1rem; margin: 0;">
+                                @(((object)Model.dateOfBirth) ?? "N/A")
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5 style="color: #8b5fa3; margin-bottom: 10px;">👤 Gender</h5>
+                            <p style="font-size: 1rem; margin: 0;">
+                                @{
+                                    var gender = ((object)Model.gender)?.ToString() ?? "N/A";
+                                    var genderIcon = gender?.ToLower() == "male" ? "👨" : gender?.ToLower() == "female" ? "👩" : "👤";
+                                }
+                                <span>@genderIcon @gender</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    @if (!string.IsNullOrEmpty(Model.address?.ToString()))
+                    {
+                        <div class="row mb-4">
+                            <div class="col-md-12">
+                                <h5 style="color: #8b5fa3; margin-bottom: 10px;">📍 Address</h5>
+                                <p style="font-size: 1rem; margin: 0; background-color: #f8f9fa; padding: 15px; border-radius: 5px; border-left: 4px solid #8b5fa3;">
+                                    @((object)Model.address ?? "Not provided")
+                                </p>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <div class="card-footer" style="background-color: #f8f9fa; padding: 20px; border-radius: 0 0 10px 10px; border-top: 1px solid #e0c5d8;">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <a href="/Patients/" class="btn btn-outline-primary" style="border-color: #8b5fa3; color: #8b5fa3; padding: 8px 20px;">
+                                ← Back to Patients List
+                            </a>
+                            <a href="/Appointments/Book" class="btn btn-primary-custom" style="padding: 8px 20px; float: right;">
+                                📅 Create Appointment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-warning" role="alert">
+                <strong>Patient not found.</strong> The patient you're looking for doesn't exist.
+                <br/>
+                <a href="/Patients/" class="alert-link">Go back to Patients List</a>
+            </div>
+        }
+    </div>
+</div>
+
+<style>
+    .card {
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+    }
+
+    .btn-outline-primary {
+        transition: all 0.3s;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #8b5fa3;
+        color: white !important;
+        border-color: #8b5fa3;
+    }
+
+    .btn-primary-custom {
+        background-color: #8b5fa3;
+        color: white;
+        border: none;
+        transition: all 0.3s;
+    }
+
+    .btn-primary-custom:hover {
+        background-color: #6d4685;
+        color: white;
+    }
+
+    h5 {
+        font-weight: 600;
+    }
+</style>

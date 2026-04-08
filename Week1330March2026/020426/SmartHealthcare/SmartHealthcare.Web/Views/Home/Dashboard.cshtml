@@ -1,0 +1,136 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="dashboard-header">
+    <h1>Welcome back, @User.FindFirst("name")?.Value!</h1>
+    <p>@(User.IsInRole("Doctor") ? "Doctor Dashboard – Clinical operations at a glance" : "Patient Dashboard – Your care journey, simplified")</p>
+</div>
+
+@if (User.IsInRole("Doctor"))
+{
+    <div class="info-grid">
+        <div class="metric-card">
+            <h3>Patients</h3>
+            <p><strong>42</strong> active patients this month</p>
+            <a class="btn btn-primary-custom" href="/Patients/">Manage Patients</a>
+        </div>
+        <div class="metric-card">
+            <h3>Appointments</h3>
+            <p><strong>11</strong> upcoming appointments</p>
+            <a class="btn btn-primary-custom" href="/Appointments/">Review Schedule</a>
+        </div>
+        <div class="metric-card">
+            <h3>Forms</h3>
+            <p><strong>7</strong> new clinical notes pending</p>
+            <a class="btn btn-primary-custom" href="/Appointments/">Open Documentation</a>
+        </div>
+        <div class="metric-card">
+            <h3>Performance</h3>
+            <p><strong>92%</strong> patient satisfaction score (estimated)</p>
+            <a class="btn btn-primary-custom" href="/Reports/">View Reports</a>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-7">
+            <div class="card-custom">
+                <div class="card-header-custom">Today's Appointments</div>
+                <div class="card-body-custom">
+                    <div class="appointment-item">
+                        <div class="appointment-date">09:00 AM - <strong>Michael Blake</strong></div>
+                        <div class="appointment-doctor">General Consultation</div>
+                        <span class="badge-custom confirmed">Confirmed</span>
+                    </div>
+                    <div class="appointment-item">
+                        <div class="appointment-date">10:30 AM - <strong>Emily Rios</strong></div>
+                        <div class="appointment-doctor">Follow-up</div>
+                        <span class="badge-custom pending">Pending</span>
+                    </div>
+                    <div class="appointment-item">
+                        <div class="appointment-date">12:00 PM - <strong>Rajan Patel</strong></div>
+                        <div class="appointment-doctor">Lab result review</div>
+                        <span class="badge-custom confirmed">Confirmed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="card-custom">
+                <div class="card-header-custom">Clinic Quick Links</div>
+                <div class="card-body-custom">
+                    <a class="btn btn-primary-custom btn-block-custom mb-2" href="/Patients/">Patient Registry</a>
+                    <a class="btn btn-primary-custom btn-block-custom mb-2" href="/Appointments/">Appointment Scheduler</a>
+                    <a class="btn btn-primary-custom btn-block-custom" href="/Auth/Profile">My Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="info-grid">
+        <div class="metric-card">
+            <h3>Upcoming Appointments</h3>
+            <p><strong>2</strong> scheduled appointments</p>
+            <a class="btn btn-primary-custom" href="/Appointments/">View Appointments</a>
+        </div>
+        <div class="metric-card">
+            <h3>Assigned Doctors</h3>
+            <p><strong>3</strong> active care providers</p>
+            <a asp-controller="Doctors" asp-action="Index" class="btn btn-primary-custom">View Doctors</a>
+        </div>
+        <div class="metric-card">
+            <h3>Prescription Records</h3>
+            <p><strong>1</strong> active prescription</p>
+            <a class="btn btn-primary-custom" href="/Prescriptions/">View Prescriptions</a>
+        </div>
+        <div class="metric-card">
+            <h3>Health Summary</h3>
+            <p>Prospective wellness insights and upcoming reminders.</p>
+            <a class="btn btn-primary-custom" href="/Health/Profile">Update Profile</a>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-8">
+            <div class="card-custom">
+                <div class="card-header-custom">Upcoming Appointments</div>
+                <div class="card-body-custom">
+                    @{ 
+                        var upcomingAppointments = ViewBag.UpcomingAppointments as List<SmartHealthcare.Models.DTOs.AppointmentDTO>;
+                        if (upcomingAppointments == null || !upcomingAppointments.Any())
+                        {
+                            <div class="info-box info-secondary">No upcoming appointments found in the next 30 days.</div>
+                        }
+                        else
+                        {
+                            foreach (var appt in upcomingAppointments)
+                            {
+                                <div class="appointment-item">
+                                    <div class="appointment-date">📆 @appt.AppointmentDate.ToString("MMM dd, yyyy - hh:mm tt")</div>
+                                    <div class="appointment-doctor"><strong>@appt.DoctorName</strong> (for @appt.PatientName)</div>
+                                    <small>@appt.Reason</small>
+                                    <span class="badge-custom @(appt.Status?.ToLower() == "confirmed" ? "confirmed" : appt.Status?.ToLower() == "pending" ? "pending" : "canceled")">
+                                        @appt.Status
+                                    </span>
+                                </div>
+                            }
+                        }
+                    }
+                    <a class="btn btn-primary-custom" href="/Appointments/">See All Appointments</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card-custom">
+                <div class="card-header-custom">Patient Self-Care</div>
+                <div class="card-body-custom">
+                    <p>Log daily symptoms, review medication instructions, and mark your health goals.</p>
+                    <a class="btn btn-primary-custom btn-block-custom" href="/Health/Log">Log Symptoms</a>
+                    <a class="btn btn-primary-custom btn-block-custom mt-2" href="/Health/Goals">Set Goals</a>
+                </div>
+            </div>
+        </div>
+    </div>
+}

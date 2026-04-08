@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Place Order</title>
+    <style>
+        body { font-family: Arial; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0; background: #f0f2f5; }
+        .card { background: white; padding: 40px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); width: 350px; }
+        h2 { text-align: center; color: #333; }
+        input { width: 100%; padding: 10px; margin: 8px 0; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box; }
+        button { width: 100%; padding: 10px; background: #28a745; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; }
+        button:hover { background: #218838; }
+        .error { color: red; text-align: center; margin-top: 10px; }
+        .back { text-align: center; margin-top: 15px; }
+        .back a { color: #007bff; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>🛍️ Place Order</h2>
+        <form method="post">
+            <input name="UserId" type="number" placeholder="Enter User ID" required />
+            <br />
+            <button type="submit">Place Order</button>
+        </form>
+        @if (ViewBag.Error != null)
+        {
+            <p class="error">@ViewBag.Error</p>
+        }
+        <div class="back"><a href="/Order/Index">← Back to Orders</a></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+﻿:root {
+  --beige-bg: #f5efe1;
+  --beige-panel: #fff7ec;
+  --beige-primary: #b08b6f;
+  --beige-secondary: #a17e60;
+  --beige-accent: #7f644f;
+  --beige-border: #d9c2a4;
+  --beige-text: #4f3a2e;
+  --beige-muted: #7f6d62;
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  min-height: 100%;
+  padding-bottom: 120px;
+  background-color: var(--beige-bg);
+  color: var(--beige-text);
+}
+
+footer,
+footer.footer {
+  position: relative !important;
+  bottom: auto !important;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+main {
+  padding-bottom: 1rem;
+}
+
+.navbar {
+  background-color: var(--beige-primary) !important;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar .btn-outline-light {
+  color: #ffffff !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+  color: #f8f1e7 !important;
+}
+
+footer {
+  background-color: var(--beige-panel);
+  color: var(--beige-muted);
+}
+
+.card,
+.table,
+.modal-content,
+.dropdown-menu {
+  background-color: var(--beige-panel);
+  border-color: var(--beige-border);
+}
+
+.card-header,
+.bg-primary,
+.btn-primary {
+  background-color: var(--beige-secondary) !important;
+  border-color: var(--beige-secondary) !important;
+}
+
+.bg-success,
+.btn-success {
+  background-color: var(--beige-accent) !important;
+  border-color: var(--beige-accent) !important;
+}
+
+.btn-primary,
+.btn-success,
+.btn-outline-light {
+  color: #ffffff !important;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-outline-light:hover {
+  background-color: #8b6b52 !important;
+  border-color: #8b6b52 !important;
+}
+
+.form-control,
+.form-select,
+textarea {
+  background-color: #fff8f2;
+  border-color: var(--beige-border);
+  color: var(--beige-text);
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+  border-color: var(--beige-secondary);
+  box-shadow: 0 0 0 0.15rem rgba(160, 126, 96, 0.25);
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--beige-muted);
+}
+
+.table {
+  color: var(--beige-text);
+}
+
+.table thead {
+  background-color: #f2e8de;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #faf1e6;
+}
+
+.text-muted,
+span.text-muted,
+small {
+  color: var(--beige-muted) !important;
+}
+
+.btn-link {
+  color: var(--beige-accent);
+}
+
+.btn-link:hover {
+  color: var(--beige-secondary);
+}
+
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+  color: var(--beige-muted);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}

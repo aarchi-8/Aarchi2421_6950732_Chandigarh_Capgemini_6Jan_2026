@@ -1,0 +1,89 @@
+@{
+    ViewData["Title"] = "My Patients";
+}
+
+<div class="dashboard-header">
+    <h1>👥 My Patients</h1>
+    <p>List of patients in your care</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        @if (Model != null && ((System.Collections.IEnumerable)Model).Cast<object>().Any())
+        {
+            <div class="table-responsive">
+                <table class="table" style="border-collapse: collapse;">
+                    <thead style="background: linear-gradient(135deg, #c89cd4 0%, #8b5fa3 100%); color: white;">
+                        <tr>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Patient Name</th>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Email</th>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Phone</th>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Date of Birth</th>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Gender</th>
+                            <th style="padding: 12px; border: 1px solid #a8d5ba;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (dynamic patient in (System.Collections.IEnumerable)Model)
+                        {
+                            <tr style="border-bottom: 1px solid #e0c5d8;">
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    <strong>@(((object)patient?.fullName) ?? "N/A")</strong>
+                                </td>
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    @(((object)patient?.email) ?? "N/A")
+                                </td>
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    @(((object)patient?.phone) ?? "N/A")
+                                </td>
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    @(((object)patient?.dateOfBirth) ?? "N/A")
+                                </td>
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    @{
+                                        var gender = ((object)patient?.gender)?.ToString() ?? "N/A";
+                                        var genderIcon = gender?.ToLower() == "male" ? "👨" : gender?.ToLower() == "female" ? "👩" : "👤";
+                                    }
+                                    <span>@genderIcon @gender</span>
+                                </td>
+                                <td style="padding: 12px; border: 1px solid #e0c5d8;">
+                                    <a href="/Patients/Details/@(((object)patient?.patientId) ?? 0)" class="btn btn-sm btn-primary-custom" style="padding: 5px 10px; font-size: 0.85rem;">
+                                        View Details
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-info" role="alert">
+                <p>No patients found. Your patient list will appear here once patients book appointments with you.</p>
+            </div>
+        }
+
+        <div style="margin-top: 2rem;">
+            <a href="/Home/Dashboard" class="btn btn-primary-custom">← Back to Dashboard</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .btn-primary-custom {
+        background-color: #8b5fa3;
+        color: white;
+        border: none;
+        transition: all 0.3s;
+    }
+
+    .btn-primary-custom:hover {
+        background-color: #6d4685;
+        color: white;
+    }
+
+    table {
+        background-color: white;
+    }
+</style>

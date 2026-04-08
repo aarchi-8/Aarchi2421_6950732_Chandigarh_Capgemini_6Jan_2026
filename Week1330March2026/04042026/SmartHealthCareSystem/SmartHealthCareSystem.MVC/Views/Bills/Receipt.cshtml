@@ -1,0 +1,91 @@
+@model SmartHealthCareSystem.Shared.DTOs.BillDto
+
+@{
+    ViewData["Title"] = "Bill Receipt";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white">
+                    <h3 class="mb-0">Hospital Bill Receipt</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h5>Smart Healthcare System</h5>
+                            <p class="text-muted">123 Medical Center Drive<br>Healthcare City, HC 12345</p>
+                        </div>
+                        <div class="col-md-6 text-md-end">
+                            <h5>Bill #@Model.BillId</h5>
+                            <p class="text-muted">Date: @Model.AppointmentDate.ToString("MMM dd, yyyy")</p>
+                        </div>
+                    </div>
+
+                    <hr />
+
+                    <div class="row mb-4">
+                        <div class="col-md-6">
+                            <h6 class="text-muted">Patient Information</h6>
+                            <p><strong>@Model.PatientName</strong></p>
+                        </div>
+                        <div class="col-md-6 text-md-end">
+                            <h6 class="text-muted">Doctor Information</h6>
+                            <p><strong>@Model.DoctorName</strong><br />@Model.DepartmentName</p>
+                        </div>
+                    </div>
+
+                    <table class="table table-bordered">
+                        <thead class="table-light">
+                            <tr>
+                                <th>Description</th>
+                                <th class="text-end">Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Consultation Fee</td>
+                                <td class="text-end">@Model.ConsultationFee.ToString("C")</td>
+                            </tr>
+                            <tr>
+                                <td>Medicine Charges</td>
+                                <td class="text-end">@Model.MedicineCharges.ToString("C")</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Diagnosis:</strong> @Model.Diagnosis</td>
+                                <td class="text-end">-</td>
+                            </tr>
+                        </tbody>
+                        <tfoot class="table-light">
+                            <tr>
+                                <th>Total Amount</th>
+                                <th class="text-end">@Model.TotalAmount.ToString("C")</th>
+                            </tr>
+                        </tfoot>
+                    </table>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <p><strong>Payment Status:</strong>
+                                <span class="badge @(Model.PaymentStatus == "Paid" ? "bg-success" : "bg-warning")">
+                                    @Model.PaymentStatus
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <button onclick="window.print()" class="btn btn-primary me-2">
+                            <i class="bi bi-printer"></i> Print Receipt
+                        </button>
+                        <a asp-action="Index" class="btn btn-secondary">Back to Bills</a>
+                    </div>
+                </div>
+                <div class="card-footer text-center text-muted">
+                    <small>Thank you for choosing Smart Healthcare System</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,84 @@
+@model List<SmartHealthCareSystem.Shared.DTOs.BillDto>
+
+@{
+    ViewData["Title"] = "Bills";
+}
+
+<div style="padding: 25px 0; border-bottom: 1px solid #e9ecef;">
+    <div class="container">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <div>
+                <h2 style="margin-bottom: 5px;">Billing</h2>
+                <p class="text-muted" style="margin: 0;">Manage invoices and payment status</p>
+            </div>
+            <a asp-action="Create" class="btn btn-primary">New Bill</a>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-4">
+    <table class="table table-hover" style="border: none;">
+        <thead style="border-top: 1px solid #e9ecef; border-bottom: 1px solid #e9ecef; background-color: #f8f9fa;">
+            <tr>
+                <th style="border: none; padding: 12px;">#</th>
+                <th style="border: none; padding: 12px;">Patient</th>
+                <th style="border: none; padding: 12px;">Doctor</th>
+                <th style="border: none; padding: 12px;">Department</th>
+                <th style="border: none; padding: 12px;">Appointment Date</th>
+                <th style="border: none; padding: 12px;">Status</th>
+                <th style="border: none; padding: 12px;">Diagnosis</th>
+                <th style="border: none; padding: 12px;">Total</th>
+                <th style="border: none; padding: 12px;">Payment</th>
+                <th style="border: none; padding: 12px; text-align: right;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (!Model.Any())
+            {
+                <tr>
+                    <td colspan="10" style="text-align: center; color: #999; padding: 30px;">No billing records available yet.</td>
+                </tr>
+            }
+            else
+            {
+                @foreach (var bill in Model)
+                {
+                    <tr style="border-bottom: 1px solid #e9ecef; background-color: white;">
+                        <td style="border: none; padding: 12px;">@bill.BillId</td>
+                        <td style="border: none; padding: 12px;">@bill.PatientName</td>
+                        <td style="border: none; padding: 12px;">@bill.DoctorName</td>
+                        <td style="border: none; padding: 12px;">@bill.DepartmentName</td>
+                        <td style="border: none; padding: 12px;">@bill.AppointmentDate.ToString("MMM dd, yyyy")</td>
+                        <td style="border: none; padding: 12px;">
+                            <span style="padding: 2px 6px; border-radius: 3px; font-size: 0.8rem; font-weight: 500; background-color: @(bill.AppointmentStatus == "Completed" ? "#d4edda" : bill.AppointmentStatus == "Scheduled" ? "#cce5ff" : "#fff3cd"); color: @(bill.AppointmentStatus == "Completed" ? "#155724" : bill.AppointmentStatus == "Scheduled" ? "#004085" : "#856404");">
+                                @bill.AppointmentStatus
+                            </span>
+                        </td>
+                        <td style="border: none; padding: 12px;">@(!string.IsNullOrEmpty(bill.Diagnosis) ? bill.Diagnosis : "General care")</td>
+                        <td style="border: none; padding: 12px; font-weight: 500;">@bill.TotalAmount.ToString("C")</td>
+                        <td style="border: none; padding: 12px;">
+                            <span style="padding: 4px 8px; border-radius: 3px; font-size: 0.85rem; font-weight: 500; background-color: @(bill.PaymentStatus == "Paid" ? "#d4edda" : "#fff3cd"); color: @(bill.PaymentStatus == "Paid" ? "#155724" : "#856404");">
+                                @bill.PaymentStatus
+                            </span>
+                        </td>
+                        <td style="border: none; padding: 12px; text-align: right;">
+                            @if (bill.PaymentStatus == "Unpaid" && Context.Session.GetString("UserRole") == "Patient")
+                            {
+                                <form asp-action="PayBill" asp-route-id="@bill.BillId" method="post" style="display: inline;">
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-sm btn-success" style="padding: 4px 8px; font-size: 0.85rem;">Pay Bill</button>
+                                </form>
+                            }
+                            <a asp-action="Receipt" asp-route-id="@bill.BillId" class="btn btn-sm" style="padding: 4px 8px; font-size: 0.85rem; border: 1px solid #ddd; background: white; color: #333;">Receipt</a>
+                            @if (Context.Session.GetString("UserRole") == "Admin")
+                            {
+                                <a asp-action="Edit" asp-route-id="@bill.BillId" class="btn btn-sm" style="padding: 4px 8px; font-size: 0.85rem; border: 1px solid #ddd; background: white; color: #333;">Edit</a>
+                                <a asp-action="Delete" asp-route-id="@bill.BillId" class="btn btn-sm" style="padding: 4px 8px; font-size: 0.85rem; border: 1px solid #ddd; background: white; color: #c33;">Delete</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>

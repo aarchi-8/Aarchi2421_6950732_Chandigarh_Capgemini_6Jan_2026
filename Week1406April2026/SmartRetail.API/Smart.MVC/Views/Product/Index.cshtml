@@ -1,0 +1,39 @@
+﻿@model List<Smart.MVC.Models.Product>
+
+<h2>Product List</h2>
+
+<a asp-action="Create" class="btn btn-primary mb-3">Add Product</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.ImageUrl))
+                    {
+                        <img src="@item.ImageUrl" alt="@item.Name" style="max-width: 100px; max-height: 100px;" />
+                    }
+                    else
+                    {
+                        <span class="text-muted">No image</span>
+                    }
+                </td>
+                <td>@item.Name</td>
+                <td>@item.Price.ToString("C")</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure?');">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

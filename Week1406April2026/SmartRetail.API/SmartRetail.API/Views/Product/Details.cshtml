@@ -1,0 +1,29 @@
+@model SmartRetail.API.Models.Product
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Details</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
+        .details { background: #fff; padding: 20px; border-radius: 5px; max-width: 400px; margin: auto; }
+        dt { font-weight: bold; }
+        dd { margin-bottom: 10px; }
+        a { color: #007bff; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <h2>Product Details</h2>
+    <div class="details">
+        <dl>
+            <dt>ID</dt>
+            <dd>@Model.Id</dd>
+            <dt>Name</dt>
+            <dd>@Model.Name</dd>
+            <dt>Price</dt>
+            <dd>@Model.Price</dd>
+        </dl>
+        <a href="/Product">Back to List</a>
+    </div>
+</body>
+</html>

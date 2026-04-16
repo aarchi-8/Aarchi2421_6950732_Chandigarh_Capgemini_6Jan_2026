@@ -1,0 +1,46 @@
+@model IEnumerable<SmartRetail.API.Models.Product>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f9f9f9; }
+        table { width: 100%; border-collapse: collapse; background: #fff; }
+        th, td { padding: 10px; border-bottom: 1px solid #eee; text-align: left; }
+        th { background: #f2f2f2; }
+        a, button { color: #007bff; text-decoration: none; border: none; background: none; cursor: pointer; }
+        .actions { white-space: nowrap; }
+        .add-btn { margin-bottom: 15px; display: inline-block; }
+    </style>
+</head>
+<body>
+    <h2>Product List</h2>
+    <a class="add-btn" href="/Product/Create">Add Product</a>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td class="actions">
+                    <a href="/Product/Edit/@item.Id">Edit</a> |
+                    <a href="/Product/Details/@item.Id">Details</a> |
+                    <a href="/Product/Delete/@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body { min-height: 100vh; display: flex; flex-direction: column; background-color: #f8f9fa; }
+.container.mt-4 { flex: 1; }
+.card { border-radius: 10px; transition: transform 0.2s, box-shadow 0.2s; }
+.card:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(0,0,0,0.1); }
+.navbar-brand { font-size: 1.3rem; }
+.badge { font-weight: 500; }
+.btn { border-radius: 6px; }
+.table th { font-weight: 600; }

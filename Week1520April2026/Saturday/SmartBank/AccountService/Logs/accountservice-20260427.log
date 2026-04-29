@@ -1,0 +1,8 @@
+2026-04-27 09:58:16.094 +05:30 [INF] Now listening on: https://localhost:5001
+2026-04-27 09:58:16.158 +05:30 [INF] Now listening on: http://localhost:5000
+2026-04-27 09:58:16.165 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-27 09:58:16.171 +05:30 [INF] Hosting environment: Development
+2026-04-27 09:58:16.175 +05:30 [INF] Content root path: C:\Users\Aarchi\source\Capgemini_CU_Sec3_dotnetwithazure_Aarchi\Week1520April2026\SmartBank\src\AccountService
+2026-04-27 09:58:16.180 +05:30 [INF] API running at https://localhost:5001
+2026-04-27 09:58:16.189 +05:30 [INF] API running at http://localhost:5000
+2026-04-27 09:58:54.606 +05:30 [INF] HTTP GET / responded 404 in 140.5257 ms

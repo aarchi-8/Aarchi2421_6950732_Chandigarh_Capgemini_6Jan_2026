@@ -1,0 +1,2 @@
+namespace BookStore.Application.Interfaces;
+public interface IEmailService { Task SendOrderConfirmationAsync(string toEmail, int orderId, decimal total); Task SendLowStockAlertAsync(string bookTitle, int currentStock); }

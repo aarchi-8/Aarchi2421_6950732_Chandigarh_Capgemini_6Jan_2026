@@ -1,0 +1,12 @@
+@model BookListItem
+@{ ViewData["Title"] = Model.Title; }
+<div class="row mt-3"><div class="col-md-4">
+    @if (!string.IsNullOrEmpty(Model.ImageUrl)) { <img src="@Model.ImageUrl" class="img-fluid rounded shadow" alt="@Model.Title" onerror="this.onerror=null;this.src='https://via.placeholder.com/300x450?text=No+Image';" /> } else { <div class="bg-light rounded d-flex align-items-center justify-content-center" style="height:300px"><i class="bi bi-book display-1 text-muted"></i></div> }
+</div><div class="col-md-8">
+    <h2>@Model.Title</h2>
+    <table class="table table-borderless mt-3"><tr><th style="width:120px">Author</th><td>@Model.AuthorName</td></tr><tr><th>Category</th><td><span class="badge bg-primary">@Model.CategoryName</span></td></tr><tr><th>Publisher</th><td>@Model.PublisherName</td></tr><tr><th>ISBN</th><td><code>@Model.ISBN</code></td></tr><tr><th>Price</th><td class="fw-bold text-primary fs-4">Rs. @Model.Price</td></tr><tr><th>In Stock</th><td>@(Model.Stock > 0 ? $"{Model.Stock} available" : "Out of Stock")</td></tr><tr><th>ImageUrl</th><td><code>@(Model.ImageUrl ?? "null")</code></td></tr></table>
+    @if (Context.Session.GetString("UserRole") != "Admin")
+    {
+        <form asp-action="AddToCart" method="post"><input type="hidden" name="bookId" value="@Model.BookId" /><input type="hidden" name="title" value="@Model.Title" /><input type="hidden" name="price" value="@Model.Price" /><button type="submit" class="btn btn-success btn-lg"><i class="bi bi-cart-plus me-2"></i>Add to Cart</button></form>
+    }
+</div></div>
